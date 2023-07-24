@@ -20,6 +20,7 @@
 #include "mapper/preamble_sync_demapper_hard.h"
 #include "mapper/preamble_strip.h"
 #include "mapper/timeslot_demux.h"
+#include "mapper/tag_give.h"
 %}
 
 
@@ -47,3 +48,5 @@ GR_SWIG_BLOCK_MAGIC2(mapper, preamble_sync_demapper_hard);
 GR_SWIG_BLOCK_MAGIC2(mapper, preamble_strip);
 %include "mapper/timeslot_demux.h"
 GR_SWIG_BLOCK_MAGIC2(mapper, timeslot_demux);
+%include "mapper/tag_give.h"
+GR_SWIG_BLOCK_MAGIC2(mapper, tag_give);

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<block>
+  <name>tag_give</name>
+  <key>mapper_tag_give</key>
+  <category>[mapper]</category>
+  <import>import mapper</import>
+  <make>mapper.tag_give()</make>
+  <sink>
+    <name>in</name>
+    <type>byte</type>
+  </sink>
+  <sink>
+    <name>give</name>
+    <type>byte</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>byte</type>
+  </source>
+</block>

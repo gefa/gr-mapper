@@ -39,6 +39,7 @@ list(APPEND mapper_sources
     preamble_sync_demapper_hard_impl.cc
     preamble_strip_impl.cc
     timeslot_demux_impl.cc
+    tag_give_impl.cc
 )
 
 add_library(gnuradio-mapper SHARED ${mapper_sources})

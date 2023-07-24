@@ -35,5 +35,6 @@ install(FILES
     preamble_sync_demapper.h
     preamble_sync_demapper_hard.h
     preamble_strip.h
-    timeslot_demux.h DESTINATION include/mapper
+    timeslot_demux.h
+    tag_give.h DESTINATION include/mapper
 )

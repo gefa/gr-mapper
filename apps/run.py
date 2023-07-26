@@ -9,7 +9,7 @@ if len(sys.argv) < 4:
     # sys.exit(1)
     # use some defaults
     p1_arg = "12" # SNR
-    p2_arg = 100000 # samp_rate
+    p2_arg = 32000 # samp_rate
     p3_arg = "12" # 12 sec timeout
 else:
     # Get the first two arguments

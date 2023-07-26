@@ -1817,7 +1817,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>1e-2</value>
+      <value>0*1e-2</value>
     </param>
   </block>
   <block>
@@ -4594,7 +4594,7 @@ print("preamble tuple", bit_stream_tuple)
     </param>
     <param>
       <key>value</key>
-      <value>32000*32</value>
+      <value>32000</value>
     </param>
   </block>
   <block>
@@ -4637,7 +4637,7 @@ print("preamble tuple", bit_stream_tuple)
     </param>
     <param>
       <key>value</key>
-      <value>1e-2</value>
+      <value>0*1e-2</value>
     </param>
   </block>
   <connection>

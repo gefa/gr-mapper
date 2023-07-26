@@ -394,7 +394,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>6</value>
+      <value>4</value>
     </param>
   </block>
   <block>
@@ -437,7 +437,7 @@
     </param>
     <param>
       <key>num_items</key>
-      <value>160*1000*0+3167360</value>
+      <value>160*1000*0+3167360*0+3*10**7</value>
     </param>
     <param>
       <key>type</key>
@@ -2123,7 +2123,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>32000</value>
+      <value>32000*32</value>
     </param>
   </block>
   <block>

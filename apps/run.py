@@ -55,7 +55,7 @@ file = 'bersim_snr_'+str(param1)+'_srate_'+str(param2)+'_tout_'+str(param3)+form
 print(file)
 # first run receive flowgraph, then, second run usrp one
 command1 = ' '#"/home/gefa/workspace/grand7_grc3.11/pkt_rcv.py > "+per_file
-command2 = '/gr-mapper/apps/prbs_test_.py -n '+param1+' -s '+param2+' > '+file
+command2 = '/gr-mapper/apps/prbs_test_crc_.py -n '+param1+' -s '+param2+' > '+file
 commands = command1+" & "+command2
 timeout = int(param3)  # Time in seconds
 execute_commands(commands, timeout)

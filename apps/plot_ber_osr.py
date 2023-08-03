@@ -45,17 +45,19 @@ if __name__ == "__main__":
     # 60sec
     # BER: 0.43255 NBits 32960 NErrors 14257 -- manual run
     ber_simu_osr3 = [0.43255, 0.38553, 0.2044, 0.068029, 0.026487, 0.0072522, 0.0010673]
+    ber_simu_osr4 = [0.5, 0.5, 0.41229, 0.30859, 0.11235, 0.038852, 0.01171]
     
     # 240sec not enought for 4dB point getting -1=0.5 , 30M rate
     # python3 run.py 4 32768000 240
-    ber_simu_osr4 = []
+    #ber_simu_osr4 = []
     f = pylab.figure()
     s = f.add_subplot(1,1,1)
     #s.rcParams.update({'font.size': 14})
-    #s.semilogy(EbN0_range, ber_bpsk, 'g-.', label="Theoretical uncoded QPSK")
-    #s.semilogy(EbN0_range, ber_qpsk, 's-.', label="Theoretical uncoded BPSK")
+    s.semilogy(EbN0_range, ber_bpsk, 'g-.', label="Theoretical uncoded BPSK")
+    #s.semilogy(EbN0_range, ber_qpsk, 's-.', label="Theoretical uncoded QPSK")
     s.semilogy(EbN0_range, ber_simu_osr3, 'r-o', label="Simulated uncoded QPSK OSR=3")
     s.semilogy(EbN0_range, ber_simu_osr2, 'b-o', label="Simulated uncoded QPSK OSR=2")
+    s.semilogy(EbN0_range, ber_simu_osr4, 'y-o', label="Simulated uncoded QPSK OSR=4")
     #s.semilogy(EbN0_range, ber_simu_3k6s[2:], 'g-o', label="Simulated uncoded QPSK long")
     #s.semilogy(EbN0_range, ber_simu_crc, 'b-o', label="Simulated CRCcoded QPSK")
     #s.semilogy(EbN0_range, ber_simu_viterbi, 'r-o', label="Simulated Viterbi")

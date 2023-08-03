@@ -30,5 +30,6 @@ install(FILES
     mapper_timeslot_demux.xml
     mapper_prbs_source_b.xml 
     mapper_prbs_sink_b.xml
-    mapper_tag_give.xml DESTINATION share/gnuradio/grc/blocks
+    mapper_tag_give.xml
+    mapper_prbs_sink_f.xml DESTINATION share/gnuradio/grc/blocks
 )

@@ -47,6 +47,7 @@ from mapper_swig import *
 # import any pure python here
 from prbs_source_b import prbs_source_b
 from prbs_sink_b import prbs_sink_b
+from prbs_sink_f import prbs_sink_f
 #
 
 # ----------------------------------------------------------------

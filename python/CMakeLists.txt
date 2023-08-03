@@ -33,8 +33,9 @@ GR_PYTHON_INSTALL(
     __init__.py
     prbs_base.py
     prbs_sink_b.py
-    prbs_source_b.py 
-    DESTINATION ${GR_PYTHON_DIR}/mapper
+    prbs_sink_f.py
+    prbs_source_b.py
+    prbs_sink_f.py DESTINATION ${GR_PYTHON_DIR}/mapper
 )
 
 ########################################################################

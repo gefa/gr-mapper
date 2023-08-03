@@ -1,0 +1,2 @@
+python3 run.py 4 1024000 60; python3 run.py 5 1024000 60; python3 run.py 6 1024000 60; python3 run.py 7 1024000 60; python3 run.py 8 1024000 60; python3 run.py 9 1024000 60; python3 run.py 10 1024000 60
+

@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import numpy
+import numpy as np
 from gnuradio import gr
 import prbs_base
 
@@ -17,9 +18,22 @@ class prbs_sink_b(gr.sync_block):
 
     def work(self, input_items, output_items):
         inb = input_items[0]
+        #print(len(inb))
         gen = self.base.gen_n(len(inb))
         if(self.nitems_read(0) > self.skip):
             # only count bit errors after first skip bits
+            
+            step=160
+            grand = [0,0,0,0]
+            for i, j in zip(np.arange(0, len(inb), step), np.arange(0, len(gen), step)):
+              subinb = inb[i:i+step]
+              subgen = gen[i:i+step]
+              nerr= numpy.sum(numpy.bitwise_xor(subinb, subgen).astype('float32'))
+              bitd = int(nerr)
+              if (bitd>=0 and bitd <=3):
+                grand[bitd] = grand[bitd] + 1
+            print("GRAND ",grand)
+            
             self.nerrs += numpy.sum(numpy.bitwise_xor(inb, gen).astype('float32'))
             self.nbits += len(inb)
         if self.nbits > 0:

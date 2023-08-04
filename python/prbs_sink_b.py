@@ -4,7 +4,7 @@ import numpy
 import numpy as np
 from gnuradio import gr
 import prbs_base
-
+import time
 class prbs_sink_b(gr.sync_block):
     def __init__(self, which_mode="PRBS31", reset_len=100000, skip=100000):
         gr.sync_block.__init__(self,
@@ -15,8 +15,9 @@ class prbs_sink_b(gr.sync_block):
         self.nbits = 0.0
         self.nerrs = 0.0
         self.skip  = skip
-
+        self.work_time = 0
     def work(self, input_items, output_items):
+        t1_start = time.time()
         inb = input_items[0]
         #print(len(inb))
         gen = self.base.gen_n(len(inb))
@@ -37,7 +38,9 @@ class prbs_sink_b(gr.sync_block):
             self.nerrs += numpy.sum(numpy.bitwise_xor(inb, gen).astype('float32'))
             self.nbits += len(inb)
         if self.nbits > 0:
-            print "NBits: %d \tNErrs: %d \tBER: %.4E"%(int(self.nbits), int(self.nerrs), self.nerrs/self.nbits)
+            print "NBits: %d \tNErrs: %d \tBER: %.4E \tTime: %.4E"%(int(self.nbits), int(self.nerrs), self.nerrs/self.nbits, self.work_time)
             #print "NBits: %d \tNErrs: %d \tBER: %g"%(int(self.nbits), int(self.nerrs), self.nerrs/self.nbits)
+        t1_stop = time.time()
+        self.work_time = self.work_time+ t1_stop-t1_start
         return len(inb)
 

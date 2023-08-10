@@ -5,6 +5,30 @@ import numpy as np
 from gnuradio import gr
 import prbs_base
 import time
+def permuteUnique(nums):
+    res =[]
+    perm = []
+    cnt = {n:0 for n in nums}
+    for n in nums:
+        cnt[n]+=1
+    
+    def dfs():
+        if len(perm) == len(nums): # complete permutation
+            res.append(list(perm)) # copy list in python2 and python3
+            return
+        
+        for n in cnt:
+            if cnt[n] > 0:
+                perm.append(n)
+                cnt[n] -= 1
+                
+                dfs()
+                
+                cnt[n] += 1
+                perm.pop()
+                
+    dfs()
+    return np.array(res)
 class prbs_sink_b(gr.sync_block):
     def __init__(self, which_mode="PRBS31", reset_len=100000, skip=100000):
         gr.sync_block.__init__(self,
@@ -16,6 +40,12 @@ class prbs_sink_b(gr.sync_block):
         self.nerrs = 0.0
         self.skip  = skip
         self.work_time = 0
+        self.n = reset_len
+        self.f0 = permuteUnique( (self.n)*[0] ) # no correction
+        self.f1 = permuteUnique( (self.n-1)*[0]+[1] )
+        #self.f2 = permuteUnique( (self.n-2)*[0]+[1,1] )
+        #self.f3 = permuteUnique( (self.n-3)*[0]+[1,1,1] )
+        self.flips = np.concatenate((self.f0, self.f1)).astype('float32') # , self.f2, self.f3
     def work(self, input_items, output_items):
         t1_start = time.time()
         inb = input_items[0]
@@ -33,6 +63,19 @@ class prbs_sink_b(gr.sync_block):
               bitd = int(nerr)
               if (bitd>=0 and bitd <=3):
                 grand[bitd] = grand[bitd] + 1
+              '''
+              # grand correct bits
+              isfixed=False
+              for fix in self.flips:
+                #print(type(fix), type(inb[i:i+step]))
+                tryfix = numpy.bitwise_xor(inb[i:i+step], fix).astype('float32')
+                # if fixed
+                if numpy.sum(numpy.bitwise_xor(tryfix, gen[i:i+step]).astype('float32'))==0:
+                 isfixed=True
+                 break
+              if isfixed!=True:
+                self.nerrs += numpy.sum(numpy.bitwise_xor(inb[i:i+step], gen[i:i+step]).astype('float32'))  
+            '''
             print("GRAND ",grand)
             
             self.nerrs += numpy.sum(numpy.bitwise_xor(inb, gen).astype('float32'))

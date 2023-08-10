@@ -207,7 +207,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>1024*2*0+1*192</value>
+      <value>1024*2*0+1*192*0+192</value>
     </param>
   </block>
   <block>
@@ -234,7 +234,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>450e6</value>
+      <value>434e6</value>
     </param>
   </block>
   <block>
@@ -464,7 +464,7 @@
     </param>
     <param>
       <key>num_items</key>
-      <value>160*1000*0+3167360*0+3*10**7</value>
+      <value>160*1000*0+3167360*0+0*3*10**7+3*10**7</value>
     </param>
     <param>
       <key>type</key>
@@ -2646,7 +2646,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>32000*0+200000*8</value>
+      <value>32000*0+200000*8*0+20000*8</value>
     </param>
   </block>
   <block>

@@ -44,6 +44,8 @@ if __name__ == "__main__":
     pgrand = [0.101842257, 0.000500506, 0.000127798, 0.000005007]
     grand_tx = [66,69,72,75,78,81,]#84,87]
     grand = [0.59089, 0.53757, 0.089123, 0.091539, 0.0073869, 0.0020526,]# 0,0]
+    grand_txg = [66,69,72,75,78,81,]#84,87]
+    grandg = [8.93E-02,2.92E-02,1.39E-02,6.51E-03,1.26E-03,3.32E-02]
 
     #EbN0_range3 = [19, 21, 23, 25, 27, 29, 31]
     #ber_simu_32K = [0.155, 0.10857, 0.08312, 0.0716, 0.065981, 0.064514, 9.1728e-05]
@@ -59,6 +61,7 @@ if __name__ == "__main__":
     s.semilogy(EbN0_range2, ber_simu_1M, 'b-o', label="OTA BPSK Rx gain=55dB")
     s.semilogy(pgrand_tx, pgrand, 'r-o', label="OTA BPSK GRAND Rx gain=55dB")
     s.semilogy(grand_tx, grand, 'y-o', label="OTA BPSK GRANDT Rx gain=55dB")
+    s.semilogy(grand_txg, grandg, 'g-o', label="OTA BPSK GRANDT Rx gain=55dB")
     #s.semilogy(EbN0_range3, ber_simu_32K, 'y-o', label="OTA BPSK Rx gain=13dB")
     #s.semilogy(EbN0_range, ber_simu_1M, 'b-o', label="Simulated uncoded QPSK srate=1M")
     #s.semilogy(EbN0_range, ber_simu_32K, 'g-o', label="Simulated uncoded QPSK srate=32K")

@@ -4,7 +4,7 @@
   <key>mapper_prbs_sink_b</key>
   <category>[mapper]</category>
   <import>import mapper</import>
-  <make>mapper.prbs_sink_b($which_mode, $reset_len)</make>
+  <make>mapper.prbs_sink_b($which_mode, $reset_len, $grand)</make>
 
   <param>
     <name>PRBS Sequence</name>
@@ -33,6 +33,12 @@
     <name>reset_len</name>
     <key>reset_len</key>
     <value>100000</value>
+    <type>int</type>
+  </param>
+  <param>
+    <name>grand</name>
+    <key>grand</key>
+    <value>0</value>
     <type>int</type>
   </param>
 

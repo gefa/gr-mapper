@@ -6,7 +6,7 @@ from gnuradio import gr
 import prbs_base
 import resource
 import time
-'''
+
 def permuteUnique(nums):
     res =[]
     perm = []
@@ -26,7 +26,7 @@ def permuteUnique(nums):
                 perm.pop()
     dfs()
     return np.array(res)
-'''
+
 class prbs_sink_b(gr.sync_block):
     def __init__(self, which_mode="PRBS31", reset_len=100000,grand=0, skip=100000):
         gr.sync_block.__init__(self,
@@ -42,10 +42,18 @@ class prbs_sink_b(gr.sync_block):
         self.mem = 0
         self.n = reset_len
         #self.f0 = permuteUnique( (self.n)*[0] ) # no correction
-        #self.f1 = permuteUnique( (self.n-1)*[0]+[1] )
-        #self.f2 = permuteUnique( (self.n-2)*[0]+[1,1] )
-        #self.f3 = permuteUnique( (self.n-3)*[0]+[1,1,1] )
-        #self.flips = np.concatenate((self.f0)).astype('int8')
+        if self.grand==1:
+          self.f1 = permuteUnique( (self.n-1)*[0]+[1] )
+          self.flips = np.concatenate((self.f1)).astype('int8')
+        if self.grand==2:
+          self.f1 = permuteUnique( (self.n-1)*[0]+[1] )
+          self.f2 = permuteUnique( (self.n-2)*[0]+[1,1] )
+          self.flips = np.concatenate((self.f1, self.f2)).astype('int8')
+        if self.grand==3:
+          self.f1 = permuteUnique( (self.n-1)*[0]+[1] )
+          self.f2 = permuteUnique( (self.n-2)*[0]+[1,1] )
+          self.f3 = permuteUnique( (self.n-3)*[0]+[1,1,1] )
+          self.flips = np.concatenate((self.f1, self.f2, self.f3)).astype('int8')
     def work(self, input_items, output_items):
         #t1_start = time.time()
         inb = input_items[0]
@@ -63,7 +71,7 @@ class prbs_sink_b(gr.sync_block):
               bitd = int(nerr)
               if (bitd>=0 and bitd <=3):
                 grand[bitd] = grand[bitd] + 1
-              if self.grand==1:
+              if self.grand>0:
                 # grand correct bits
                 isfixed=False
                 for fix in self.flips:

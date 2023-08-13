@@ -1,0 +1,6 @@
+Press Enter to quit: NBits: 992 	NErrs: 38 	BER: 3.8306E-02
+NBits: 66527 	NErrs: 1744 	BER: 2.6215E-02
+NBits: 132062 	NErrs: 3493 	BER: 2.6450E-02
+NBits: 164830 	NErrs: 4332 	BER: 2.6282E-02
+NBits: 197597 	NErrs: 5171 	BER: 2.6169E-02
+NBits: 230365 	NErrs: 6044 	BER: 2.6237E-02

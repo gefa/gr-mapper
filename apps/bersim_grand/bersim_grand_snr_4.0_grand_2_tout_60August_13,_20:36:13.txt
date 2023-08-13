@@ -1,0 +1,2 @@
+Press Enter to quit: NBits: 1760 	NErrs: 88 	BER: 5.0000E-02
+handler caught exception: operands could not be broadcast together with shapes (31,) (32,) 

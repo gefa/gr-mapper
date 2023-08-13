@@ -1,0 +1,12 @@
+Press Enter to quit: ('GRAND ', [3, 8, 11, 4])
+NBits: 992 	NErrs: 87 	BER: 8.7702E-02
+('GRAND ', [322, 587, 480, 276])
+NBits: 65535 	NErrs: 4738 	BER: 7.2297E-02
+('GRAND ', [2, 10, 10, 7])
+NBits: 66527 	NErrs: 4797 	BER: 7.2106E-02
+('GRAND ', [319, 593, 479, 284])
+NBits: 131070 	NErrs: 9328 	BER: 7.1168E-02
+('GRAND ', [5, 8, 6, 6])
+NBits: 132062 	NErrs: 9410 	BER: 7.1254E-02
+('GRAND ', [314, 563, 481, 302])
+NBits: 196605 	NErrs: 14013 	BER: 7.1275E-02

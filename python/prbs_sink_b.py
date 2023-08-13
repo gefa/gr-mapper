@@ -66,11 +66,13 @@ class prbs_sink_b(gr.sync_block):
             grand = [0,0,0,0]
             for i, j in zip(np.arange(0, len(inb), step), np.arange(0, len(gen), step)):
               subinb = inb[i:i+step]
-              subgen = gen[i:i+step]
+              subgen = gen[j:j+step]
+              '''
               nerr= numpy.sum(numpy.bitwise_xor(subinb, subgen).astype('float32'))
               bitd = int(nerr)
               if (bitd>=0 and bitd <=3):
                 grand[bitd] = grand[bitd] + 1
+              '''
               if self.grand>0:
                 # grand correct bits
                 isfixed=False
@@ -78,13 +80,13 @@ class prbs_sink_b(gr.sync_block):
                   #print(type(fix), fix.dtype, type(inb[i:i+step]), inb[i:i+step].dtype)
                   tryfix = numpy.bitwise_xor(inb[i:i+step], fix).astype('int8')
                   # if fixed
-                  if numpy.sum(numpy.bitwise_xor(tryfix, gen[i:i+step]).astype('float32'))==0:
+                  if numpy.sum(numpy.bitwise_xor(tryfix, gen[j:j+step]).astype('float32'))==0:
                    isfixed=True
                    break
                 if isfixed!=True:
-                  self.nerrs += numpy.sum(numpy.bitwise_xor(inb[i:i+step], gen[i:i+step]).astype('float32'))  
+                  self.nerrs += numpy.sum(numpy.bitwise_xor(inb[i:i+step], gen[j:j+step]).astype('float32'))  
             
-            print("GRAND ",grand)
+#            print("GRAND ",grand)
             if self.grand==0:
               self.nerrs += numpy.sum(numpy.bitwise_xor(inb, gen).astype('float32'))
             self.nbits += len(inb)

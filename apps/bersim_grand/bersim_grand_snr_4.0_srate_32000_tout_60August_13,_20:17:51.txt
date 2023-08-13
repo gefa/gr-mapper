@@ -1,0 +1,14 @@
+Press Enter to quit: ('GRAND ', [7, 18, 16, 7])
+NBits: 1664 	NErrs: 101 	BER: 6.0697E-02
+('GRAND ', [130, 194, 169, 104])
+NBits: 24320 	NErrs: 1690 	BER: 6.9490E-02
+('GRAND ', [225, 395, 318, 188])
+NBits: 67199 	NErrs: 4639 	BER: 6.9034E-02
+('GRAND ', [99, 180, 191, 107])
+NBits: 89855 	NErrs: 6327 	BER: 7.0413E-02
+('GRAND ', [188, 388, 321, 189])
+NBits: 132734 	NErrs: 9512 	BER: 7.1662E-02
+('GRAND ', [116, 202, 170, 106])
+NBits: 155390 	NErrs: 11031 	BER: 7.0989E-02
+('GRAND ', [203, 361, 319, 204])
+NBits: 198269 	NErrs: 14172 	BER: 7.1479E-02

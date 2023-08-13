@@ -1,0 +1,5 @@
+Press Enter to quit: ('GRAND ', [3, 5, 2, 3])
+NBits: 480 	NErrs: 27 	BER: 5.6250E-02
+('GRAND ', [255, 384, 328, 219])
+NBits: 47424 	NErrs: 2435 	BER: 5.1345E-02
+handler caught exception: operands could not be broadcast together with shapes (31,) (32,) 

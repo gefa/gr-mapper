@@ -1,0 +1,46 @@
+linux; GNU C++ version 7.3.0; Boost_106501; UHD_003.010.003.000-0-unknown
+
+-- Detected Device: B200
+-- Operating over USB 3.
+-- Initialize CODEC control...
+-- Initialize Radio control...
+-- Performing register loopback test... pass
+-- Performing CODEC loopback test... pass
+-- Setting master clock rate selection to 'automatic'.
+-- Asking for clock rate 16.000000 MHz... 
+-- Actually got clock rate 16.000000 MHz.
+-- Performing timer loopback test... pass
+-- Asking for clock rate 51.200000 MHz... 
+-- Actually got clock rate 51.200000 MHz.
+-- Performing timer loopback test... pass
+-- Detected Device: B200mini
+-- Operating over USB 3.
+-- Initialize CODEC control...
+-- Initialize Radio control...
+-- Performing register loopback test... pass
+-- Performing CODEC loopback test... pass
+-- Setting master clock rate selection to 'automatic'.
+-- Asking for clock rate 16.000000 MHz... 
+-- Actually got clock rate 16.000000 MHz.
+-- Performing timer loopback test... pass
+-- Asking for clock rate 51.200000 MHz... 
+-- Actually got clock rate 51.200000 MHz.
+-- Performing timer loopback test... pass
+-- Asking for clock rate 51.200000 MHz... Asking for clock rate 51.200000 MHz... OK
+-- OK
+-- Asking for clock rate 51.200000 MHz... OK
+-- Asking for clock rate 51.200000 MHz... OK
+Press Enter to quit: ('GRAND ', [0, 0, 0, 0])
+NBits: 32 	NErrs: 13 	BER: 4.0625E-01 	Time: 1.4669E-02 	Mem: 111700
+('GRAND ', [0, 0, 0, 0])
+NBits: 1312 	NErrs: 571 	BER: 4.3521E-01 	Time: 2.1931E-02 	Mem: 111700
+('GRAND ', [0, 0, 1, 5])
+NBits: 60128 	NErrs: 23652 	BER: 3.9336E-01 	Time: 3.2637E-01 	Mem: 112328
+('GRAND ', [0, 0, 0, 0])
+NBits: 66816 	NErrs: 26328 	BER: 3.9404E-01 	Time: 1.8399E+01 	Mem: 112328
+('GRAND ', [10, 12, 8, 15])
+NBits: 125632 	NErrs: 48062 	BER: 3.8256E-01 	Time: 2.0559E+01 	Mem: 112328
+('GRAND ', [0, 0, 0, 0])
+NBits: 132320 	NErrs: 50657 	BER: 3.8284E-01 	Time: 3.9712E+01 	Mem: 112328
+('GRAND ', [29, 39, 29, 54])
+NBits: 191136 	NErrs: 69913 	BER: 3.6578E-01 	Time: 4.1946E+01 	Mem: 114400

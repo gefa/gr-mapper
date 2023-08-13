@@ -1,0 +1,76 @@
+linux; GNU C++ version 7.3.0; Boost_106501; UHD_003.010.003.000-0-unknown
+
+-- Detected Device: B200
+-- Operating over USB 3.
+-- Initialize CODEC control...
+-- Initialize Radio control...
+-- Performing register loopback test... pass
+-- Performing CODEC loopback test... pass
+-- Setting master clock rate selection to 'automatic'.
+-- Asking for clock rate 16.000000 MHz... 
+-- Actually got clock rate 16.000000 MHz.
+-- Performing timer loopback test... pass
+-- Asking for clock rate 51.200000 MHz... 
+-- Actually got clock rate 51.200000 MHz.
+-- Performing timer loopback test... pass
+-- Detected Device: B200mini
+-- Operating over USB 3.
+-- Initialize CODEC control...
+-- Initialize Radio control...
+-- Performing register loopback test... pass
+-- Performing CODEC loopback test... pass
+-- Setting master clock rate selection to 'automatic'.
+-- Asking for clock rate 16.000000 MHz... 
+-- Actually got clock rate 16.000000 MHz.
+-- Performing timer loopback test... pass
+-- Asking for clock rate 51.200000 MHz... 
+-- Actually got clock rate 51.200000 MHz.
+-- Performing timer loopback test... pass
+-- Asking for clock rate 51.200000 MHz... OK
+-- Asking for clock rate 51.200000 MHz... OK
+-- Asking for clock rate 51.200000 MHz... OK
+-- Asking for clock rate 51.200000 MHz... OK
+Press Enter to quit: ('GRAND ', [0, 0, 0, 0])
+NBits: 256 	NErrs: 100 	BER: 3.9062E-01 	Time: 2.2263E-02 	Mem: 111556
+('GRAND ', [0, 0, 0, 0])
+NBits: 992 	NErrs: 427 	BER: 4.3044E-01 	Time: 2.6526E-02 	Mem: 111556
+('GRAND ', [0, 0, 0, 0])
+NBits: 3040 	NErrs: 1207 	BER: 3.9704E-01 	Time: 3.6724E-02 	Mem: 111556
+('GRAND ', [0, 0, 0, 0])
+NBits: 7936 	NErrs: 3029 	BER: 3.8168E-01 	Time: 6.3404E-02 	Mem: 111556
+('GRAND ', [2, 1, 5, 10])
+NBits: 17376 	NErrs: 5882 	BER: 3.3851E-01 	Time: 1.2892E-01 	Mem: 111556
+('GRAND ', [0, 0, 0, 0])
+NBits: 34528 	NErrs: 12251 	BER: 3.5481E-01 	Time: 2.4857E-01 	Mem: 111556
+('GRAND ', [0, 0, 1, 1])
+NBits: 67424 	NErrs: 24537 	BER: 3.6392E-01 	Time: 4.7622E-01 	Mem: 111924
+('GRAND ', [1, 3, 5, 14])
+NBits: 100032 	NErrs: 36376 	BER: 3.6364E-01 	Time: 9.7176E-01 	Mem: 111924
+('GRAND ', [0, 0, 0, 0])
+NBits: 132928 	NErrs: 48854 	BER: 3.6752E-01 	Time: 1.5644E+00 	Mem: 111924
+('GRAND ', [9, 10, 12, 13])
+NBits: 165536 	NErrs: 60089 	BER: 3.6300E-01 	Time: 2.2723E+00 	Mem: 111924
+('GRAND ', [6, 13, 10, 36])
+NBits: 198432 	NErrs: 70365 	BER: 3.5461E-01 	Time: 2.8671E+00 	Mem: 111924
+('GRAND ', [1, 0, 2, 8])
+NBits: 231040 	NErrs: 81837 	BER: 3.5421E-01 	Time: 3.4583E+00 	Mem: 111924
+('GRAND ', [0, 1, 2, 10])
+NBits: 263936 	NErrs: 93552 	BER: 3.5445E-01 	Time: 4.0868E+00 	Mem: 111924
+('GRAND ', [11, 10, 19, 17])
+NBits: 296544 	NErrs: 104436 	BER: 3.5218E-01 	Time: 4.7647E+00 	Mem: 111924
+('GRAND ', [90, 67, 58, 63])
+NBits: 329440 	NErrs: 112580 	BER: 3.4173E-01 	Time: 5.3681E+00 	Mem: 111924
+('GRAND ', [102, 72, 56, 62])
+NBits: 362048 	NErrs: 120239 	BER: 3.3211E-01 	Time: 5.8498E+00 	Mem: 111924
+('GRAND ', [16, 21, 15, 20])
+NBits: 394944 	NErrs: 131386 	BER: 3.3267E-01 	Time: 6.3364E+00 	Mem: 111924
+('GRAND ', [5, 6, 6, 22])
+NBits: 427552 	NErrs: 142175 	BER: 3.3253E-01 	Time: 6.9031E+00 	Mem: 111924
+('GRAND ', [15, 12, 22, 15])
+NBits: 460448 	NErrs: 153038 	BER: 3.3237E-01 	Time: 7.6548E+00 	Mem: 111924
+('GRAND ', [1, 1, 0, 4])
+NBits: 493056 	NErrs: 165027 	BER: 3.3470E-01 	Time: 8.2765E+00 	Mem: 111924
+('GRAND ', [0, 0, 0, 0])
+NBits: 525952 	NErrs: 177477 	BER: 3.3744E-01 	Time: 9.0577E+00 	Mem: 111924
+('GRAND ', [4, 3, 9, 16])
+NBits: 558560 	NErrs: 188973 	BER: 3.3832E-01 	Time: 9.6830E+00 	Mem: 111924

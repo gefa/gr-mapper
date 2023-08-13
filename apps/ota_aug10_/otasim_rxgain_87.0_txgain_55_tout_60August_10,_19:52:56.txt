@@ -1,0 +1,12 @@
+linux; GNU C++ version 7.3.0; Boost_106501; UHD_003.010.003.000-0-unknown
+
+-- Detected Device: B200
+-- Operating over USB 3.
+-- Initialize CODEC control...
+-- Initialize Radio control...
+-- Performing register loopback test... pass
+-- Performing CODEC loopback test... pass
+-- Setting master clock rate selection to 'automatic'.
+-- Asking for clock rate 16.000000 MHz... 
+-- Actually got clock rate 16.000000 MHz.
+-- Performing timer loopback test... pass

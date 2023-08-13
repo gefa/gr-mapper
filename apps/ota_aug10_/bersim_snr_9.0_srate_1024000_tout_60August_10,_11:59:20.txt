@@ -1,0 +1,102 @@
+Press Enter to quit: ('GRAND ', [3, 0, 0, 0])
+NBits: 480 	NErrs: 0 	BER: 0.0000E+00 	Time: 4.3550E-03
+('GRAND ', [25, 0, 0, 0])
+NBits: 4480 	NErrs: 0 	BER: 0.0000E+00 	Time: 4.5338E-03
+('GRAND ', [12, 0, 0, 0])
+NBits: 6400 	NErrs: 0 	BER: 0.0000E+00 	Time: 4.8838E-03
+('GRAND ', [25, 0, 0, 0])
+NBits: 10400 	NErrs: 0 	BER: 0.0000E+00 	Time: 5.0707E-03
+('GRAND ', [12, 0, 0, 0])
+NBits: 12320 	NErrs: 0 	BER: 0.0000E+00 	Time: 5.4307E-03
+('GRAND ', [25, 0, 0, 0])
+NBits: 16320 	NErrs: 0 	BER: 0.0000E+00 	Time: 5.7197E-03
+('GRAND ', [26, 2, 1, 0])
+NBits: 20960 	NErrs: 4 	BER: 1.9084E-04 	Time: 6.2895E-03
+('GRAND ', [6, 0, 0, 0])
+NBits: 21920 	NErrs: 4 	BER: 1.8248E-04 	Time: 6.7084E-03
+('GRAND ', [15, 0, 0, 0])
+NBits: 24320 	NErrs: 4 	BER: 1.6447E-04 	Time: 6.8133E-03
+('GRAND ', [12, 0, 0, 0])
+NBits: 26240 	NErrs: 4 	BER: 1.5244E-04 	Time: 6.9504E-03
+('GRAND ', [12, 0, 0, 0])
+NBits: 28160 	NErrs: 4 	BER: 1.4205E-04 	Time: 7.0934E-03
+('GRAND ', [10, 0, 0, 0])
+NBits: 29760 	NErrs: 4 	BER: 1.3441E-04 	Time: 7.2324E-03
+('GRAND ', [1, 0, 0, 0])
+NBits: 29920 	NErrs: 4 	BER: 1.3369E-04 	Time: 7.4253E-03
+('GRAND ', [6, 0, 0, 0])
+NBits: 30880 	NErrs: 4 	BER: 1.2953E-04 	Time: 7.4792E-03
+('GRAND ', [15, 0, 0, 0])
+NBits: 33280 	NErrs: 4 	BER: 1.2019E-04 	Time: 8.4512E-03
+('GRAND ', [12, 0, 0, 0])
+NBits: 35200 	NErrs: 4 	BER: 1.1364E-04 	Time: 8.6744E-03
+('GRAND ', [27, 1, 0, 0])
+NBits: 39680 	NErrs: 5 	BER: 1.2601E-04 	Time: 8.9076E-03
+('GRAND ', [2, 0, 0, 0])
+NBits: 40000 	NErrs: 5 	BER: 1.2500E-04 	Time: 9.3365E-03
+('GRAND ', [10, 1, 1, 0])
+NBits: 41920 	NErrs: 8 	BER: 1.9084E-04 	Time: 9.4044E-03
+('GRAND ', [24, 1, 0, 0])
+NBits: 45920 	NErrs: 9 	BER: 1.9599E-04 	Time: 9.6145E-03
+('GRAND ', [25, 0, 0, 0])
+NBits: 49920 	NErrs: 9 	BER: 1.8029E-04 	Time: 9.9895E-03
+('GRAND ', [12, 0, 0, 0])
+NBits: 51840 	NErrs: 9 	BER: 1.7361E-04 	Time: 1.0316E-02
+('GRAND ', [24, 1, 0, 0])
+NBits: 55840 	NErrs: 10 	BER: 1.7908E-04 	Time: 1.0434E-02
+('GRAND ', [23, 2, 0, 0])
+NBits: 59840 	NErrs: 12 	BER: 2.0053E-04 	Time: 1.0710E-02
+('GRAND ', [17, 0, 0, 0])
+NBits: 62560 	NErrs: 12 	BER: 1.9182E-04 	Time: 1.1166E-02
+('GRAND ', [12, 0, 0, 0])
+NBits: 64480 	NErrs: 12 	BER: 1.8610E-04 	Time: 1.1477E-02
+('GRAND ', [10, 0, 0, 0])
+NBits: 66080 	NErrs: 12 	BER: 1.8160E-04 	Time: 1.1970E-02
+('GRAND ', [24, 1, 0, 0])
+NBits: 70080 	NErrs: 13 	BER: 1.8550E-04 	Time: 1.2249E-02
+('GRAND ', [37, 0, 0, 0])
+NBits: 76000 	NErrs: 13 	BER: 1.7105E-04 	Time: 1.2851E-02
+('GRAND ', [12, 0, 0, 0])
+NBits: 77920 	NErrs: 13 	BER: 1.6684E-04 	Time: 1.3386E-02
+('GRAND ', [12, 0, 0, 0])
+NBits: 79840 	NErrs: 13 	BER: 1.6283E-04 	Time: 1.3577E-02
+('GRAND ', [23, 1, 1, 0])
+NBits: 83840 	NErrs: 16 	BER: 1.9084E-04 	Time: 1.3777E-02
+('GRAND ', [36, 1, 0, 0])
+NBits: 89760 	NErrs: 17 	BER: 1.8939E-04 	Time: 1.4169E-02
+('GRAND ', [34, 1, 0, 0])
+NBits: 95360 	NErrs: 18 	BER: 1.8876E-04 	Time: 1.4800E-02
+('GRAND ', [21, 0, 0, 0])
+NBits: 98720 	NErrs: 18 	BER: 1.8233E-04 	Time: 1.5378E-02
+('GRAND ', [10, 1, 0, 0])
+NBits: 100480 	NErrs: 19 	BER: 1.8909E-04 	Time: 1.6100E-02
+('GRAND ', [42, 0, 0, 0])
+NBits: 107200 	NErrs: 19 	BER: 1.7724E-04 	Time: 1.6326E-02
+('GRAND ', [11, 1, 0, 0])
+NBits: 109120 	NErrs: 20 	BER: 1.8328E-04 	Time: 1.6858E-02
+('GRAND ', [24, 1, 0, 0])
+NBits: 113120 	NErrs: 21 	BER: 1.8564E-04 	Time: 1.6992E-02
+('GRAND ', [14, 1, 0, 0])
+NBits: 115520 	NErrs: 22 	BER: 1.9044E-04 	Time: 1.7327E-02
+('GRAND ', [12, 0, 0, 0])
+NBits: 117440 	NErrs: 22 	BER: 1.8733E-04 	Time: 1.7551E-02
+('GRAND ', [25, 0, 0, 0])
+NBits: 121440 	NErrs: 22 	BER: 1.8116E-04 	Time: 1.7670E-02
+('GRAND ', [22, 3, 0, 0])
+NBits: 125440 	NErrs: 25 	BER: 1.9930E-04 	Time: 1.7901E-02
+('GRAND ', [16, 1, 0, 0])
+NBits: 128160 	NErrs: 26 	BER: 2.0287E-04 	Time: 1.8131E-02
+('GRAND ', [25, 0, 0, 0])
+NBits: 132160 	NErrs: 26 	BER: 1.9673E-04 	Time: 1.8284E-02
+('GRAND ', [24, 1, 0, 0])
+NBits: 136160 	NErrs: 27 	BER: 1.9830E-04 	Time: 1.8629E-02
+('GRAND ', [12, 1, 0, 0])
+NBits: 138240 	NErrs: 28 	BER: 2.0255E-04 	Time: 1.8937E-02
+('GRAND ', [12, 0, 0, 0])
+NBits: 140160 	NErrs: 28 	BER: 1.9977E-04 	Time: 1.9161E-02
+('GRAND ', [24, 1, 0, 0])
+NBits: 144160 	NErrs: 29 	BER: 2.0117E-04 	Time: 1.9351E-02
+('GRAND ', [67, 1, 0, 0])
+NBits: 155040 	NErrs: 30 	BER: 1.9350E-04 	Time: 1.9860E-02
+('GRAND ', [36, 1, 0, 0])
+NBits: 160960 	NErrs: 31 	BER: 1.9259E-04 	Time: 2.0437E-02

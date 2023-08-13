@@ -1,0 +1,46 @@
+linux; GNU C++ version 7.3.0; Boost_106501; UHD_003.010.003.000-0-unknown
+
+-- Detected Device: B200
+-- Operating over USB 3.
+-- Initialize CODEC control...
+-- Initialize Radio control...
+-- Performing register loopback test... pass
+-- Performing CODEC loopback test... pass
+-- Setting master clock rate selection to 'automatic'.
+-- Asking for clock rate 16.000000 MHz... 
+-- Actually got clock rate 16.000000 MHz.
+-- Performing timer loopback test... pass
+-- Asking for clock rate 51.200000 MHz... 
+-- Actually got clock rate 51.200000 MHz.
+-- Performing timer loopback test... pass
+-- Detected Device: B200mini
+-- Operating over USB 3.
+-- Initialize CODEC control...
+-- Initialize Radio control...
+-- Performing register loopback test... pass
+-- Performing CODEC loopback test... pass
+-- Setting master clock rate selection to 'automatic'.
+-- Asking for clock rate 16.000000 MHz... 
+-- Actually got clock rate 16.000000 MHz.
+-- Performing timer loopback test... pass
+-- Asking for clock rate 51.200000 MHz... 
+-- Actually got clock rate 51.200000 MHz.
+-- Performing timer loopback test... pass
+-- Asking for clock rate 51.200000 MHz... OK
+-- Asking for clock rate 51.200000 MHz... OK
+-- Asking for clock rate 51.200000 MHz... OK
+-- Asking for clock rate 51.200000 MHz... OK
+Press Enter to quit: ('GRAND ', [0, 0, 1, 0])
+NBits: 128 	NErrs: 29 	BER: 2.2656E-01 	Time: 1.8499E-02 	Mem: 111872
+('GRAND ', [1, 2, 3, 5])
+NBits: 2080 	NErrs: 527 	BER: 2.5337E-01 	Time: 4.0479E-02 	Mem: 111872
+('GRAND ', [10, 24, 37, 50])
+NBits: 34720 	NErrs: 9082 	BER: 2.6158E-01 	Time: 4.1804E-01 	Mem: 112300
+('GRAND ', [2, 9, 11, 19])
+NBits: 67584 	NErrs: 19434 	BER: 2.8755E-01 	Time: 1.1036E+01 	Mem: 112300
+('GRAND ', [5, 19, 21, 42])
+NBits: 100224 	NErrs: 28778 	BER: 2.8714E-01 	Time: 2.2769E+01 	Mem: 112300
+('GRAND ', [10, 15, 24, 60])
+NBits: 133088 	NErrs: 37837 	BER: 2.8430E-01 	Time: 3.3791E+01 	Mem: 112300
+('GRAND ', [7, 12, 27, 46])
+NBits: 165728 	NErrs: 47277 	BER: 2.8527E-01 	Time: 4.5466E+01 	Mem: 113832

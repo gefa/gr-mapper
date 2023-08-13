@@ -1,0 +1,2010 @@
+linux; GNU C++ version 7.3.0; Boost_106501; UHD_003.010.003.000-0-unknown
+
+-- Detected Device: B200
+-- Operating over USB 3.
+-- Initialize CODEC control...
+-- Initialize Radio control...
+-- Performing register loopback test... pass
+-- Performing CODEC loopback test... pass
+-- Setting master clock rate selection to 'automatic'.
+-- Asking for clock rate 16.000000 MHz... 
+-- Actually got clock rate 16.000000 MHz.
+-- Performing timer loopback test... pass
+-- Asking for clock rate 51.200000 MHz... 
+-- Actually got clock rate 51.200000 MHz.
+-- Performing timer loopback test... pass
+-- Detected Device: B200mini
+-- Operating over USB 3.
+-- Initialize CODEC control...
+-- Initialize Radio control...
+-- Performing register loopback test... pass
+-- Performing CODEC loopback test... pass
+-- Setting master clock rate selection to 'automatic'.
+-- Asking for clock rate 16.000000 MHz... 
+-- Actually got clock rate 16.000000 MHz.
+-- Performing timer loopback test... pass
+-- Asking for clock rate 51.200000 MHz... 
+-- Actually got clock rate 51.200000 MHz.
+-- Performing timer loopback test... pass
+-- Asking for clock rate 51.200000 MHz... Asking for clock rate 51.200000 MHz... OK
+-- OK
+-- Asking for clock rate 51.200000 MHz... OK
+-- Asking for clock rate 51.200000 MHz... OK
+Press Enter to quit: ('GRAND ', [0, 0, 1, 1])
+NBits: 64 	NErrs: 5 	BER: 7.8125E-02 	Time: 2.0941E-02 	Mem: 111516
+('GRAND ', [0, 1, 0, 1])
+NBits: 256 	NErrs: 46 	BER: 1.7969E-01 	Time: 2.1532E-02 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 416 	NErrs: 83 	BER: 1.9952E-01 	Time: 2.4322E-02 	Mem: 111516
+('GRAND ', [0, 1, 0, 1])
+NBits: 640 	NErrs: 126 	BER: 1.9687E-01 	Time: 2.6751E-02 	Mem: 111516
+('GRAND ', [0, 1, 0, 0])
+NBits: 768 	NErrs: 147 	BER: 1.9141E-01 	Time: 2.9093E-02 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 832 	NErrs: 162 	BER: 1.9471E-01 	Time: 3.0599E-02 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 928 	NErrs: 184 	BER: 1.9828E-01 	Time: 3.1628E-02 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 1024 	NErrs: 213 	BER: 2.0801E-01 	Time: 3.3117E-02 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 1088 	NErrs: 221 	BER: 2.0312E-01 	Time: 3.4610E-02 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 1120 	NErrs: 230 	BER: 2.0536E-01 	Time: 3.5883E-02 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 1184 	NErrs: 248 	BER: 2.0946E-01 	Time: 3.6403E-02 	Mem: 111516
+('GRAND ', [1, 0, 0, 1])
+NBits: 1408 	NErrs: 297 	BER: 2.1094E-01 	Time: 3.7349E-02 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 1632 	NErrs: 348 	BER: 2.1324E-01 	Time: 4.0253E-02 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 1696 	NErrs: 366 	BER: 2.1580E-01 	Time: 4.1969E-02 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 1760 	NErrs: 380 	BER: 2.1591E-01 	Time: 4.2867E-02 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 1856 	NErrs: 403 	BER: 2.1713E-01 	Time: 4.3417E-02 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 1952 	NErrs: 421 	BER: 2.1568E-01 	Time: 4.4154E-02 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 1984 	NErrs: 428 	BER: 2.1573E-01 	Time: 4.4895E-02 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 2080 	NErrs: 444 	BER: 2.1346E-01 	Time: 4.5179E-02 	Mem: 111516
+('GRAND ', [0, 1, 0, 0])
+NBits: 2176 	NErrs: 459 	BER: 2.1094E-01 	Time: 4.5972E-02 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 2208 	NErrs: 469 	BER: 2.1241E-01 	Time: 4.6536E-02 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 2240 	NErrs: 477 	BER: 2.1295E-01 	Time: 4.6829E-02 	Mem: 111516
+('GRAND ', [0, 1, 0, 1])
+NBits: 2368 	NErrs: 497 	BER: 2.0988E-01 	Time: 4.7090E-02 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 2400 	NErrs: 508 	BER: 2.1167E-01 	Time: 4.7962E-02 	Mem: 111516
+('GRAND ', [0, 0, 1, 1])
+NBits: 2528 	NErrs: 532 	BER: 2.1044E-01 	Time: 4.8247E-02 	Mem: 111516
+('GRAND ', [0, 0, 2, 0])
+NBits: 2624 	NErrs: 543 	BER: 2.0694E-01 	Time: 4.9565E-02 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 2688 	NErrs: 560 	BER: 2.0833E-01 	Time: 5.0385E-02 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 2848 	NErrs: 595 	BER: 2.0892E-01 	Time: 5.1446E-02 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 2912 	NErrs: 608 	BER: 2.0879E-01 	Time: 5.3491E-02 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 3040 	NErrs: 639 	BER: 2.1020E-01 	Time: 5.4527E-02 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 3200 	NErrs: 677 	BER: 2.1156E-01 	Time: 5.6530E-02 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 3296 	NErrs: 702 	BER: 2.1299E-01 	Time: 5.8083E-02 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 3392 	NErrs: 717 	BER: 2.1138E-01 	Time: 5.8957E-02 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 3424 	NErrs: 724 	BER: 2.1145E-01 	Time: 5.9767E-02 	Mem: 111516
+('GRAND ', [1, 0, 0, 0])
+NBits: 3584 	NErrs: 756 	BER: 2.1094E-01 	Time: 6.0057E-02 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 3648 	NErrs: 769 	BER: 2.1080E-01 	Time: 6.1112E-02 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 3808 	NErrs: 803 	BER: 2.1087E-01 	Time: 6.1617E-02 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 3904 	NErrs: 831 	BER: 2.1286E-01 	Time: 6.2964E-02 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 4000 	NErrs: 856 	BER: 2.1400E-01 	Time: 6.4056E-02 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 4096 	NErrs: 876 	BER: 2.1387E-01 	Time: 6.5594E-02 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 4160 	NErrs: 888 	BER: 2.1346E-01 	Time: 6.7570E-02 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 4224 	NErrs: 900 	BER: 2.1307E-01 	Time: 6.8615E-02 	Mem: 111516
+('GRAND ', [1, 0, 0, 0])
+NBits: 4288 	NErrs: 909 	BER: 2.1199E-01 	Time: 6.9983E-02 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 4384 	NErrs: 926 	BER: 2.1122E-01 	Time: 7.0610E-02 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 4416 	NErrs: 929 	BER: 2.1037E-01 	Time: 7.1922E-02 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 4480 	NErrs: 936 	BER: 2.0893E-01 	Time: 7.2194E-02 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 4512 	NErrs: 946 	BER: 2.0966E-01 	Time: 7.2717E-02 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 4544 	NErrs: 949 	BER: 2.0885E-01 	Time: 7.2985E-02 	Mem: 111516
+('GRAND ', [0, 1, 1, 1])
+NBits: 4704 	NErrs: 969 	BER: 2.0599E-01 	Time: 7.3272E-02 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 4736 	NErrs: 977 	BER: 2.0629E-01 	Time: 7.4971E-02 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 4832 	NErrs: 998 	BER: 2.0654E-01 	Time: 7.5244E-02 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 4960 	NErrs: 1028 	BER: 2.0726E-01 	Time: 7.6023E-02 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 5056 	NErrs: 1052 	BER: 2.0807E-01 	Time: 7.7776E-02 	Mem: 111516
+('GRAND ', [0, 0, 1, 2])
+NBits: 5184 	NErrs: 1068 	BER: 2.0602E-01 	Time: 7.9385E-02 	Mem: 111516
+('GRAND ', [0, 1, 0, 0])
+NBits: 5344 	NErrs: 1105 	BER: 2.0677E-01 	Time: 8.1697E-02 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 5440 	NErrs: 1126 	BER: 2.0699E-01 	Time: 8.4579E-02 	Mem: 111516
+('GRAND ', [0, 1, 0, 0])
+NBits: 5664 	NErrs: 1182 	BER: 2.0869E-01 	Time: 8.6517E-02 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 5984 	NErrs: 1244 	BER: 2.0789E-01 	Time: 9.0448E-02 	Mem: 111516
+('GRAND ', [0, 0, 2, 1])
+NBits: 6336 	NErrs: 1316 	BER: 2.0770E-01 	Time: 9.5867E-02 	Mem: 111516
+('GRAND ', [0, 0, 1, 2])
+NBits: 6624 	NErrs: 1383 	BER: 2.0879E-01 	Time: 1.0068E-01 	Mem: 111516
+('GRAND ', [0, 1, 1, 0])
+NBits: 7040 	NErrs: 1478 	BER: 2.0994E-01 	Time: 1.0524E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 4])
+NBits: 7552 	NErrs: 1595 	BER: 2.1120E-01 	Time: 1.1033E-01 	Mem: 111516
+('GRAND ', [1, 1, 0, 1])
+NBits: 7968 	NErrs: 1668 	BER: 2.0934E-01 	Time: 1.1610E-01 	Mem: 111516
+('GRAND ', [0, 1, 1, 1])
+NBits: 8416 	NErrs: 1772 	BER: 2.1055E-01 	Time: 1.2096E-01 	Mem: 111516
+('GRAND ', [0, 1, 0, 2])
+NBits: 8800 	NErrs: 1848 	BER: 2.1000E-01 	Time: 1.2597E-01 	Mem: 111516
+('GRAND ', [0, 0, 1, 1])
+NBits: 9120 	NErrs: 1918 	BER: 2.1031E-01 	Time: 1.2978E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 9504 	NErrs: 2006 	BER: 2.1107E-01 	Time: 1.3420E-01 	Mem: 111516
+('GRAND ', [1, 0, 0, 1])
+NBits: 9696 	NErrs: 2047 	BER: 2.1112E-01 	Time: 1.3909E-01 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 9888 	NErrs: 2087 	BER: 2.1106E-01 	Time: 1.4088E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 9952 	NErrs: 2099 	BER: 2.1091E-01 	Time: 1.4257E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 10048 	NErrs: 2125 	BER: 2.1148E-01 	Time: 1.4361E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 10080 	NErrs: 2128 	BER: 2.1111E-01 	Time: 1.4452E-01 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 10208 	NErrs: 2154 	BER: 2.1101E-01 	Time: 1.4481E-01 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 10304 	NErrs: 2171 	BER: 2.1069E-01 	Time: 1.4620E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 10432 	NErrs: 2199 	BER: 2.1079E-01 	Time: 1.4709E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 10464 	NErrs: 2205 	BER: 2.1072E-01 	Time: 1.4928E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 10560 	NErrs: 2225 	BER: 2.1070E-01 	Time: 1.4992E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 10592 	NErrs: 2233 	BER: 2.1082E-01 	Time: 1.5084E-01 	Mem: 111516
+('GRAND ', [0, 0, 1, 2])
+NBits: 10752 	NErrs: 2255 	BER: 2.0973E-01 	Time: 1.5113E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 10816 	NErrs: 2274 	BER: 2.1024E-01 	Time: 1.5284E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 10912 	NErrs: 2292 	BER: 2.1004E-01 	Time: 1.5385E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 11008 	NErrs: 2323 	BER: 2.1103E-01 	Time: 1.5477E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 11136 	NErrs: 2359 	BER: 2.1184E-01 	Time: 1.5561E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 2])
+NBits: 11264 	NErrs: 2382 	BER: 2.1147E-01 	Time: 1.5705E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 11328 	NErrs: 2405 	BER: 2.1231E-01 	Time: 1.5892E-01 	Mem: 111516
+('GRAND ', [0, 1, 0, 0])
+NBits: 11520 	NErrs: 2449 	BER: 2.1259E-01 	Time: 1.6007E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 11744 	NErrs: 2496 	BER: 2.1253E-01 	Time: 1.6272E-01 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 11968 	NErrs: 2548 	BER: 2.1290E-01 	Time: 1.6604E-01 	Mem: 111516
+('GRAND ', [0, 1, 0, 0])
+NBits: 12160 	NErrs: 2580 	BER: 2.1217E-01 	Time: 1.6926E-01 	Mem: 111516
+('GRAND ', [0, 1, 0, 1])
+NBits: 12576 	NErrs: 2677 	BER: 2.1287E-01 	Time: 1.7239E-01 	Mem: 111516
+('GRAND ', [0, 0, 1, 1])
+NBits: 13280 	NErrs: 2848 	BER: 2.1446E-01 	Time: 1.8014E-01 	Mem: 111516
+('GRAND ', [0, 2, 1, 3])
+NBits: 14176 	NErrs: 3025 	BER: 2.1339E-01 	Time: 1.9327E-01 	Mem: 111516
+('GRAND ', [1, 1, 1, 4])
+NBits: 15232 	NErrs: 3222 	BER: 2.1153E-01 	Time: 2.0773E-01 	Mem: 111516
+('GRAND ', [0, 1, 1, 3])
+NBits: 16256 	NErrs: 3451 	BER: 2.1229E-01 	Time: 2.2210E-01 	Mem: 111516
+('GRAND ', [0, 0, 3, 4])
+NBits: 17440 	NErrs: 3731 	BER: 2.1393E-01 	Time: 2.3781E-01 	Mem: 111516
+('GRAND ', [0, 2, 1, 1])
+NBits: 18592 	NErrs: 4012 	BER: 2.1579E-01 	Time: 2.5441E-01 	Mem: 111516
+('GRAND ', [0, 0, 2, 6])
+NBits: 19872 	NErrs: 4328 	BER: 2.1779E-01 	Time: 2.6938E-01 	Mem: 111516
+('GRAND ', [1, 1, 3, 0])
+NBits: 21280 	NErrs: 4708 	BER: 2.2124E-01 	Time: 2.8449E-01 	Mem: 111516
+('GRAND ', [0, 0, 6, 4])
+NBits: 22656 	NErrs: 4997 	BER: 2.2056E-01 	Time: 3.0395E-01 	Mem: 111516
+('GRAND ', [0, 1, 3, 2])
+NBits: 23872 	NErrs: 5257 	BER: 2.2022E-01 	Time: 3.2357E-01 	Mem: 111516
+('GRAND ', [1, 0, 4, 5])
+NBits: 25568 	NErrs: 5614 	BER: 2.1957E-01 	Time: 3.4332E-01 	Mem: 111516
+('GRAND ', [0, 1, 0, 8])
+NBits: 27328 	NErrs: 6008 	BER: 2.1985E-01 	Time: 3.6947E-01 	Mem: 111516
+('GRAND ', [1, 0, 5, 5])
+NBits: 29152 	NErrs: 6420 	BER: 2.2023E-01 	Time: 3.9145E-01 	Mem: 111516
+('GRAND ', [0, 0, 3, 4])
+NBits: 30560 	NErrs: 6739 	BER: 2.2052E-01 	Time: 4.1530E-01 	Mem: 111516
+('GRAND ', [0, 1, 3, 3])
+NBits: 31712 	NErrs: 6981 	BER: 2.2014E-01 	Time: 4.3292E-01 	Mem: 111516
+('GRAND ', [0, 1, 4, 2])
+NBits: 32576 	NErrs: 7171 	BER: 2.2013E-01 	Time: 4.4449E-01 	Mem: 111516
+('GRAND ', [0, 2, 1, 0])
+NBits: 33184 	NErrs: 7306 	BER: 2.2017E-01 	Time: 4.5318E-01 	Mem: 111516
+('GRAND ', [0, 0, 2, 0])
+NBits: 33664 	NErrs: 7403 	BER: 2.1991E-01 	Time: 4.5903E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 33856 	NErrs: 7443 	BER: 2.1984E-01 	Time: 4.6372E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 34016 	NErrs: 7492 	BER: 2.2025E-01 	Time: 4.6566E-01 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 34112 	NErrs: 7516 	BER: 2.2033E-01 	Time: 4.6741E-01 	Mem: 111516
+('GRAND ', [1, 0, 0, 0])
+NBits: 34208 	NErrs: 7527 	BER: 2.2004E-01 	Time: 4.6824E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 34240 	NErrs: 7537 	BER: 2.2012E-01 	Time: 4.6885E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 34368 	NErrs: 7567 	BER: 2.2018E-01 	Time: 4.6940E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 34560 	NErrs: 7610 	BER: 2.2020E-01 	Time: 4.7190E-01 	Mem: 111516
+('GRAND ', [0, 1, 1, 0])
+NBits: 34752 	NErrs: 7644 	BER: 2.1996E-01 	Time: 4.7443E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 34848 	NErrs: 7658 	BER: 2.1975E-01 	Time: 4.7626E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 34944 	NErrs: 7681 	BER: 2.1981E-01 	Time: 4.7721E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 34976 	NErrs: 7686 	BER: 2.1975E-01 	Time: 4.7866E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 35104 	NErrs: 7714 	BER: 2.1975E-01 	Time: 4.7923E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 35168 	NErrs: 7728 	BER: 2.1975E-01 	Time: 4.8058E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 35328 	NErrs: 7767 	BER: 2.1985E-01 	Time: 4.8172E-01 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 35456 	NErrs: 7793 	BER: 2.1979E-01 	Time: 4.8434E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 35520 	NErrs: 7803 	BER: 2.1968E-01 	Time: 4.8544E-01 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 35680 	NErrs: 7837 	BER: 2.1965E-01 	Time: 4.8639E-01 	Mem: 111516
+('GRAND ', [0, 1, 0, 0])
+NBits: 35808 	NErrs: 7859 	BER: 2.1948E-01 	Time: 4.8822E-01 	Mem: 111516
+('GRAND ', [0, 1, 0, 0])
+NBits: 35936 	NErrs: 7884 	BER: 2.1939E-01 	Time: 4.8981E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 36000 	NErrs: 7901 	BER: 2.1947E-01 	Time: 4.9086E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 36064 	NErrs: 7914 	BER: 2.1944E-01 	Time: 4.9196E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 36096 	NErrs: 7921 	BER: 2.1944E-01 	Time: 4.9301E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 36160 	NErrs: 7935 	BER: 2.1944E-01 	Time: 4.9339E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 36256 	NErrs: 7953 	BER: 2.1936E-01 	Time: 4.9440E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 36384 	NErrs: 7983 	BER: 2.1941E-01 	Time: 4.9531E-01 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 36480 	NErrs: 8007 	BER: 2.1949E-01 	Time: 4.9681E-01 	Mem: 111516
+('GRAND ', [0, 0, 1, 1])
+NBits: 36576 	NErrs: 8019 	BER: 2.1924E-01 	Time: 4.9766E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 36640 	NErrs: 8039 	BER: 2.1941E-01 	Time: 4.9883E-01 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 36800 	NErrs: 8072 	BER: 2.1935E-01 	Time: 4.9937E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 36832 	NErrs: 8081 	BER: 2.1940E-01 	Time: 5.0117E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 36896 	NErrs: 8093 	BER: 2.1935E-01 	Time: 5.0147E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 36992 	NErrs: 8115 	BER: 2.1937E-01 	Time: 5.0245E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 37056 	NErrs: 8129 	BER: 2.1937E-01 	Time: 5.0322E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 37152 	NErrs: 8148 	BER: 2.1932E-01 	Time: 5.0466E-01 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 37216 	NErrs: 8159 	BER: 2.1923E-01 	Time: 5.0600E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 37312 	NErrs: 8182 	BER: 2.1929E-01 	Time: 5.0731E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 37376 	NErrs: 8198 	BER: 2.1934E-01 	Time: 5.0926E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 37440 	NErrs: 8213 	BER: 2.1936E-01 	Time: 5.1022E-01 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 37568 	NErrs: 8242 	BER: 2.1939E-01 	Time: 5.1168E-01 	Mem: 111516
+('GRAND ', [0, 1, 0, 1])
+NBits: 37760 	NErrs: 8277 	BER: 2.1920E-01 	Time: 5.1348E-01 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 37952 	NErrs: 8313 	BER: 2.1904E-01 	Time: 5.1690E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 2])
+NBits: 38176 	NErrs: 8356 	BER: 2.1888E-01 	Time: 5.1991E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 2])
+NBits: 38368 	NErrs: 8400 	BER: 2.1893E-01 	Time: 5.2314E-01 	Mem: 111516
+('GRAND ', [1, 0, 0, 2])
+NBits: 38656 	NErrs: 8465 	BER: 2.1898E-01 	Time: 5.2644E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 38848 	NErrs: 8503 	BER: 2.1888E-01 	Time: 5.3081E-01 	Mem: 111516
+('GRAND ', [0, 0, 2, 1])
+NBits: 39136 	NErrs: 8564 	BER: 2.1883E-01 	Time: 5.3413E-01 	Mem: 111516
+('GRAND ', [1, 0, 0, 0])
+NBits: 39456 	NErrs: 8628 	BER: 2.1867E-01 	Time: 5.3878E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 39648 	NErrs: 8664 	BER: 2.1852E-01 	Time: 5.4346E-01 	Mem: 111516
+('GRAND ', [0, 1, 1, 1])
+NBits: 40096 	NErrs: 8757 	BER: 2.1840E-01 	Time: 5.4668E-01 	Mem: 111516
+('GRAND ', [0, 3, 0, 1])
+NBits: 40512 	NErrs: 8834 	BER: 2.1806E-01 	Time: 5.5348E-01 	Mem: 111516
+('GRAND ', [0, 0, 4, 1])
+NBits: 40896 	NErrs: 8900 	BER: 2.1763E-01 	Time: 5.5986E-01 	Mem: 111516
+('GRAND ', [0, 0, 1, 1])
+NBits: 41440 	NErrs: 9026 	BER: 2.1781E-01 	Time: 5.6731E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 3])
+NBits: 42016 	NErrs: 9156 	BER: 2.1792E-01 	Time: 5.7485E-01 	Mem: 111516
+('GRAND ', [1, 0, 3, 2])
+NBits: 42848 	NErrs: 9353 	BER: 2.1828E-01 	Time: 5.8509E-01 	Mem: 111516
+('GRAND ', [1, 1, 1, 1])
+NBits: 43584 	NErrs: 9524 	BER: 2.1852E-01 	Time: 5.9721E-01 	Mem: 111516
+('GRAND ', [0, 2, 3, 6])
+NBits: 44704 	NErrs: 9747 	BER: 2.1803E-01 	Time: 6.0709E-01 	Mem: 111516
+('GRAND ', [0, 1, 4, 2])
+NBits: 46144 	NErrs: 10075 	BER: 2.1834E-01 	Time: 6.2664E-01 	Mem: 111516
+('GRAND ', [0, 1, 3, 5])
+NBits: 47840 	NErrs: 10446 	BER: 2.1835E-01 	Time: 6.5017E-01 	Mem: 111516
+('GRAND ', [1, 1, 4, 3])
+NBits: 49408 	NErrs: 10782 	BER: 2.1822E-01 	Time: 6.7214E-01 	Mem: 111516
+('GRAND ', [0, 1, 2, 3])
+NBits: 50496 	NErrs: 11050 	BER: 2.1883E-01 	Time: 6.8838E-01 	Mem: 111516
+('GRAND ', [1, 0, 1, 3])
+NBits: 51712 	NErrs: 11336 	BER: 2.1921E-01 	Time: 7.0450E-01 	Mem: 111516
+('GRAND ', [0, 3, 0, 4])
+NBits: 53184 	NErrs: 11665 	BER: 2.1933E-01 	Time: 7.2355E-01 	Mem: 111516
+('GRAND ', [0, 1, 2, 8])
+NBits: 54464 	NErrs: 11929 	BER: 2.1903E-01 	Time: 7.4469E-01 	Mem: 111516
+('GRAND ', [0, 0, 1, 2])
+NBits: 55328 	NErrs: 12140 	BER: 2.1942E-01 	Time: 7.5733E-01 	Mem: 111516
+('GRAND ', [0, 0, 1, 2])
+NBits: 56256 	NErrs: 12368 	BER: 2.1985E-01 	Time: 7.7031E-01 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 56960 	NErrs: 12523 	BER: 2.1986E-01 	Time: 7.7984E-01 	Mem: 111516
+('GRAND ', [0, 2, 0, 2])
+NBits: 57664 	NErrs: 12689 	BER: 2.2005E-01 	Time: 7.8985E-01 	Mem: 111516
+('GRAND ', [0, 0, 2, 2])
+NBits: 58112 	NErrs: 12789 	BER: 2.2008E-01 	Time: 7.9761E-01 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 58528 	NErrs: 12897 	BER: 2.2036E-01 	Time: 8.0215E-01 	Mem: 111516
+('GRAND ', [2, 0, 0, 2])
+NBits: 58752 	NErrs: 12926 	BER: 2.2001E-01 	Time: 8.0621E-01 	Mem: 111516
+('GRAND ', [0, 0, 1, 1])
+NBits: 58848 	NErrs: 12944 	BER: 2.1996E-01 	Time: 8.0800E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 58912 	NErrs: 12956 	BER: 2.1992E-01 	Time: 8.0885E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 59008 	NErrs: 12977 	BER: 2.1992E-01 	Time: 8.0979E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 59040 	NErrs: 12985 	BER: 2.1994E-01 	Time: 8.1064E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 59136 	NErrs: 13021 	BER: 2.2019E-01 	Time: 8.1092E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 59296 	NErrs: 13060 	BER: 2.2025E-01 	Time: 8.1177E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 59424 	NErrs: 13097 	BER: 2.2040E-01 	Time: 8.1395E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 59456 	NErrs: 13104 	BER: 2.2040E-01 	Time: 8.1541E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 59520 	NErrs: 13121 	BER: 2.2045E-01 	Time: 8.1569E-01 	Mem: 111516
+('GRAND ', [0, 0, 1, 1])
+NBits: 59680 	NErrs: 13146 	BER: 2.2027E-01 	Time: 8.1650E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 59776 	NErrs: 13167 	BER: 2.2027E-01 	Time: 8.1788E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 59872 	NErrs: 13184 	BER: 2.2020E-01 	Time: 8.1917E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 60000 	NErrs: 13221 	BER: 2.2035E-01 	Time: 8.1998E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 60064 	NErrs: 13248 	BER: 2.2056E-01 	Time: 8.2135E-01 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 60160 	NErrs: 13263 	BER: 2.2046E-01 	Time: 8.2190E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 60224 	NErrs: 13275 	BER: 2.2043E-01 	Time: 8.2280E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 60352 	NErrs: 13309 	BER: 2.2052E-01 	Time: 8.2336E-01 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 60480 	NErrs: 13331 	BER: 2.2042E-01 	Time: 8.2559E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 60672 	NErrs: 13378 	BER: 2.2050E-01 	Time: 8.2720E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 60864 	NErrs: 13424 	BER: 2.2056E-01 	Time: 8.3005E-01 	Mem: 111516
+('GRAND ', [0, 1, 1, 0])
+NBits: 61024 	NErrs: 13450 	BER: 2.2041E-01 	Time: 8.3259E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 61216 	NErrs: 13500 	BER: 2.2053E-01 	Time: 8.3476E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 61312 	NErrs: 13525 	BER: 2.2059E-01 	Time: 8.3783E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 61408 	NErrs: 13550 	BER: 2.2066E-01 	Time: 8.3942E-01 	Mem: 111516
+('GRAND ', [0, 0, 2, 1])
+NBits: 61536 	NErrs: 13568 	BER: 2.2049E-01 	Time: 8.4057E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 61696 	NErrs: 13610 	BER: 2.2060E-01 	Time: 8.4266E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 61792 	NErrs: 13640 	BER: 2.2074E-01 	Time: 8.4530E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 61952 	NErrs: 13672 	BER: 2.2069E-01 	Time: 8.4683E-01 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 62176 	NErrs: 13712 	BER: 2.2054E-01 	Time: 8.4974E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 62496 	NErrs: 13786 	BER: 2.2059E-01 	Time: 8.5457E-01 	Mem: 111516
+('GRAND ', [0, 0, 1, 4])
+NBits: 62912 	NErrs: 13860 	BER: 2.2031E-01 	Time: 8.5889E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 63200 	NErrs: 13927 	BER: 2.2036E-01 	Time: 8.6424E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 2])
+NBits: 63424 	NErrs: 13969 	BER: 2.2025E-01 	Time: 8.6843E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 2])
+NBits: 63648 	NErrs: 14025 	BER: 2.2035E-01 	Time: 8.7097E-01 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 63840 	NErrs: 14069 	BER: 2.2038E-01 	Time: 8.7359E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 63968 	NErrs: 14104 	BER: 2.2049E-01 	Time: 8.7622E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 64160 	NErrs: 14152 	BER: 2.2057E-01 	Time: 8.7862E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 64448 	NErrs: 14209 	BER: 2.2047E-01 	Time: 8.8202E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 64672 	NErrs: 14261 	BER: 2.2051E-01 	Time: 8.8642E-01 	Mem: 111516
+('GRAND ', [0, 1, 2, 0])
+NBits: 65056 	NErrs: 14348 	BER: 2.2055E-01 	Time: 8.9074E-01 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 65248 	NErrs: 14382 	BER: 2.2042E-01 	Time: 8.9454E-01 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 65408 	NErrs: 14422 	BER: 2.2049E-01 	Time: 8.9714E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 2])
+NBits: 65664 	NErrs: 14467 	BER: 2.2032E-01 	Time: 8.9940E-01 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 65984 	NErrs: 14532 	BER: 2.2024E-01 	Time: 9.0328E-01 	Mem: 111516
+('GRAND ', [0, 1, 1, 0])
+NBits: 66112 	NErrs: 14550 	BER: 2.2008E-01 	Time: 9.0628E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 2])
+NBits: 66240 	NErrs: 14570 	BER: 2.1996E-01 	Time: 9.0718E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 66272 	NErrs: 14574 	BER: 2.1991E-01 	Time: 9.0888E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 66368 	NErrs: 14594 	BER: 2.1990E-01 	Time: 9.0922E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 66432 	NErrs: 14610 	BER: 2.1992E-01 	Time: 9.1028E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 66496 	NErrs: 14620 	BER: 2.1986E-01 	Time: 9.1082E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 66560 	NErrs: 14637 	BER: 2.1991E-01 	Time: 9.1174E-01 	Mem: 111516
+('GRAND ', [0, 1, 1, 0])
+NBits: 66688 	NErrs: 14661 	BER: 2.1984E-01 	Time: 9.1226E-01 	Mem: 111516
+('GRAND ', [0, 0, 1, 1])
+NBits: 66784 	NErrs: 14672 	BER: 2.1969E-01 	Time: 9.1345E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 66816 	NErrs: 14682 	BER: 2.1974E-01 	Time: 9.1421E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 66880 	NErrs: 14698 	BER: 2.1977E-01 	Time: 9.1449E-01 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 67008 	NErrs: 14720 	BER: 2.1968E-01 	Time: 9.1498E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 67104 	NErrs: 14740 	BER: 2.1966E-01 	Time: 9.1673E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 67200 	NErrs: 14767 	BER: 2.1975E-01 	Time: 9.1779E-01 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 67296 	NErrs: 14780 	BER: 2.1963E-01 	Time: 9.1967E-01 	Mem: 111516
+('GRAND ', [1, 0, 0, 0])
+NBits: 67392 	NErrs: 14801 	BER: 2.1963E-01 	Time: 9.2163E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 67552 	NErrs: 14845 	BER: 2.1976E-01 	Time: 9.2281E-01 	Mem: 111516
+('GRAND ', [0, 1, 0, 0])
+NBits: 67680 	NErrs: 14868 	BER: 2.1968E-01 	Time: 9.2609E-01 	Mem: 111516
+('GRAND ', [0, 1, 0, 0])
+NBits: 67936 	NErrs: 14918 	BER: 2.1959E-01 	Time: 9.2748E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 68032 	NErrs: 14933 	BER: 2.1950E-01 	Time: 9.3011E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 68128 	NErrs: 14949 	BER: 2.1943E-01 	Time: 9.3152E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 68192 	NErrs: 14958 	BER: 2.1935E-01 	Time: 9.3341E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 68320 	NErrs: 14993 	BER: 2.1945E-01 	Time: 9.3483E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 68544 	NErrs: 15052 	BER: 2.1960E-01 	Time: 9.3825E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 5])
+NBits: 68896 	NErrs: 15121 	BER: 2.1948E-01 	Time: 9.4318E-01 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 69248 	NErrs: 15181 	BER: 2.1923E-01 	Time: 9.4800E-01 	Mem: 111516
+('GRAND ', [1, 0, 3, 0])
+NBits: 69696 	NErrs: 15255 	BER: 2.1888E-01 	Time: 9.5371E-01 	Mem: 111516
+('GRAND ', [0, 0, 2, 1])
+NBits: 70304 	NErrs: 15402 	BER: 2.1908E-01 	Time: 9.6109E-01 	Mem: 111516
+('GRAND ', [0, 2, 0, 1])
+NBits: 71232 	NErrs: 15600 	BER: 2.1900E-01 	Time: 9.7197E-01 	Mem: 111516
+('GRAND ', [0, 1, 2, 0])
+NBits: 71712 	NErrs: 15706 	BER: 2.1901E-01 	Time: 9.8332E-01 	Mem: 111516
+('GRAND ', [0, 0, 1, 5])
+NBits: 72736 	NErrs: 15941 	BER: 2.1916E-01 	Time: 9.9068E-01 	Mem: 111516
+('GRAND ', [0, 1, 1, 1])
+NBits: 73888 	NErrs: 16205 	BER: 2.1932E-01 	Time: 1.0048E+00 	Mem: 111516
+('GRAND ', [0, 1, 4, 4])
+NBits: 75200 	NErrs: 16504 	BER: 2.1947E-01 	Time: 1.0211E+00 	Mem: 111516
+('GRAND ', [1, 1, 1, 0])
+NBits: 76512 	NErrs: 16792 	BER: 2.1947E-01 	Time: 1.0388E+00 	Mem: 111516
+('GRAND ', [1, 1, 5, 2])
+NBits: 77664 	NErrs: 17023 	BER: 2.1919E-01 	Time: 1.0566E+00 	Mem: 111516
+('GRAND ', [0, 1, 5, 6])
+NBits: 78912 	NErrs: 17298 	BER: 2.1921E-01 	Time: 1.0722E+00 	Mem: 111516
+('GRAND ', [2, 1, 4, 5])
+NBits: 80992 	NErrs: 17759 	BER: 2.1927E-01 	Time: 1.0961E+00 	Mem: 111516
+('GRAND ', [1, 1, 5, 8])
+NBits: 82656 	NErrs: 18098 	BER: 2.1896E-01 	Time: 1.1218E+00 	Mem: 111516
+('GRAND ', [0, 0, 2, 2])
+NBits: 83904 	NErrs: 18401 	BER: 2.1931E-01 	Time: 1.1411E+00 	Mem: 111516
+('GRAND ', [0, 1, 3, 3])
+NBits: 84960 	NErrs: 18601 	BER: 2.1894E-01 	Time: 1.1574E+00 	Mem: 111516
+('GRAND ', [0, 2, 2, 0])
+NBits: 85664 	NErrs: 18761 	BER: 2.1901E-01 	Time: 1.1722E+00 	Mem: 111516
+('GRAND ', [0, 0, 2, 4])
+NBits: 86880 	NErrs: 19046 	BER: 2.1922E-01 	Time: 1.1830E+00 	Mem: 111516
+('GRAND ', [2, 0, 3, 2])
+NBits: 88544 	NErrs: 19448 	BER: 2.1964E-01 	Time: 1.2031E+00 	Mem: 111516
+('GRAND ', [2, 2, 2, 3])
+NBits: 90368 	NErrs: 19868 	BER: 2.1986E-01 	Time: 1.2250E+00 	Mem: 111516
+('GRAND ', [0, 1, 2, 2])
+NBits: 91488 	NErrs: 20129 	BER: 2.2002E-01 	Time: 1.2431E+00 	Mem: 111516
+('GRAND ', [0, 1, 0, 0])
+NBits: 92192 	NErrs: 20314 	BER: 2.2034E-01 	Time: 1.2540E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 2])
+NBits: 92640 	NErrs: 20423 	BER: 2.2046E-01 	Time: 1.2612E+00 	Mem: 111516
+('GRAND ', [1, 1, 1, 0])
+NBits: 93120 	NErrs: 20532 	BER: 2.2049E-01 	Time: 1.2659E+00 	Mem: 111516
+('GRAND ', [0, 1, 0, 0])
+NBits: 93440 	NErrs: 20596 	BER: 2.2042E-01 	Time: 1.2706E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 93600 	NErrs: 20629 	BER: 2.2040E-01 	Time: 1.2739E+00 	Mem: 111516
+('GRAND ', [0, 0, 2, 0])
+NBits: 93760 	NErrs: 20654 	BER: 2.2029E-01 	Time: 1.2757E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 93984 	NErrs: 20702 	BER: 2.2027E-01 	Time: 1.2782E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 94208 	NErrs: 20748 	BER: 2.2024E-01 	Time: 1.2808E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 94496 	NErrs: 20828 	BER: 2.2041E-01 	Time: 1.2836E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 94656 	NErrs: 20875 	BER: 2.2054E-01 	Time: 1.2865E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 94944 	NErrs: 20956 	BER: 2.2072E-01 	Time: 1.2897E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 1])
+NBits: 95328 	NErrs: 21054 	BER: 2.2086E-01 	Time: 1.2945E+00 	Mem: 111516
+('GRAND ', [1, 0, 0, 1])
+NBits: 95840 	NErrs: 21193 	BER: 2.2113E-01 	Time: 1.2996E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 96192 	NErrs: 21286 	BER: 2.2129E-01 	Time: 1.3053E+00 	Mem: 111516
+('GRAND ', [0, 2, 0, 1])
+NBits: 96608 	NErrs: 21364 	BER: 2.2114E-01 	Time: 1.3099E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 2])
+NBits: 97216 	NErrs: 21526 	BER: 2.2142E-01 	Time: 1.3176E+00 	Mem: 111516
+('GRAND ', [0, 1, 2, 1])
+NBits: 97760 	NErrs: 21625 	BER: 2.2120E-01 	Time: 1.3266E+00 	Mem: 111516
+('GRAND ', [1, 0, 0, 3])
+NBits: 98304 	NErrs: 21754 	BER: 2.2129E-01 	Time: 1.3354E+00 	Mem: 111516
+('GRAND ', [0, 1, 0, 1])
+NBits: 99008 	NErrs: 21912 	BER: 2.2132E-01 	Time: 1.3427E+00 	Mem: 111516
+('GRAND ', [0, 0, 3, 1])
+NBits: 99776 	NErrs: 22079 	BER: 2.2129E-01 	Time: 1.3524E+00 	Mem: 111516
+('GRAND ', [0, 2, 1, 2])
+NBits: 100832 	NErrs: 22314 	BER: 2.2130E-01 	Time: 1.3632E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 2])
+NBits: 101792 	NErrs: 22555 	BER: 2.2158E-01 	Time: 1.3760E+00 	Mem: 111516
+('GRAND ', [0, 1, 0, 2])
+NBits: 102368 	NErrs: 22689 	BER: 2.2164E-01 	Time: 1.3845E+00 	Mem: 111516
+('GRAND ', [0, 1, 1, 0])
+NBits: 102912 	NErrs: 22817 	BER: 2.2171E-01 	Time: 1.3921E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 1])
+NBits: 103264 	NErrs: 22902 	BER: 2.2178E-01 	Time: 1.3971E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 103616 	NErrs: 22988 	BER: 2.2186E-01 	Time: 1.4029E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 103936 	NErrs: 23062 	BER: 2.2189E-01 	Time: 1.4076E+00 	Mem: 111516
+('GRAND ', [0, 1, 1, 1])
+NBits: 104480 	NErrs: 23171 	BER: 2.2177E-01 	Time: 1.4129E+00 	Mem: 111516
+('GRAND ', [0, 1, 0, 0])
+NBits: 104832 	NErrs: 23255 	BER: 2.2183E-01 	Time: 1.4185E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 105120 	NErrs: 23336 	BER: 2.2199E-01 	Time: 1.4225E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 105312 	NErrs: 23373 	BER: 2.2194E-01 	Time: 1.4261E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 105504 	NErrs: 23417 	BER: 2.2195E-01 	Time: 1.4289E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 105728 	NErrs: 23472 	BER: 2.2200E-01 	Time: 1.4316E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 2])
+NBits: 105984 	NErrs: 23535 	BER: 2.2206E-01 	Time: 1.4338E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 106048 	NErrs: 23547 	BER: 2.2204E-01 	Time: 1.4359E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 106176 	NErrs: 23575 	BER: 2.2204E-01 	Time: 1.4365E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 106336 	NErrs: 23614 	BER: 2.2207E-01 	Time: 1.4374E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 106528 	NErrs: 23661 	BER: 2.2211E-01 	Time: 1.4402E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 106752 	NErrs: 23718 	BER: 2.2218E-01 	Time: 1.4431E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 106848 	NErrs: 23736 	BER: 2.2215E-01 	Time: 1.4466E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 107040 	NErrs: 23773 	BER: 2.2209E-01 	Time: 1.4483E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 107104 	NErrs: 23788 	BER: 2.2210E-01 	Time: 1.4499E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 107136 	NErrs: 23798 	BER: 2.2213E-01 	Time: 1.4505E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 107296 	NErrs: 23831 	BER: 2.2211E-01 	Time: 1.4512E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 107424 	NErrs: 23858 	BER: 2.2209E-01 	Time: 1.4537E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 107520 	NErrs: 23876 	BER: 2.2206E-01 	Time: 1.4548E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 2])
+NBits: 107680 	NErrs: 23917 	BER: 2.2211E-01 	Time: 1.4558E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 107840 	NErrs: 23962 	BER: 2.2220E-01 	Time: 1.4581E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 107968 	NErrs: 23986 	BER: 2.2216E-01 	Time: 1.4598E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 108128 	NErrs: 24028 	BER: 2.2222E-01 	Time: 1.4618E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 1])
+NBits: 108352 	NErrs: 24076 	BER: 2.2220E-01 	Time: 1.4646E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 108672 	NErrs: 24153 	BER: 2.2226E-01 	Time: 1.4686E+00 	Mem: 111516
+('GRAND ', [0, 1, 0, 1])
+NBits: 109088 	NErrs: 24254 	BER: 2.2233E-01 	Time: 1.4750E+00 	Mem: 111516
+('GRAND ', [0, 0, 2, 1])
+NBits: 109568 	NErrs: 24352 	BER: 2.2225E-01 	Time: 1.4828E+00 	Mem: 111516
+('GRAND ', [0, 1, 0, 1])
+NBits: 109984 	NErrs: 24451 	BER: 2.2231E-01 	Time: 1.4887E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 110400 	NErrs: 24564 	BER: 2.2250E-01 	Time: 1.4943E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 110688 	NErrs: 24637 	BER: 2.2258E-01 	Time: 1.5002E+00 	Mem: 111516
+('GRAND ', [0, 1, 1, 1])
+NBits: 111072 	NErrs: 24728 	BER: 2.2263E-01 	Time: 1.5047E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 1])
+NBits: 111328 	NErrs: 24784 	BER: 2.2262E-01 	Time: 1.5103E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 111552 	NErrs: 24840 	BER: 2.2268E-01 	Time: 1.5137E+00 	Mem: 111516
+('GRAND ', [0, 1, 0, 0])
+NBits: 111808 	NErrs: 24906 	BER: 2.2276E-01 	Time: 1.5168E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 1])
+NBits: 111968 	NErrs: 24940 	BER: 2.2274E-01 	Time: 1.5193E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 112096 	NErrs: 24968 	BER: 2.2274E-01 	Time: 1.5218E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 112224 	NErrs: 24999 	BER: 2.2276E-01 	Time: 1.5231E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 112416 	NErrs: 25038 	BER: 2.2273E-01 	Time: 1.5251E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 112576 	NErrs: 25078 	BER: 2.2277E-01 	Time: 1.5273E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 112640 	NErrs: 25091 	BER: 2.2275E-01 	Time: 1.5295E+00 	Mem: 111516
+('GRAND ', [0, 1, 1, 0])
+NBits: 112736 	NErrs: 25108 	BER: 2.2272E-01 	Time: 1.5305E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 112800 	NErrs: 25125 	BER: 2.2274E-01 	Time: 1.5317E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 112832 	NErrs: 25131 	BER: 2.2273E-01 	Time: 1.5324E+00 	Mem: 111516
+('GRAND ', [0, 1, 0, 0])
+NBits: 112928 	NErrs: 25149 	BER: 2.2270E-01 	Time: 1.5327E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 113024 	NErrs: 25170 	BER: 2.2270E-01 	Time: 1.5346E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 113088 	NErrs: 25191 	BER: 2.2276E-01 	Time: 1.5363E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 113184 	NErrs: 25215 	BER: 2.2278E-01 	Time: 1.5374E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 113408 	NErrs: 25259 	BER: 2.2273E-01 	Time: 1.5389E+00 	Mem: 111516
+('GRAND ', [0, 1, 1, 1])
+NBits: 113760 	NErrs: 25338 	BER: 2.2273E-01 	Time: 1.5428E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 113920 	NErrs: 25380 	BER: 2.2279E-01 	Time: 1.5467E+00 	Mem: 111516
+('GRAND ', [1, 0, 1, 1])
+NBits: 114176 	NErrs: 25434 	BER: 2.2276E-01 	Time: 1.5497E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 114368 	NErrs: 25491 	BER: 2.2289E-01 	Time: 1.5529E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 114432 	NErrs: 25501 	BER: 2.2285E-01 	Time: 1.5546E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 114496 	NErrs: 25516 	BER: 2.2285E-01 	Time: 1.5555E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 114560 	NErrs: 25528 	BER: 2.2284E-01 	Time: 1.5562E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 114592 	NErrs: 25532 	BER: 2.2281E-01 	Time: 1.5567E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 114688 	NErrs: 25562 	BER: 2.2288E-01 	Time: 1.5573E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 114784 	NErrs: 25587 	BER: 2.2291E-01 	Time: 1.5581E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 114848 	NErrs: 25609 	BER: 2.2298E-01 	Time: 1.5596E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 114912 	NErrs: 25629 	BER: 2.2303E-01 	Time: 1.5605E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 115008 	NErrs: 25643 	BER: 2.2297E-01 	Time: 1.5617E+00 	Mem: 111516
+('GRAND ', [0, 1, 1, 0])
+NBits: 115136 	NErrs: 25668 	BER: 2.2294E-01 	Time: 1.5624E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 115296 	NErrs: 25706 	BER: 2.2296E-01 	Time: 1.5649E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 115456 	NErrs: 25746 	BER: 2.2299E-01 	Time: 1.5677E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 115648 	NErrs: 25788 	BER: 2.2299E-01 	Time: 1.5706E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 115808 	NErrs: 25829 	BER: 2.2303E-01 	Time: 1.5732E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 115904 	NErrs: 25849 	BER: 2.2302E-01 	Time: 1.5747E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 115968 	NErrs: 25862 	BER: 2.2301E-01 	Time: 1.5758E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 116032 	NErrs: 25874 	BER: 2.2299E-01 	Time: 1.5765E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 116128 	NErrs: 25893 	BER: 2.2297E-01 	Time: 1.5770E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 116192 	NErrs: 25909 	BER: 2.2298E-01 	Time: 1.5792E+00 	Mem: 111516
+('GRAND ', [1, 0, 0, 0])
+NBits: 116384 	NErrs: 25953 	BER: 2.2299E-01 	Time: 1.5808E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 116448 	NErrs: 25962 	BER: 2.2295E-01 	Time: 1.5832E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 116544 	NErrs: 25989 	BER: 2.2300E-01 	Time: 1.5843E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 116768 	NErrs: 26051 	BER: 2.2310E-01 	Time: 1.5858E+00 	Mem: 111516
+('GRAND ', [1, 0, 2, 0])
+NBits: 116960 	NErrs: 26082 	BER: 2.2300E-01 	Time: 1.5890E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 117120 	NErrs: 26118 	BER: 2.2300E-01 	Time: 1.5918E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 117312 	NErrs: 26168 	BER: 2.2306E-01 	Time: 1.5945E+00 	Mem: 111516
+('GRAND ', [1, 0, 0, 1])
+NBits: 117664 	NErrs: 26265 	BER: 2.2322E-01 	Time: 1.5978E+00 	Mem: 111516
+('GRAND ', [0, 1, 0, 2])
+NBits: 118016 	NErrs: 26324 	BER: 2.2305E-01 	Time: 1.6026E+00 	Mem: 111516
+('GRAND ', [0, 0, 2, 0])
+NBits: 118400 	NErrs: 26401 	BER: 2.2298E-01 	Time: 1.6065E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 118592 	NErrs: 26453 	BER: 2.2306E-01 	Time: 1.6109E+00 	Mem: 111516
+('GRAND ', [0, 1, 0, 1])
+NBits: 118976 	NErrs: 26528 	BER: 2.2297E-01 	Time: 1.6137E+00 	Mem: 111516
+('GRAND ', [0, 1, 0, 0])
+NBits: 119168 	NErrs: 26570 	BER: 2.2296E-01 	Time: 1.6186E+00 	Mem: 111516
+('GRAND ', [1, 0, 0, 0])
+NBits: 119488 	NErrs: 26639 	BER: 2.2294E-01 	Time: 1.6217E+00 	Mem: 111516
+('GRAND ', [0, 1, 0, 1])
+NBits: 119808 	NErrs: 26723 	BER: 2.2305E-01 	Time: 1.6258E+00 	Mem: 111516
+('GRAND ', [1, 0, 1, 1])
+NBits: 120160 	NErrs: 26808 	BER: 2.2310E-01 	Time: 1.6297E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 120576 	NErrs: 26903 	BER: 2.2312E-01 	Time: 1.6344E+00 	Mem: 111516
+('GRAND ', [0, 1, 0, 0])
+NBits: 120864 	NErrs: 26964 	BER: 2.2309E-01 	Time: 1.6394E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 121152 	NErrs: 27019 	BER: 2.2302E-01 	Time: 1.6441E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 121504 	NErrs: 27115 	BER: 2.2316E-01 	Time: 1.6487E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 121792 	NErrs: 27199 	BER: 2.2332E-01 	Time: 1.6526E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 122112 	NErrs: 27287 	BER: 2.2346E-01 	Time: 1.6562E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 2])
+NBits: 122336 	NErrs: 27328 	BER: 2.2338E-01 	Time: 1.6595E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 122560 	NErrs: 27382 	BER: 2.2342E-01 	Time: 1.6630E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 122848 	NErrs: 27452 	BER: 2.2346E-01 	Time: 1.6666E+00 	Mem: 111516
+('GRAND ', [0, 2, 1, 1])
+NBits: 123232 	NErrs: 27535 	BER: 2.2344E-01 	Time: 1.6711E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 1])
+NBits: 123456 	NErrs: 27584 	BER: 2.2343E-01 	Time: 1.6754E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 123776 	NErrs: 27656 	BER: 2.2344E-01 	Time: 1.6791E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 124032 	NErrs: 27720 	BER: 2.2349E-01 	Time: 1.6825E+00 	Mem: 111516
+('GRAND ', [0, 1, 0, 0])
+NBits: 124256 	NErrs: 27761 	BER: 2.2342E-01 	Time: 1.6851E+00 	Mem: 111516
+('GRAND ', [0, 0, 2, 0])
+NBits: 124480 	NErrs: 27813 	BER: 2.2343E-01 	Time: 1.6879E+00 	Mem: 111516
+('GRAND ', [0, 1, 1, 1])
+NBits: 124768 	NErrs: 27881 	BER: 2.2346E-01 	Time: 1.6916E+00 	Mem: 111516
+('GRAND ', [1, 0, 1, 1])
+NBits: 125152 	NErrs: 27953 	BER: 2.2335E-01 	Time: 1.6961E+00 	Mem: 111516
+('GRAND ', [0, 1, 0, 1])
+NBits: 125504 	NErrs: 28035 	BER: 2.2338E-01 	Time: 1.7013E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 1])
+NBits: 125952 	NErrs: 28118 	BER: 2.2324E-01 	Time: 1.7062E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 1])
+NBits: 126272 	NErrs: 28188 	BER: 2.2323E-01 	Time: 1.7122E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 1])
+NBits: 126720 	NErrs: 28288 	BER: 2.2323E-01 	Time: 1.7165E+00 	Mem: 111516
+('GRAND ', [0, 1, 0, 0])
+NBits: 127264 	NErrs: 28398 	BER: 2.2314E-01 	Time: 1.7233E+00 	Mem: 111516
+('GRAND ', [0, 2, 0, 0])
+NBits: 127776 	NErrs: 28531 	BER: 2.2329E-01 	Time: 1.7297E+00 	Mem: 111516
+('GRAND ', [0, 1, 1, 0])
+NBits: 128352 	NErrs: 28664 	BER: 2.2332E-01 	Time: 1.7374E+00 	Mem: 111516
+('GRAND ', [0, 1, 0, 0])
+NBits: 128768 	NErrs: 28771 	BER: 2.2343E-01 	Time: 1.7441E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 2])
+NBits: 129152 	NErrs: 28851 	BER: 2.2339E-01 	Time: 1.7491E+00 	Mem: 111516
+('GRAND ', [1, 0, 0, 0])
+NBits: 129568 	NErrs: 28954 	BER: 2.2347E-01 	Time: 1.7541E+00 	Mem: 111516
+('GRAND ', [0, 1, 0, 1])
+NBits: 130016 	NErrs: 29057 	BER: 2.2349E-01 	Time: 1.7601E+00 	Mem: 111516
+('GRAND ', [1, 0, 1, 3])
+NBits: 130432 	NErrs: 29136 	BER: 2.2338E-01 	Time: 1.7655E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 130944 	NErrs: 29267 	BER: 2.2351E-01 	Time: 1.7715E+00 	Mem: 111516
+('GRAND ', [1, 0, 0, 1])
+NBits: 131552 	NErrs: 29437 	BER: 2.2377E-01 	Time: 1.7794E+00 	Mem: 111516
+('GRAND ', [0, 2, 0, 4])
+NBits: 132064 	NErrs: 29540 	BER: 2.2368E-01 	Time: 1.7858E+00 	Mem: 111516
+('GRAND ', [0, 1, 1, 2])
+NBits: 132672 	NErrs: 29690 	BER: 2.2378E-01 	Time: 1.7933E+00 	Mem: 111516
+('GRAND ', [0, 1, 0, 3])
+NBits: 133184 	NErrs: 29779 	BER: 2.2359E-01 	Time: 1.8012E+00 	Mem: 111516
+('GRAND ', [1, 0, 0, 1])
+NBits: 133632 	NErrs: 29869 	BER: 2.2352E-01 	Time: 1.8069E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 134016 	NErrs: 29972 	BER: 2.2364E-01 	Time: 1.8128E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 134432 	NErrs: 30062 	BER: 2.2362E-01 	Time: 1.8177E+00 	Mem: 111516
+('GRAND ', [0, 2, 0, 1])
+NBits: 134816 	NErrs: 30144 	BER: 2.2359E-01 	Time: 1.8231E+00 	Mem: 111516
+('GRAND ', [0, 0, 2, 1])
+NBits: 135264 	NErrs: 30276 	BER: 2.2383E-01 	Time: 1.8275E+00 	Mem: 111516
+('GRAND ', [0, 0, 2, 2])
+NBits: 135840 	NErrs: 30405 	BER: 2.2383E-01 	Time: 1.8344E+00 	Mem: 111516
+('GRAND ', [0, 1, 1, 0])
+NBits: 136352 	NErrs: 30520 	BER: 2.2383E-01 	Time: 1.8423E+00 	Mem: 111516
+('GRAND ', [0, 1, 1, 1])
+NBits: 136736 	NErrs: 30612 	BER: 2.2388E-01 	Time: 1.8482E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 136864 	NErrs: 30640 	BER: 2.2387E-01 	Time: 1.8526E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 137376 	NErrs: 30759 	BER: 2.2390E-01 	Time: 1.8550E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 137888 	NErrs: 30898 	BER: 2.2408E-01 	Time: 1.8629E+00 	Mem: 111516
+('GRAND ', [0, 1, 0, 1])
+NBits: 138432 	NErrs: 31022 	BER: 2.2410E-01 	Time: 1.8716E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 138912 	NErrs: 31133 	BER: 2.2412E-01 	Time: 1.8797E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 2])
+NBits: 139328 	NErrs: 31223 	BER: 2.2410E-01 	Time: 1.8865E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 2])
+NBits: 139712 	NErrs: 31324 	BER: 2.2420E-01 	Time: 1.8907E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 3])
+NBits: 140032 	NErrs: 31384 	BER: 2.2412E-01 	Time: 1.8946E+00 	Mem: 111516
+('GRAND ', [0, 1, 1, 1])
+NBits: 140416 	NErrs: 31469 	BER: 2.2411E-01 	Time: 1.9003E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 140704 	NErrs: 31549 	BER: 2.2422E-01 	Time: 1.9038E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 140832 	NErrs: 31583 	BER: 2.2426E-01 	Time: 1.9068E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 140896 	NErrs: 31597 	BER: 2.2426E-01 	Time: 1.9079E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 140960 	NErrs: 31605 	BER: 2.2421E-01 	Time: 1.9085E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 141024 	NErrs: 31623 	BER: 2.2424E-01 	Time: 1.9093E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 141056 	NErrs: 31633 	BER: 2.2426E-01 	Time: 1.9104E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 141152 	NErrs: 31661 	BER: 2.2430E-01 	Time: 1.9111E+00 	Mem: 111516
+('GRAND ', [0, 1, 0, 1])
+NBits: 141280 	NErrs: 31681 	BER: 2.2424E-01 	Time: 1.9120E+00 	Mem: 111516
+('GRAND ', [0, 1, 0, 0])
+NBits: 141408 	NErrs: 31708 	BER: 2.2423E-01 	Time: 1.9132E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 141536 	NErrs: 31726 	BER: 2.2415E-01 	Time: 1.9143E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 141664 	NErrs: 31758 	BER: 2.2418E-01 	Time: 1.9156E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 141728 	NErrs: 31772 	BER: 2.2418E-01 	Time: 1.9168E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 141792 	NErrs: 31791 	BER: 2.2421E-01 	Time: 1.9176E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 141888 	NErrs: 31818 	BER: 2.2425E-01 	Time: 1.9181E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 141952 	NErrs: 31828 	BER: 2.2422E-01 	Time: 1.9192E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 142016 	NErrs: 31846 	BER: 2.2424E-01 	Time: 1.9197E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 142112 	NErrs: 31870 	BER: 2.2426E-01 	Time: 1.9205E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 142176 	NErrs: 31885 	BER: 2.2426E-01 	Time: 1.9213E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 142304 	NErrs: 31916 	BER: 2.2428E-01 	Time: 1.9229E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 142432 	NErrs: 31943 	BER: 2.2427E-01 	Time: 1.9254E+00 	Mem: 111516
+('GRAND ', [1, 0, 0, 0])
+NBits: 142624 	NErrs: 31982 	BER: 2.2424E-01 	Time: 1.9272E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 142720 	NErrs: 32010 	BER: 2.2429E-01 	Time: 1.9286E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 142784 	NErrs: 32016 	BER: 2.2423E-01 	Time: 1.9297E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 142880 	NErrs: 32045 	BER: 2.2428E-01 	Time: 1.9307E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 142944 	NErrs: 32054 	BER: 2.2424E-01 	Time: 1.9320E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 143072 	NErrs: 32088 	BER: 2.2428E-01 	Time: 1.9330E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 1])
+NBits: 143168 	NErrs: 32105 	BER: 2.2425E-01 	Time: 1.9348E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 143264 	NErrs: 32135 	BER: 2.2431E-01 	Time: 1.9365E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 143360 	NErrs: 32155 	BER: 2.2430E-01 	Time: 1.9378E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 143456 	NErrs: 32191 	BER: 2.2440E-01 	Time: 1.9388E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 143552 	NErrs: 32222 	BER: 2.2446E-01 	Time: 1.9396E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 143616 	NErrs: 32236 	BER: 2.2446E-01 	Time: 1.9405E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 143680 	NErrs: 32247 	BER: 2.2444E-01 	Time: 1.9413E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 143776 	NErrs: 32272 	BER: 2.2446E-01 	Time: 1.9419E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 143840 	NErrs: 32291 	BER: 2.2449E-01 	Time: 1.9430E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 143904 	NErrs: 32308 	BER: 2.2451E-01 	Time: 1.9436E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 144000 	NErrs: 32336 	BER: 2.2456E-01 	Time: 1.9444E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 144096 	NErrs: 32362 	BER: 2.2459E-01 	Time: 1.9452E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 144192 	NErrs: 32378 	BER: 2.2455E-01 	Time: 1.9471E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 144320 	NErrs: 32418 	BER: 2.2463E-01 	Time: 1.9485E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 144448 	NErrs: 32448 	BER: 2.2463E-01 	Time: 1.9504E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 144544 	NErrs: 32470 	BER: 2.2464E-01 	Time: 1.9531E+00 	Mem: 111516
+('GRAND ', [1, 0, 1, 0])
+NBits: 144768 	NErrs: 32512 	BER: 2.2458E-01 	Time: 1.9553E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 144896 	NErrs: 32537 	BER: 2.2455E-01 	Time: 1.9589E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 144960 	NErrs: 32559 	BER: 2.2461E-01 	Time: 1.9602E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 145024 	NErrs: 32571 	BER: 2.2459E-01 	Time: 1.9608E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 145056 	NErrs: 32574 	BER: 2.2456E-01 	Time: 1.9616E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 145184 	NErrs: 32612 	BER: 2.2463E-01 	Time: 1.9620E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 145312 	NErrs: 32654 	BER: 2.2472E-01 	Time: 1.9636E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 145376 	NErrs: 32680 	BER: 2.2480E-01 	Time: 1.9647E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 145504 	NErrs: 32715 	BER: 2.2484E-01 	Time: 1.9656E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 145600 	NErrs: 32741 	BER: 2.2487E-01 	Time: 1.9671E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 145664 	NErrs: 32759 	BER: 2.2489E-01 	Time: 1.9682E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 145760 	NErrs: 32782 	BER: 2.2490E-01 	Time: 1.9687E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 145856 	NErrs: 32801 	BER: 2.2489E-01 	Time: 1.9699E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 145952 	NErrs: 32815 	BER: 2.2483E-01 	Time: 1.9707E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 146016 	NErrs: 32833 	BER: 2.2486E-01 	Time: 1.9719E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 146080 	NErrs: 32852 	BER: 2.2489E-01 	Time: 1.9724E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 146176 	NErrs: 32877 	BER: 2.2491E-01 	Time: 1.9733E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 146208 	NErrs: 32882 	BER: 2.2490E-01 	Time: 1.9741E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 2])
+NBits: 146304 	NErrs: 32894 	BER: 2.2483E-01 	Time: 1.9744E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 146432 	NErrs: 32927 	BER: 2.2486E-01 	Time: 1.9753E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 146560 	NErrs: 32963 	BER: 2.2491E-01 	Time: 1.9769E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 146656 	NErrs: 32979 	BER: 2.2487E-01 	Time: 1.9781E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 146688 	NErrs: 32986 	BER: 2.2487E-01 	Time: 1.9793E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 146816 	NErrs: 33018 	BER: 2.2489E-01 	Time: 1.9797E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 146944 	NErrs: 33043 	BER: 2.2487E-01 	Time: 1.9817E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 2])
+NBits: 147200 	NErrs: 33126 	BER: 2.2504E-01 	Time: 1.9841E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 147264 	NErrs: 33139 	BER: 2.2503E-01 	Time: 1.9866E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 147328 	NErrs: 33150 	BER: 2.2501E-01 	Time: 1.9872E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 147392 	NErrs: 33169 	BER: 2.2504E-01 	Time: 1.9880E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 147456 	NErrs: 33190 	BER: 2.2508E-01 	Time: 1.9886E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 147552 	NErrs: 33203 	BER: 2.2503E-01 	Time: 1.9896E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 147648 	NErrs: 33224 	BER: 2.2502E-01 	Time: 1.9905E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 147776 	NErrs: 33260 	BER: 2.2507E-01 	Time: 1.9916E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 147840 	NErrs: 33275 	BER: 2.2507E-01 	Time: 1.9928E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 147936 	NErrs: 33295 	BER: 2.2506E-01 	Time: 1.9937E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 148032 	NErrs: 33328 	BER: 2.2514E-01 	Time: 1.9944E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 148096 	NErrs: 33344 	BER: 2.2515E-01 	Time: 1.9953E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 148192 	NErrs: 33368 	BER: 2.2517E-01 	Time: 1.9958E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 148256 	NErrs: 33382 	BER: 2.2516E-01 	Time: 1.9978E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 148384 	NErrs: 33415 	BER: 2.2519E-01 	Time: 1.9984E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 148480 	NErrs: 33433 	BER: 2.2517E-01 	Time: 2.0000E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 148608 	NErrs: 33475 	BER: 2.2526E-01 	Time: 2.0009E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 148704 	NErrs: 33504 	BER: 2.2531E-01 	Time: 2.0023E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 148832 	NErrs: 33529 	BER: 2.2528E-01 	Time: 2.0032E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 148896 	NErrs: 33549 	BER: 2.2532E-01 	Time: 2.0051E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 148928 	NErrs: 33555 	BER: 2.2531E-01 	Time: 2.0056E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 149056 	NErrs: 33575 	BER: 2.2525E-01 	Time: 2.0059E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 149120 	NErrs: 33590 	BER: 2.2525E-01 	Time: 2.0071E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 149152 	NErrs: 33599 	BER: 2.2527E-01 	Time: 2.0082E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 149280 	NErrs: 33627 	BER: 2.2526E-01 	Time: 2.0088E+00 	Mem: 111516
+('GRAND ', [0, 1, 0, 0])
+NBits: 149376 	NErrs: 33645 	BER: 2.2524E-01 	Time: 2.0103E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 149472 	NErrs: 33667 	BER: 2.2524E-01 	Time: 2.0110E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 149536 	NErrs: 33684 	BER: 2.2526E-01 	Time: 2.0123E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 149632 	NErrs: 33708 	BER: 2.2527E-01 	Time: 2.0131E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 149664 	NErrs: 33719 	BER: 2.2530E-01 	Time: 2.0143E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 149760 	NErrs: 33750 	BER: 2.2536E-01 	Time: 2.0148E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 149888 	NErrs: 33783 	BER: 2.2539E-01 	Time: 2.0164E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 150016 	NErrs: 33805 	BER: 2.2534E-01 	Time: 2.0178E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 150112 	NErrs: 33827 	BER: 2.2535E-01 	Time: 2.0202E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 150176 	NErrs: 33834 	BER: 2.2530E-01 	Time: 2.0221E+00 	Mem: 111516
+('GRAND ', [0, 1, 0, 0])
+NBits: 150272 	NErrs: 33845 	BER: 2.2522E-01 	Time: 2.0234E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 150368 	NErrs: 33867 	BER: 2.2523E-01 	Time: 2.0241E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 150432 	NErrs: 33878 	BER: 2.2520E-01 	Time: 2.0249E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 150528 	NErrs: 33909 	BER: 2.2527E-01 	Time: 2.0255E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 150624 	NErrs: 33924 	BER: 2.2522E-01 	Time: 2.0263E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 150656 	NErrs: 33928 	BER: 2.2520E-01 	Time: 2.0276E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 150720 	NErrs: 33938 	BER: 2.2517E-01 	Time: 2.0278E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 150848 	NErrs: 33970 	BER: 2.2519E-01 	Time: 2.0285E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 150976 	NErrs: 33999 	BER: 2.2519E-01 	Time: 2.0295E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 151040 	NErrs: 34010 	BER: 2.2517E-01 	Time: 2.0308E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 151168 	NErrs: 34050 	BER: 2.2525E-01 	Time: 2.0313E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 151232 	NErrs: 34064 	BER: 2.2524E-01 	Time: 2.0329E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 151360 	NErrs: 34093 	BER: 2.2524E-01 	Time: 2.0339E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 151456 	NErrs: 34120 	BER: 2.2528E-01 	Time: 2.0359E+00 	Mem: 111516
+('GRAND ', [0, 1, 0, 0])
+NBits: 151616 	NErrs: 34154 	BER: 2.2527E-01 	Time: 2.0368E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 151712 	NErrs: 34169 	BER: 2.2522E-01 	Time: 2.0392E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 151776 	NErrs: 34189 	BER: 2.2526E-01 	Time: 2.0411E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 151840 	NErrs: 34205 	BER: 2.2527E-01 	Time: 2.0425E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 151936 	NErrs: 34219 	BER: 2.2522E-01 	Time: 2.0437E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 152064 	NErrs: 34256 	BER: 2.2527E-01 	Time: 2.0450E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 152192 	NErrs: 34289 	BER: 2.2530E-01 	Time: 2.0461E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 152288 	NErrs: 34314 	BER: 2.2532E-01 	Time: 2.0481E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 152448 	NErrs: 34342 	BER: 2.2527E-01 	Time: 2.0500E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 152512 	NErrs: 34362 	BER: 2.2531E-01 	Time: 2.0521E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 152672 	NErrs: 34398 	BER: 2.2531E-01 	Time: 2.0529E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 152800 	NErrs: 34431 	BER: 2.2533E-01 	Time: 2.0543E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 152864 	NErrs: 34446 	BER: 2.2534E-01 	Time: 2.0554E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 152896 	NErrs: 34454 	BER: 2.2534E-01 	Time: 2.0559E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 152960 	NErrs: 34469 	BER: 2.2535E-01 	Time: 2.0562E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 153024 	NErrs: 34479 	BER: 2.2532E-01 	Time: 2.0571E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 153120 	NErrs: 34506 	BER: 2.2535E-01 	Time: 2.0576E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 153216 	NErrs: 34522 	BER: 2.2532E-01 	Time: 2.0588E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 153312 	NErrs: 34550 	BER: 2.2536E-01 	Time: 2.0598E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 153408 	NErrs: 34566 	BER: 2.2532E-01 	Time: 2.0611E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 153472 	NErrs: 34584 	BER: 2.2534E-01 	Time: 2.0620E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 153568 	NErrs: 34602 	BER: 2.2532E-01 	Time: 2.0628E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 153632 	NErrs: 34613 	BER: 2.2530E-01 	Time: 2.0636E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 153760 	NErrs: 34641 	BER: 2.2529E-01 	Time: 2.0642E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 153824 	NErrs: 34652 	BER: 2.2527E-01 	Time: 2.0658E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 153856 	NErrs: 34660 	BER: 2.2528E-01 	Time: 2.0671E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 153920 	NErrs: 34679 	BER: 2.2531E-01 	Time: 2.0678E+00 	Mem: 111516
+('GRAND ', [0, 1, 0, 0])
+NBits: 154016 	NErrs: 34698 	BER: 2.2529E-01 	Time: 2.0690E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 154080 	NErrs: 34709 	BER: 2.2527E-01 	Time: 2.0697E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 154176 	NErrs: 34728 	BER: 2.2525E-01 	Time: 2.0706E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 154272 	NErrs: 34748 	BER: 2.2524E-01 	Time: 2.0715E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 154400 	NErrs: 34796 	BER: 2.2536E-01 	Time: 2.0730E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 154464 	NErrs: 34811 	BER: 2.2537E-01 	Time: 2.0745E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 154496 	NErrs: 34820 	BER: 2.2538E-01 	Time: 2.0755E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 154560 	NErrs: 34834 	BER: 2.2538E-01 	Time: 2.0759E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 154720 	NErrs: 34883 	BER: 2.2546E-01 	Time: 2.0764E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 154816 	NErrs: 34905 	BER: 2.2546E-01 	Time: 2.0778E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 154880 	NErrs: 34919 	BER: 2.2546E-01 	Time: 2.0791E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 155008 	NErrs: 34948 	BER: 2.2546E-01 	Time: 2.0805E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 155104 	NErrs: 34978 	BER: 2.2551E-01 	Time: 2.0820E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 155232 	NErrs: 34996 	BER: 2.2544E-01 	Time: 2.0841E+00 	Mem: 111516
+('GRAND ', [0, 1, 0, 1])
+NBits: 155488 	NErrs: 35050 	BER: 2.2542E-01 	Time: 2.0859E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 155712 	NErrs: 35110 	BER: 2.2548E-01 	Time: 2.0897E+00 	Mem: 111516
+('GRAND ', [1, 0, 0, 0])
+NBits: 155968 	NErrs: 35176 	BER: 2.2553E-01 	Time: 2.0927E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 156224 	NErrs: 35231 	BER: 2.2552E-01 	Time: 2.0959E+00 	Mem: 111516
+('GRAND ', [0, 1, 1, 1])
+NBits: 156608 	NErrs: 35309 	BER: 2.2546E-01 	Time: 2.1005E+00 	Mem: 111516
+('GRAND ', [0, 1, 1, 2])
+NBits: 157312 	NErrs: 35456 	BER: 2.2539E-01 	Time: 2.1077E+00 	Mem: 111516
+('GRAND ', [0, 1, 3, 0])
+NBits: 158016 	NErrs: 35616 	BER: 2.2539E-01 	Time: 2.1194E+00 	Mem: 111516
+('GRAND ', [0, 1, 3, 3])
+NBits: 158816 	NErrs: 35778 	BER: 2.2528E-01 	Time: 2.1316E+00 	Mem: 111516
+('GRAND ', [0, 1, 1, 0])
+NBits: 159456 	NErrs: 35931 	BER: 2.2533E-01 	Time: 2.1395E+00 	Mem: 111516
+('GRAND ', [1, 2, 2, 1])
+NBits: 160064 	NErrs: 36048 	BER: 2.2521E-01 	Time: 2.1492E+00 	Mem: 111516
+('GRAND ', [0, 0, 3, 2])
+NBits: 160576 	NErrs: 36144 	BER: 2.2509E-01 	Time: 2.1576E+00 	Mem: 111516
+('GRAND ', [1, 1, 2, 2])
+NBits: 160992 	NErrs: 36199 	BER: 2.2485E-01 	Time: 2.1646E+00 	Mem: 111516
+('GRAND ', [0, 2, 1, 0])
+NBits: 161536 	NErrs: 36314 	BER: 2.2480E-01 	Time: 2.1713E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 162176 	NErrs: 36467 	BER: 2.2486E-01 	Time: 2.1788E+00 	Mem: 111516
+('GRAND ', [1, 0, 0, 2])
+NBits: 162752 	NErrs: 36598 	BER: 2.2487E-01 	Time: 2.1876E+00 	Mem: 111516
+('GRAND ', [0, 2, 2, 2])
+NBits: 163328 	NErrs: 36700 	BER: 2.2470E-01 	Time: 2.1964E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 163552 	NErrs: 36750 	BER: 2.2470E-01 	Time: 2.2020E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 1])
+NBits: 163744 	NErrs: 36794 	BER: 2.2470E-01 	Time: 2.2050E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 163872 	NErrs: 36818 	BER: 2.2468E-01 	Time: 2.2071E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 164032 	NErrs: 36852 	BER: 2.2466E-01 	Time: 2.2083E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 1])
+NBits: 164256 	NErrs: 36898 	BER: 2.2464E-01 	Time: 2.2113E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 164448 	NErrs: 36930 	BER: 2.2457E-01 	Time: 2.2151E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 164512 	NErrs: 36943 	BER: 2.2456E-01 	Time: 2.2172E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 164576 	NErrs: 36953 	BER: 2.2453E-01 	Time: 2.2178E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 164704 	NErrs: 36973 	BER: 2.2448E-01 	Time: 2.2187E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 164768 	NErrs: 36988 	BER: 2.2449E-01 	Time: 2.2208E+00 	Mem: 111516
+('GRAND ', [0, 1, 0, 0])
+NBits: 164896 	NErrs: 37019 	BER: 2.2450E-01 	Time: 2.2221E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 164992 	NErrs: 37036 	BER: 2.2447E-01 	Time: 2.2232E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 2])
+NBits: 165088 	NErrs: 37053 	BER: 2.2444E-01 	Time: 2.2244E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 165152 	NErrs: 37063 	BER: 2.2442E-01 	Time: 2.2253E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 165280 	NErrs: 37096 	BER: 2.2444E-01 	Time: 2.2263E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 165344 	NErrs: 37109 	BER: 2.2444E-01 	Time: 2.2282E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 165376 	NErrs: 37117 	BER: 2.2444E-01 	Time: 2.2292E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 165472 	NErrs: 37141 	BER: 2.2445E-01 	Time: 2.2296E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 165600 	NErrs: 37164 	BER: 2.2442E-01 	Time: 2.2304E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 165696 	NErrs: 37189 	BER: 2.2444E-01 	Time: 2.2316E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 165792 	NErrs: 37212 	BER: 2.2445E-01 	Time: 2.2325E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 166016 	NErrs: 37271 	BER: 2.2450E-01 	Time: 2.2334E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 2])
+NBits: 166080 	NErrs: 37277 	BER: 2.2445E-01 	Time: 2.2357E+00 	Mem: 111516
+('GRAND ', [0, 1, 0, 0])
+NBits: 166208 	NErrs: 37303 	BER: 2.2444E-01 	Time: 2.2363E+00 	Mem: 111516
+('GRAND ', [0, 1, 0, 0])
+NBits: 166272 	NErrs: 37311 	BER: 2.2440E-01 	Time: 2.2377E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 166368 	NErrs: 37332 	BER: 2.2439E-01 	Time: 2.2382E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 166400 	NErrs: 37340 	BER: 2.2440E-01 	Time: 2.2393E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 166496 	NErrs: 37359 	BER: 2.2438E-01 	Time: 2.2396E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 166624 	NErrs: 37390 	BER: 2.2440E-01 	Time: 2.2408E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 166688 	NErrs: 37407 	BER: 2.2441E-01 	Time: 2.2419E+00 	Mem: 111516
+('GRAND ', [0, 1, 0, 0])
+NBits: 166752 	NErrs: 37412 	BER: 2.2436E-01 	Time: 2.2424E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 166880 	NErrs: 37442 	BER: 2.2436E-01 	Time: 2.2430E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 167040 	NErrs: 37492 	BER: 2.2445E-01 	Time: 2.2449E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 167104 	NErrs: 37504 	BER: 2.2444E-01 	Time: 2.2464E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 167264 	NErrs: 37553 	BER: 2.2451E-01 	Time: 2.2472E+00 	Mem: 111516
+('GRAND ', [1, 0, 0, 1])
+NBits: 167392 	NErrs: 37579 	BER: 2.2450E-01 	Time: 2.2501E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 167456 	NErrs: 37601 	BER: 2.2454E-01 	Time: 2.2515E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 167488 	NErrs: 37606 	BER: 2.2453E-01 	Time: 2.2527E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 167584 	NErrs: 37623 	BER: 2.2450E-01 	Time: 2.2531E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 167648 	NErrs: 37634 	BER: 2.2448E-01 	Time: 2.2544E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 167776 	NErrs: 37658 	BER: 2.2445E-01 	Time: 2.2554E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 167904 	NErrs: 37692 	BER: 2.2449E-01 	Time: 2.2572E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 167936 	NErrs: 37702 	BER: 2.2450E-01 	Time: 2.2584E+00 	Mem: 111516
+('GRAND ', [0, 1, 1, 0])
+NBits: 168032 	NErrs: 37716 	BER: 2.2446E-01 	Time: 2.2592E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 168128 	NErrs: 37734 	BER: 2.2444E-01 	Time: 2.2605E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 168192 	NErrs: 37751 	BER: 2.2445E-01 	Time: 2.2621E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 168288 	NErrs: 37773 	BER: 2.2445E-01 	Time: 2.2629E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 168320 	NErrs: 37781 	BER: 2.2446E-01 	Time: 2.2644E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 168448 	NErrs: 37804 	BER: 2.2443E-01 	Time: 2.2648E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 168576 	NErrs: 37830 	BER: 2.2441E-01 	Time: 2.2664E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 168704 	NErrs: 37855 	BER: 2.2439E-01 	Time: 2.2688E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 168800 	NErrs: 37884 	BER: 2.2443E-01 	Time: 2.2705E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 168864 	NErrs: 37897 	BER: 2.2442E-01 	Time: 2.2721E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 168992 	NErrs: 37919 	BER: 2.2438E-01 	Time: 2.2729E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 169184 	NErrs: 37966 	BER: 2.2441E-01 	Time: 2.2753E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 169312 	NErrs: 37989 	BER: 2.2437E-01 	Time: 2.2769E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 169408 	NErrs: 38010 	BER: 2.2437E-01 	Time: 2.2788E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 169504 	NErrs: 38036 	BER: 2.2440E-01 	Time: 2.2804E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 169760 	NErrs: 38106 	BER: 2.2447E-01 	Time: 2.2818E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 169920 	NErrs: 38143 	BER: 2.2448E-01 	Time: 2.2853E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 170016 	NErrs: 38164 	BER: 2.2447E-01 	Time: 2.2871E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 170112 	NErrs: 38186 	BER: 2.2448E-01 	Time: 2.2888E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 170208 	NErrs: 38212 	BER: 2.2450E-01 	Time: 2.2897E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 170272 	NErrs: 38227 	BER: 2.2451E-01 	Time: 2.2914E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 170336 	NErrs: 38234 	BER: 2.2446E-01 	Time: 2.2919E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 170368 	NErrs: 38241 	BER: 2.2446E-01 	Time: 2.2925E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 170464 	NErrs: 38261 	BER: 2.2445E-01 	Time: 2.2928E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 170560 	NErrs: 38280 	BER: 2.2444E-01 	Time: 2.2941E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 170624 	NErrs: 38299 	BER: 2.2446E-01 	Time: 2.2954E+00 	Mem: 111516
+('GRAND ', [0, 1, 0, 0])
+NBits: 170720 	NErrs: 38317 	BER: 2.2444E-01 	Time: 2.2968E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 170816 	NErrs: 38343 	BER: 2.2447E-01 	Time: 2.2980E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 170880 	NErrs: 38359 	BER: 2.2448E-01 	Time: 2.2995E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 170944 	NErrs: 38380 	BER: 2.2452E-01 	Time: 2.3004E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 171008 	NErrs: 38388 	BER: 2.2448E-01 	Time: 2.3009E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 171072 	NErrs: 38403 	BER: 2.2448E-01 	Time: 2.3014E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 171136 	NErrs: 38418 	BER: 2.2449E-01 	Time: 2.3019E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 171296 	NErrs: 38456 	BER: 2.2450E-01 	Time: 2.3025E+00 	Mem: 111516
+('GRAND ', [0, 1, 0, 0])
+NBits: 171392 	NErrs: 38468 	BER: 2.2444E-01 	Time: 2.3041E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 171488 	NErrs: 38498 	BER: 2.2449E-01 	Time: 2.3048E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 171584 	NErrs: 38517 	BER: 2.2448E-01 	Time: 2.3055E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 0])
+NBits: 171680 	NErrs: 38532 	BER: 2.2444E-01 	Time: 2.3063E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 1])
+NBits: 171744 	NErrs: 38537 	BER: 2.2439E-01 	Time: 2.3071E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 171872 	NErrs: 38567 	BER: 2.2439E-01 	Time: 2.3077E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 171936 	NErrs: 38582 	BER: 2.2440E-01 	Time: 2.3090E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 172032 	NErrs: 38612 	BER: 2.2445E-01 	Time: 2.3096E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 172160 	NErrs: 38644 	BER: 2.2447E-01 	Time: 2.3111E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 172256 	NErrs: 38669 	BER: 2.2449E-01 	Time: 2.3122E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 0])
+NBits: 172384 	NErrs: 38704 	BER: 2.2452E-01 	Time: 2.3140E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 172576 	NErrs: 38738 	BER: 2.2447E-01 	Time: 2.3163E+00 	Mem: 111516
+('GRAND ', [0, 1, 0, 0])
+NBits: 172768 	NErrs: 38766 	BER: 2.2438E-01 	Time: 2.3198E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 172928 	NErrs: 38811 	BER: 2.2443E-01 	Time: 2.3230E+00 	Mem: 111516
+('GRAND ', [1, 0, 0, 0])
+NBits: 173152 	NErrs: 38856 	BER: 2.2440E-01 	Time: 2.3265E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 173408 	NErrs: 38927 	BER: 2.2448E-01 	Time: 2.3292E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 1])
+NBits: 173696 	NErrs: 39008 	BER: 2.2458E-01 	Time: 2.3332E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 2])
+NBits: 174176 	NErrs: 39110 	BER: 2.2454E-01 	Time: 2.3386E+00 	Mem: 111516
+('GRAND ', [0, 1, 1, 3])
+NBits: 174912 	NErrs: 39274 	BER: 2.2454E-01 	Time: 2.3454E+00 	Mem: 111516
+('GRAND ', [1, 2, 0, 2])
+NBits: 175840 	NErrs: 39488 	BER: 2.2457E-01 	Time: 2.3568E+00 	Mem: 111516
+('GRAND ', [0, 0, 0, 2])
+NBits: 176800 	NErrs: 39726 	BER: 2.2469E-01 	Time: 2.3713E+00 	Mem: 111516
+('GRAND ', [0, 1, 0, 4])
+NBits: 177696 	NErrs: 39926 	BER: 2.2469E-01 	Time: 2.3814E+00 	Mem: 111516
+('GRAND ', [3, 0, 1, 4])
+NBits: 178784 	NErrs: 40164 	BER: 2.2465E-01 	Time: 2.3952E+00 	Mem: 111516
+('GRAND ', [0, 0, 1, 2])
+NBits: 179648 	NErrs: 40372 	BER: 2.2473E-01 	Time: 2.4067E+00 	Mem: 111516
+('GRAND ', [0, 0, 5, 5])
+NBits: 180736 	NErrs: 40623 	BER: 2.2476E-01 	Time: 2.4223E+00 	Mem: 111516
+('GRAND ', [0, 1, 2, 6])
+NBits: 182496 	NErrs: 41000 	BER: 2.2466E-01 	Time: 2.4420E+00 	Mem: 111516
+('GRAND ', [1, 4, 5, 4])
+NBits: 184448 	NErrs: 41380 	BER: 2.2435E-01 	Time: 2.4694E+00 	Mem: 111516
+('GRAND ', [0, 3, 6, 5])
+NBits: 186688 	NErrs: 41840 	BER: 2.2412E-01 	Time: 2.4955E+00 	Mem: 111516
+('GRAND ', [0, 2, 1, 2])
+NBits: 188192 	NErrs: 42203 	BER: 2.2426E-01 	Time: 2.5177E+00 	Mem: 111516
+('GRAND ', [0, 2, 1, 2])
+NBits: 189184 	NErrs: 42385 	BER: 2.2404E-01 	Time: 2.5346E+00 	Mem: 111516
+('GRAND ', [0, 1, 4, 2])
+NBits: 190176 	NErrs: 42610 	BER: 2.2406E-01 	Time: 2.5489E+00 	Mem: 111516
+('GRAND ', [0, 2, 2, 4])
+NBits: 191680 	NErrs: 42964 	BER: 2.2414E-01 	Time: 2.5675E+00 	Mem: 111516
+('GRAND ', [0, 3, 3, 3])
+NBits: 193088 	NErrs: 43241 	BER: 2.2394E-01 	Time: 2.5848E+00 	Mem: 111516
+('GRAND ', [0, 2, 4, 0])
+NBits: 194016 	NErrs: 43448 	BER: 2.2394E-01 	Time: 2.6018E+00 	Mem: 111516
+('GRAND ', [0, 1, 2, 4])
+NBits: 194944 	NErrs: 43655 	BER: 2.2394E-01 	Time: 2.6123E+00 	Mem: 111516
+('GRAND ', [0, 3, 3, 1])
+NBits: 195904 	NErrs: 43863 	BER: 2.2390E-01 	Time: 2.6250E+00 	Mem: 111516
+('GRAND ', [0, 2, 1, 3])
+NBits: 196896 	NErrs: 44069 	BER: 2.2382E-01 	Time: 2.6390E+00 	Mem: 111516
+('GRAND ', [1, 0, 2, 3])
+NBits: 198272 	NErrs: 44364 	BER: 2.2375E-01 	Time: 2.6575E+00 	Mem: 111516
+('GRAND ', [0, 2, 2, 3])
+NBits: 199744 	NErrs: 44694 	BER: 2.2376E-01 	Time: 2.6793E+00 	Mem: 111516
+('GRAND ', [0, 2, 3, 2])
+NBits: 201088 	NErrs: 44998 	BER: 2.2377E-01 	Time: 2.6999E+00 	Mem: 111516
+('GRAND ', [2, 1, 4, 3])
+NBits: 202304 	NErrs: 45261 	BER: 2.2373E-01 	Time: 2.7181E+00 	Mem: 111516
+('GRAND ', [1, 1, 5, 3])
+NBits: 203648 	NErrs: 45522 	BER: 2.2353E-01 	Time: 2.7374E+00 	Mem: 111516
+('GRAND ', [0, 1, 8, 6])
+NBits: 205472 	NErrs: 45875 	BER: 2.2327E-01 	Time: 2.7602E+00 	Mem: 111516
+('GRAND ', [1, 2, 6, 7])
+NBits: 207552 	NErrs: 46343 	BER: 2.2328E-01 	Time: 2.7901E+00 	Mem: 111516
+('GRAND ', [0, 2, 3, 6])
+NBits: 209408 	NErrs: 46753 	BER: 2.2326E-01 	Time: 2.8159E+00 	Mem: 111516
+('GRAND ', [1, 2, 2, 6])
+NBits: 211552 	NErrs: 47220 	BER: 2.2321E-01 	Time: 2.8452E+00 	Mem: 111516
+('GRAND ', [2, 1, 4, 9])
+NBits: 213760 	NErrs: 47694 	BER: 2.2312E-01 	Time: 2.8752E+00 	Mem: 111516
+('GRAND ', [1, 7, 4, 8])
+NBits: 216256 	NErrs: 48233 	BER: 2.2304E-01 	Time: 2.9066E+00 	Mem: 111516
+('GRAND ', [2, 2, 9, 9])
+NBits: 219552 	NErrs: 49005 	BER: 2.2320E-01 	Time: 2.9485E+00 	Mem: 111516
+('GRAND ', [0, 3, 10, 9])
+NBits: 223168 	NErrs: 49755 	BER: 2.2295E-01 	Time: 2.9964E+00 	Mem: 111516
+('GRAND ', [0, 8, 4, 17])
+NBits: 227136 	NErrs: 50586 	BER: 2.2271E-01 	Time: 3.0514E+00 	Mem: 111516
+('GRAND ', [2, 4, 7, 17])
+NBits: 231872 	NErrs: 51556 	BER: 2.2235E-01 	Time: 3.1150E+00 	Mem: 111516
+('GRAND ', [3, 6, 12, 16])
+NBits: 236896 	NErrs: 52599 	BER: 2.2203E-01 	Time: 3.1847E+00 	Mem: 111516
+('GRAND ', [3, 12, 13, 16])
+NBits: 242368 	NErrs: 53736 	BER: 2.2171E-01 	Time: 3.2550E+00 	Mem: 111516
+('GRAND ', [1, 7, 16, 15])
+NBits: 247840 	NErrs: 54849 	BER: 2.2131E-01 	Time: 3.3280E+00 	Mem: 111516
+('GRAND ', [2, 6, 15, 11])
+NBits: 253120 	NErrs: 56028 	BER: 2.2135E-01 	Time: 3.3994E+00 	Mem: 111516
+('GRAND ', [3, 9, 13, 11])
+NBits: 258336 	NErrs: 57068 	BER: 2.2091E-01 	Time: 3.4690E+00 	Mem: 111516
+('GRAND ', [4, 7, 13, 17])
+NBits: 262976 	NErrs: 57987 	BER: 2.2050E-01 	Time: 3.5284E+00 	Mem: 111516
+('GRAND ', [2, 5, 16, 16])
+NBits: 267616 	NErrs: 58957 	BER: 2.2030E-01 	Time: 3.5829E+00 	Mem: 111516
+('GRAND ', [2, 7, 17, 13])
+NBits: 272416 	NErrs: 59918 	BER: 2.1995E-01 	Time: 3.6448E+00 	Mem: 111516
+('GRAND ', [3, 4, 14, 13])
+NBits: 277408 	NErrs: 60897 	BER: 2.1952E-01 	Time: 3.7086E+00 	Mem: 111516
+('GRAND ', [3, 9, 20, 21])
+NBits: 282720 	NErrs: 61918 	BER: 2.1901E-01 	Time: 3.7776E+00 	Mem: 111516
+('GRAND ', [6, 23, 12, 21])
+NBits: 288480 	NErrs: 62991 	BER: 2.1835E-01 	Time: 3.8509E+00 	Mem: 111744
+('GRAND ', [8, 21, 32, 44])
+NBits: 299168 	NErrs: 64926 	BER: 2.1702E-01 	Time: 3.9907E+00 	Mem: 111744
+('GRAND ', [6, 21, 36, 35])
+NBits: 309472 	NErrs: 66837 	BER: 2.1597E-01 	Time: 4.1262E+00 	Mem: 111744
+('GRAND ', [9, 22, 31, 37])
+NBits: 320000 	NErrs: 68820 	BER: 2.1506E-01 	Time: 4.2662E+00 	Mem: 111744
+('GRAND ', [6, 25, 43, 41])
+NBits: 332160 	NErrs: 71074 	BER: 2.1398E-01 	Time: 4.4204E+00 	Mem: 111744
+('GRAND ', [14, 16, 38, 40])
+NBits: 344704 	NErrs: 73519 	BER: 2.1328E-01 	Time: 4.5869E+00 	Mem: 111744
+('GRAND ', [6, 25, 36, 55])
+NBits: 357216 	NErrs: 75971 	BER: 2.1268E-01 	Time: 4.7498E+00 	Mem: 111744
+('GRAND ', [3, 19, 31, 44])
+NBits: 368544 	NErrs: 78199 	BER: 2.1218E-01 	Time: 4.9078E+00 	Mem: 111744
+('GRAND ', [5, 21, 28, 34])
+NBits: 380992 	NErrs: 80743 	BER: 2.1193E-01 	Time: 5.0758E+00 	Mem: 111744
+('GRAND ', [7, 20, 43, 45])
+NBits: 393984 	NErrs: 83182 	BER: 2.1113E-01 	Time: 5.2638E+00 	Mem: 111744
+('GRAND ', [13, 33, 54, 57])
+NBits: 409472 	NErrs: 85795 	BER: 2.0953E-01 	Time: 5.4623E+00 	Mem: 111744
+('GRAND ', [15, 34, 55, 59])
+NBits: 424992 	NErrs: 88469 	BER: 2.0817E-01 	Time: 5.6590E+00 	Mem: 111744
+('GRAND ', [15, 37, 46, 50])
+NBits: 440128 	NErrs: 91119 	BER: 2.0703E-01 	Time: 5.8545E+00 	Mem: 111744
+('GRAND ', [13, 31, 44, 66])
+NBits: 454752 	NErrs: 93663 	BER: 2.0597E-01 	Time: 6.0516E+00 	Mem: 111744
+('GRAND ', [11, 30, 47, 53])
+NBits: 468384 	NErrs: 95993 	BER: 2.0495E-01 	Time: 6.2383E+00 	Mem: 111744
+('GRAND ', [14, 19, 35, 43])
+NBits: 480704 	NErrs: 98261 	BER: 2.0441E-01 	Time: 6.4033E+00 	Mem: 111744
+('GRAND ', [6, 22, 31, 50])
+NBits: 492480 	NErrs: 100448 	BER: 2.0396E-01 	Time: 6.5649E+00 	Mem: 111744
+('GRAND ', [8, 26, 37, 28])
+NBits: 504288 	NErrs: 102677 	BER: 2.0361E-01 	Time: 6.7190E+00 	Mem: 111744
+('GRAND ', [9, 16, 37, 35])
+NBits: 515296 	NErrs: 104746 	BER: 2.0327E-01 	Time: 6.8579E+00 	Mem: 111744
+('GRAND ', [6, 22, 33, 39])
+NBits: 526592 	NErrs: 106888 	BER: 2.0298E-01 	Time: 7.0077E+00 	Mem: 111744
+('GRAND ', [6, 16, 24, 35])
+NBits: 537120 	NErrs: 109020 	BER: 2.0297E-01 	Time: 7.1471E+00 	Mem: 111744
+('GRAND ', [5, 13, 18, 36])
+NBits: 546272 	NErrs: 110796 	BER: 2.0282E-01 	Time: 7.2753E+00 	Mem: 111744
+('GRAND ', [5, 19, 32, 39])
+NBits: 557056 	NErrs: 112863 	BER: 2.0261E-01 	Time: 7.4141E+00 	Mem: 111744
+('GRAND ', [8, 21, 35, 44])
+NBits: 568960 	NErrs: 115077 	BER: 2.0226E-01 	Time: 7.5616E+00 	Mem: 111744
+('GRAND ', [10, 22, 36, 33])
+NBits: 581984 	NErrs: 117695 	BER: 2.0223E-01 	Time: 7.7290E+00 	Mem: 111744
+('GRAND ', [11, 13, 27, 26])
+NBits: 594784 	NErrs: 120553 	BER: 2.0268E-01 	Time: 7.9009E+00 	Mem: 111744
+('GRAND ', [8, 17, 35, 51])
+NBits: 610016 	NErrs: 123787 	BER: 2.0292E-01 	Time: 8.0989E+00 	Mem: 111744
+('GRAND ', [15, 15, 23, 52])
+NBits: 625152 	NErrs: 127053 	BER: 2.0324E-01 	Time: 8.2912E+00 	Mem: 111744
+('GRAND ', [9, 17, 27, 35])
+NBits: 639744 	NErrs: 130284 	BER: 2.0365E-01 	Time: 8.4875E+00 	Mem: 111744
+('GRAND ', [4, 12, 21, 37])
+NBits: 654752 	NErrs: 133600 	BER: 2.0405E-01 	Time: 8.6850E+00 	Mem: 111744
+('GRAND ', [5, 13, 38, 44])
+NBits: 670208 	NErrs: 136831 	BER: 2.0416E-01 	Time: 8.8869E+00 	Mem: 111744
+('GRAND ', [9, 20, 35, 35])
+NBits: 686048 	NErrs: 140224 	BER: 2.0439E-01 	Time: 9.1025E+00 	Mem: 111744
+('GRAND ', [9, 24, 36, 53])
+NBits: 703840 	NErrs: 144091 	BER: 2.0472E-01 	Time: 9.3284E+00 	Mem: 111744
+('GRAND ', [12, 26, 42, 64])
+NBits: 722560 	NErrs: 147952 	BER: 2.0476E-01 	Time: 9.5743E+00 	Mem: 111744
+('GRAND ', [7, 32, 40, 61])
+NBits: 743360 	NErrs: 152431 	BER: 2.0506E-01 	Time: 9.8363E+00 	Mem: 111744
+('GRAND ', [9, 25, 38, 62])
+NBits: 764320 	NErrs: 156892 	BER: 2.0527E-01 	Time: 1.0127E+01 	Mem: 111744
+('GRAND ', [7, 31, 48, 63])
+NBits: 783872 	NErrs: 160974 	BER: 2.0536E-01 	Time: 1.0393E+01 	Mem: 111744
+('GRAND ', [9, 33, 48, 80])
+NBits: 804128 	NErrs: 164965 	BER: 2.0515E-01 	Time: 1.0663E+01 	Mem: 111744
+('GRAND ', [14, 33, 41, 80])
+NBits: 825056 	NErrs: 169023 	BER: 2.0486E-01 	Time: 1.0950E+01 	Mem: 111744
+('GRAND ', [13, 42, 65, 64])
+NBits: 846592 	NErrs: 173223 	BER: 2.0461E-01 	Time: 1.1231E+01 	Mem: 111744
+('GRAND ', [7, 28, 42, 66])
+NBits: 868320 	NErrs: 177996 	BER: 2.0499E-01 	Time: 1.1521E+01 	Mem: 111744
+('GRAND ', [13, 26, 41, 56])
+NBits: 891392 	NErrs: 183330 	BER: 2.0567E-01 	Time: 1.1815E+01 	Mem: 111744
+('GRAND ', [7, 22, 35, 54])
+NBits: 914528 	NErrs: 188876 	BER: 2.0653E-01 	Time: 1.2115E+01 	Mem: 111744
+('GRAND ', [4, 9, 29, 48])
+NBits: 938912 	NErrs: 195014 	BER: 2.0770E-01 	Time: 1.2470E+01 	Mem: 111744
+('GRAND ', [7, 10, 30, 35])
+NBits: 961056 	NErrs: 200502 	BER: 2.0863E-01 	Time: 1.2807E+01 	Mem: 111744
+('GRAND ', [4, 16, 35, 43])
+NBits: 985920 	NErrs: 206714 	BER: 2.0967E-01 	Time: 1.3153E+01 	Mem: 111744
+('GRAND ', [9, 37, 43, 64])
+NBits: 1014336 	NErrs: 213399 	BER: 2.1038E-01 	Time: 1.3521E+01 	Mem: 111744
+('GRAND ', [8, 20, 45, 57])
+NBits: 1043616 	NErrs: 220444 	BER: 2.1123E-01 	Time: 1.3926E+01 	Mem: 111744
+('GRAND ', [5, 24, 47, 58])
+NBits: 1073440 	NErrs: 227752 	BER: 2.1217E-01 	Time: 1.4338E+01 	Mem: 111744
+('GRAND ', [5, 20, 38, 41])
+NBits: 1099840 	NErrs: 234319 	BER: 2.1305E-01 	Time: 1.4722E+01 	Mem: 111744
+('GRAND ', [9, 27, 35, 58])
+NBits: 1128128 	NErrs: 241119 	BER: 2.1373E-01 	Time: 1.5121E+01 	Mem: 111744
+('GRAND ', [6, 26, 40, 54])
+NBits: 1156672 	NErrs: 248212 	BER: 2.1459E-01 	Time: 1.5523E+01 	Mem: 111744
+('GRAND ', [16, 20, 40, 59])
+NBits: 1188064 	NErrs: 255924 	BER: 2.1541E-01 	Time: 1.5940E+01 	Mem: 112004
+('GRAND ', [6, 25, 37, 58])
+NBits: 1218496 	NErrs: 263591 	BER: 2.1632E-01 	Time: 1.6366E+01 	Mem: 112004
+('GRAND ', [3, 11, 32, 39])
+NBits: 1250496 	NErrs: 272344 	BER: 2.1779E-01 	Time: 1.6809E+01 	Mem: 112004
+('GRAND ', [4, 12, 41, 49])
+NBits: 1282848 	NErrs: 280968 	BER: 2.1902E-01 	Time: 1.7249E+01 	Mem: 112004
+('GRAND ', [5, 16, 39, 55])
+NBits: 1315968 	NErrs: 289772 	BER: 2.2020E-01 	Time: 1.7708E+01 	Mem: 112004
+('GRAND ', [4, 10, 31, 51])
+NBits: 1348352 	NErrs: 298455 	BER: 2.2135E-01 	Time: 1.8181E+01 	Mem: 112004
+('GRAND ', [4, 12, 30, 47])
+NBits: 1380992 	NErrs: 307310 	BER: 2.2253E-01 	Time: 1.8622E+01 	Mem: 112004
+('GRAND ', [3, 19, 33, 50])
+NBits: 1413312 	NErrs: 316024 	BER: 2.2361E-01 	Time: 1.9079E+01 	Mem: 112004
+('GRAND ', [8, 16, 39, 50])
+NBits: 1444704 	NErrs: 324107 	BER: 2.2434E-01 	Time: 1.9527E+01 	Mem: 112004
+('GRAND ', [8, 22, 36, 74])
+NBits: 1478208 	NErrs: 332650 	BER: 2.2504E-01 	Time: 1.9980E+01 	Mem: 112004
+('GRAND ', [6, 23, 43, 61])
+NBits: 1510208 	NErrs: 340543 	BER: 2.2549E-01 	Time: 2.0458E+01 	Mem: 112004
+('GRAND ', [9, 15, 33, 53])
+NBits: 1541312 	NErrs: 348724 	BER: 2.2625E-01 	Time: 2.0863E+01 	Mem: 112004
+('GRAND ', [4, 10, 23, 25])
+NBits: 1571136 	NErrs: 357165 	BER: 2.2733E-01 	Time: 2.1291E+01 	Mem: 112004
+('GRAND ', [3, 10, 23, 43])
+NBits: 1601248 	NErrs: 365353 	BER: 2.2817E-01 	Time: 2.1729E+01 	Mem: 112004
+('GRAND ', [4, 5, 20, 25])
+NBits: 1636512 	NErrs: 375773 	BER: 2.2962E-01 	Time: 2.2159E+01 	Mem: 112004
+('GRAND ', [0, 3, 5, 20])
+NBits: 1666752 	NErrs: 385360 	BER: 2.3120E-01 	Time: 2.2642E+01 	Mem: 112004
+('GRAND ', [0, 10, 11, 25])
+NBits: 1698816 	NErrs: 395127 	BER: 2.3259E-01 	Time: 2.3097E+01 	Mem: 112004
+('GRAND ', [0, 6, 9, 18])
+NBits: 1730432 	NErrs: 404958 	BER: 2.3402E-01 	Time: 2.3514E+01 	Mem: 112004
+('GRAND ', [1, 1, 3, 12])
+NBits: 1764320 	NErrs: 416122 	BER: 2.3585E-01 	Time: 2.3947E+01 	Mem: 112004
+('GRAND ', [0, 2, 4, 16])
+NBits: 1795936 	NErrs: 426270 	BER: 2.3735E-01 	Time: 2.4432E+01 	Mem: 112004
+('GRAND ', [2, 3, 8, 14])
+NBits: 1829824 	NErrs: 437272 	BER: 2.3897E-01 	Time: 2.4926E+01 	Mem: 112004
+('GRAND ', [1, 8, 19, 45])
+NBits: 1861440 	NErrs: 446305 	BER: 2.3976E-01 	Time: 2.5368E+01 	Mem: 112004
+('GRAND ', [12, 26, 45, 57])
+NBits: 1895328 	NErrs: 455155 	BER: 2.4015E-01 	Time: 2.5790E+01 	Mem: 112004
+('GRAND ', [7, 20, 44, 59])
+NBits: 1926944 	NErrs: 463054 	BER: 2.4030E-01 	Time: 2.6272E+01 	Mem: 112004
+('GRAND ', [12, 36, 68, 80])
+NBits: 1960832 	NErrs: 470890 	BER: 2.4015E-01 	Time: 2.6767E+01 	Mem: 112004
+('GRAND ', [10, 27, 54, 73])
+NBits: 1992448 	NErrs: 478329 	BER: 2.4007E-01 	Time: 2.7338E+01 	Mem: 112004
+('GRAND ', [12, 28, 52, 75])
+NBits: 2026336 	NErrs: 486312 	BER: 2.4000E-01 	Time: 2.7819E+01 	Mem: 112004
+('GRAND ', [12, 38, 72, 77])
+NBits: 2057952 	NErrs: 493403 	BER: 2.3975E-01 	Time: 2.8357E+01 	Mem: 112004
+('GRAND ', [17, 50, 79, 89])
+NBits: 2091840 	NErrs: 500766 	BER: 2.3939E-01 	Time: 2.8890E+01 	Mem: 112004
+('GRAND ', [31, 42, 70, 86])
+NBits: 2123456 	NErrs: 507532 	BER: 2.3901E-01 	Time: 2.9421E+01 	Mem: 112004
+('GRAND ', [17, 54, 90, 92])
+NBits: 2157344 	NErrs: 514540 	BER: 2.3851E-01 	Time: 2.9892E+01 	Mem: 112004
+('GRAND ', [16, 36, 75, 84])
+NBits: 2188960 	NErrs: 521195 	BER: 2.3810E-01 	Time: 3.0396E+01 	Mem: 112004
+('GRAND ', [32, 81, 138, 153])
+NBits: 2239200 	NErrs: 531152 	BER: 2.3721E-01 	Time: 3.0878E+01 	Mem: 112004
+('GRAND ', [9, 24, 37, 47])
+NBits: 2254464 	NErrs: 534234 	BER: 2.3697E-01 	Time: 3.1784E+01 	Mem: 112004
+('GRAND ', [26, 74, 125, 139])
+NBits: 2296224 	NErrs: 542512 	BER: 2.3626E-01 	Time: 3.2014E+01 	Mem: 112004
+('GRAND ', [15, 41, 55, 82])
+NBits: 2319968 	NErrs: 547326 	BER: 2.3592E-01 	Time: 3.2558E+01 	Mem: 112004
+('GRAND ', [32, 88, 130, 147])
+NBits: 2361728 	NErrs: 555161 	BER: 2.3507E-01 	Time: 3.2873E+01 	Mem: 112004
+('GRAND ', [22, 50, 67, 108])
+NBits: 2385472 	NErrs: 559364 	BER: 2.3449E-01 	Time: 3.3455E+01 	Mem: 112004
+('GRAND ', [33, 98, 124, 169])
+NBits: 2427232 	NErrs: 566791 	BER: 2.3351E-01 	Time: 3.3786E+01 	Mem: 112004
+('GRAND ', [15, 48, 92, 69])
+NBits: 2450976 	NErrs: 571135 	BER: 2.3302E-01 	Time: 3.4474E+01 	Mem: 112004
+('GRAND ', [37, 99, 145, 153])
+NBits: 2492736 	NErrs: 578506 	BER: 2.3208E-01 	Time: 3.4810E+01 	Mem: 112004
+('GRAND ', [13, 38, 62, 75])
+NBits: 2516480 	NErrs: 583256 	BER: 2.3177E-01 	Time: 3.5412E+01 	Mem: 112004
+('GRAND ', [29, 69, 124, 135])
+NBits: 2558240 	NErrs: 591535 	BER: 2.3123E-01 	Time: 3.5751E+01 	Mem: 112004
+('GRAND ', [18, 56, 57, 97])
+NBits: 2581984 	NErrs: 595956 	BER: 2.3081E-01 	Time: 3.6418E+01 	Mem: 112004
+('GRAND ', [27, 77, 119, 142])
+NBits: 2623744 	NErrs: 603907 	BER: 2.3017E-01 	Time: 3.6751E+01 	Mem: 112004
+('GRAND ', [23, 49, 82, 85])
+NBits: 2647488 	NErrs: 608216 	BER: 2.2973E-01 	Time: 3.7386E+01 	Mem: 112004
+('GRAND ', [26, 73, 124, 166])
+NBits: 2689248 	NErrs: 616050 	BER: 2.2908E-01 	Time: 3.7733E+01 	Mem: 112004
+('GRAND ', [21, 31, 91, 95])
+NBits: 2712992 	NErrs: 620360 	BER: 2.2866E-01 	Time: 3.8455E+01 	Mem: 112004
+('GRAND ', [30, 79, 141, 149])
+NBits: 2754752 	NErrs: 627952 	BER: 2.2795E-01 	Time: 3.8785E+01 	Mem: 112004
+('GRAND ', [13, 43, 91, 93])
+NBits: 2778496 	NErrs: 632206 	BER: 2.2754E-01 	Time: 3.9426E+01 	Mem: 112004
+('GRAND ', [39, 102, 141, 167])
+NBits: 2820256 	NErrs: 639550 	BER: 2.2677E-01 	Time: 3.9765E+01 	Mem: 112004
+('GRAND ', [16, 52, 90, 83])
+NBits: 2844000 	NErrs: 643668 	BER: 2.2632E-01 	Time: 4.0483E+01 	Mem: 112004
+('GRAND ', [22, 101, 160, 159])
+NBits: 2885760 	NErrs: 650905 	BER: 2.2556E-01 	Time: 4.0824E+01 	Mem: 112004
+('GRAND ', [23, 62, 111, 114])
+NBits: 2909504 	NErrs: 654553 	BER: 2.2497E-01 	Time: 4.1476E+01 	Mem: 112004
+('GRAND ', [35, 130, 198, 163])
+NBits: 2951264 	NErrs: 660819 	BER: 2.2391E-01 	Time: 4.1828E+01 	Mem: 112004
+('GRAND ', [29, 79, 116, 104])
+NBits: 2975008 	NErrs: 664320 	BER: 2.2330E-01 	Time: 4.2483E+01 	Mem: 112004
+('GRAND ', [51, 143, 193, 198])
+NBits: 3016768 	NErrs: 670285 	BER: 2.2219E-01 	Time: 4.2800E+01 	Mem: 112004
+('GRAND ', [23, 87, 101, 127])
+NBits: 3040512 	NErrs: 673629 	BER: 2.2155E-01 	Time: 4.3512E+01 	Mem: 112004
+('GRAND ', [73, 155, 229, 224])
+NBits: 3082272 	NErrs: 678971 	BER: 2.2028E-01 	Time: 4.3811E+01 	Mem: 112004
+('GRAND ', [43, 83, 136, 114])
+NBits: 3106016 	NErrs: 682093 	BER: 2.1960E-01 	Time: 4.4634E+01 	Mem: 112004
+('GRAND ', [48, 135, 203, 219])
+NBits: 3147776 	NErrs: 687891 	BER: 2.1853E-01 	Time: 4.4940E+01 	Mem: 112004
+('GRAND ', [49, 79, 121, 127])
+NBits: 3171520 	NErrs: 691056 	BER: 2.1789E-01 	Time: 4.5665E+01 	Mem: 112004
+('GRAND ', [59, 143, 217, 211])
+NBits: 3213280 	NErrs: 696736 	BER: 2.1683E-01 	Time: 4.5957E+01 	Mem: 112004
+('GRAND ', [33, 87, 121, 123])
+NBits: 3237024 	NErrs: 699933 	BER: 2.1623E-01 	Time: 4.6686E+01 	Mem: 112004
+('GRAND ', [60, 157, 236, 207])
+NBits: 3278784 	NErrs: 705386 	BER: 2.1514E-01 	Time: 4.7021E+01 	Mem: 112004
+('GRAND ', [38, 93, 136, 123])
+NBits: 3302528 	NErrs: 708422 	BER: 2.1451E-01 	Time: 4.7702E+01 	Mem: 112004
+('GRAND ', [51, 138, 199, 206])
+NBits: 3344288 	NErrs: 714222 	BER: 2.1356E-01 	Time: 4.8020E+01 	Mem: 112004
+('GRAND ', [33, 47, 100, 117])
+NBits: 3368032 	NErrs: 717925 	BER: 2.1316E-01 	Time: 4.8691E+01 	Mem: 112004
+('GRAND ', [51, 129, 174, 207])
+NBits: 3409792 	NErrs: 724059 	BER: 2.1235E-01 	Time: 4.9040E+01 	Mem: 112004
+('GRAND ', [33, 124, 181, 195])
+NBits: 3449888 	NErrs: 730041 	BER: 2.1161E-01 	Time: 4.9637E+01 	Mem: 112004
+('GRAND ', [39, 120, 162, 162])
+NBits: 3491648 	NErrs: 736540 	BER: 2.1094E-01 	Time: 5.0217E+01 	Mem: 112004
+('GRAND ', [23, 75, 94, 118])
+NBits: 3515392 	NErrs: 740049 	BER: 2.1052E-01 	Time: 5.0858E+01 	Mem: 112004
+('GRAND ', [44, 135, 170, 193])
+NBits: 3557152 	NErrs: 746235 	BER: 2.0978E-01 	Time: 5.1177E+01 	Mem: 112004
+('GRAND ', [21, 62, 101, 103])
+NBits: 3580896 	NErrs: 749747 	BER: 2.0937E-01 	Time: 5.1743E+01 	Mem: 112004
+('GRAND ', [49, 121, 175, 195])
+NBits: 3622656 	NErrs: 755767 	BER: 2.0862E-01 	Time: 5.2079E+01 	Mem: 112004
+('GRAND ', [30, 80, 101, 117])
+NBits: 3646400 	NErrs: 758991 	BER: 2.0815E-01 	Time: 5.2662E+01 	Mem: 112004
+('GRAND ', [48, 137, 200, 201])
+NBits: 3688160 	NErrs: 764918 	BER: 2.0740E-01 	Time: 5.2999E+01 	Mem: 112004
+('GRAND ', [30, 69, 127, 113])
+NBits: 3711904 	NErrs: 768314 	BER: 2.0699E-01 	Time: 5.3597E+01 	Mem: 112004
+('GRAND ', [47, 135, 178, 198])
+NBits: 3753664 	NErrs: 774356 	BER: 2.0629E-01 	Time: 5.3926E+01 	Mem: 112004
+('GRAND ', [41, 77, 111, 106])
+NBits: 3777408 	NErrs: 777749 	BER: 2.0589E-01 	Time: 5.4612E+01 	Mem: 112004
+('GRAND ', [59, 125, 188, 191])
+NBits: 3819168 	NErrs: 783714 	BER: 2.0521E-01 	Time: 5.4941E+01 	Mem: 112004
+('GRAND ', [31, 87, 125, 125])
+NBits: 3842912 	NErrs: 786892 	BER: 2.0476E-01 	Time: 5.5577E+01 	Mem: 112004
+('GRAND ', [77, 184, 227, 192])
+NBits: 3884672 	NErrs: 792131 	BER: 2.0391E-01 	Time: 5.5900E+01 	Mem: 112004
+('GRAND ', [39, 110, 122, 111])
+NBits: 3908416 	NErrs: 795142 	BER: 2.0344E-01 	Time: 5.6604E+01 	Mem: 112004
+('GRAND ', [70, 159, 202, 222])
+NBits: 3950176 	NErrs: 800518 	BER: 2.0265E-01 	Time: 5.6899E+01 	Mem: 112004
+('GRAND ', [45, 91, 103, 117])
+NBits: 3973920 	NErrs: 803664 	BER: 2.0223E-01 	Time: 5.7563E+01 	Mem: 112004
+('GRAND ', [72, 181, 204, 215])
+NBits: 4015680 	NErrs: 808851 	BER: 2.0142E-01 	Time: 5.7891E+01 	Mem: 112004
+('GRAND ', [56, 99, 119, 141])
+NBits: 4039424 	NErrs: 811795 	BER: 2.0097E-01 	Time: 5.8600E+01 	Mem: 112004
+('GRAND ', [59, 177, 243, 207])
+NBits: 4081184 	NErrs: 817132 	BER: 2.0022E-01 	Time: 5.8903E+01 	Mem: 112004
+('GRAND ', [33, 86, 93, 111])
+NBits: 4104928 	NErrs: 820358 	BER: 1.9985E-01 	Time: 5.9594E+01 	Mem: 112004
+('GRAND ', [60, 137, 193, 212])
+NBits: 4146688 	NErrs: 826192 	BER: 1.9924E-01 	Time: 5.9905E+01 	Mem: 112004
+('GRAND ', [27, 87, 110, 123])
+NBits: 4170432 	NErrs: 829355 	BER: 1.9887E-01 	Time: 6.0593E+01 	Mem: 112004
+('GRAND ', [54, 120, 215, 210])
+NBits: 4212192 	NErrs: 835097 	BER: 1.9826E-01 	Time: 6.0911E+01 	Mem: 112004
+('GRAND ', [26, 64, 115, 109])
+NBits: 4235936 	NErrs: 838576 	BER: 1.9797E-01 	Time: 6.1468E+01 	Mem: 112004
+('GRAND ', [50, 117, 180, 204])
+NBits: 4277696 	NErrs: 844675 	BER: 1.9746E-01 	Time: 6.1801E+01 	Mem: 112004
+('GRAND ', [31, 91, 117, 111])
+NBits: 4301440 	NErrs: 847989 	BER: 1.9714E-01 	Time: 6.2457E+01 	Mem: 112004
+('GRAND ', [60, 158, 194, 241])
+NBits: 4343200 	NErrs: 853504 	BER: 1.9652E-01 	Time: 6.2785E+01 	Mem: 112004
+('GRAND ', [52, 112, 188, 221])
+NBits: 4383296 	NErrs: 859152 	BER: 1.9601E-01 	Time: 6.3443E+01 	Mem: 112004
+('GRAND ', [32, 81, 109, 122])
+NBits: 4408704 	NErrs: 862756 	BER: 1.9569E-01 	Time: 6.4118E+01 	Mem: 112004
+('GRAND ', [60, 188, 219, 186])
+NBits: 4448800 	NErrs: 867998 	BER: 1.9511E-01 	Time: 6.4516E+01 	Mem: 112004
+('GRAND ', [54, 103, 135, 123])
+NBits: 4474208 	NErrs: 871110 	BER: 1.9470E-01 	Time: 6.5244E+01 	Mem: 112004
+('GRAND ', [59, 162, 207, 203])
+NBits: 4514304 	NErrs: 876409 	BER: 1.9414E-01 	Time: 6.5574E+01 	Mem: 112004
+('GRAND ', [67, 162, 228, 208])
+NBits: 4556064 	NErrs: 881821 	BER: 1.9355E-01 	Time: 6.6234E+01 	Mem: 112004
+('GRAND ', [28, 80, 134, 112])
+NBits: 4579808 	NErrs: 885150 	BER: 1.9327E-01 	Time: 6.6896E+01 	Mem: 112004
+('GRAND ', [55, 150, 214, 226])
+NBits: 4621568 	NErrs: 890674 	BER: 1.9272E-01 	Time: 6.7218E+01 	Mem: 112004
+('GRAND ', [17, 81, 112, 126])
+NBits: 4645312 	NErrs: 894074 	BER: 1.9247E-01 	Time: 6.7893E+01 	Mem: 112004
+('GRAND ', [53, 161, 230, 210])
+NBits: 4687072 	NErrs: 899515 	BER: 1.9191E-01 	Time: 6.8247E+01 	Mem: 112004
+('GRAND ', [40, 90, 140, 111])
+NBits: 4710816 	NErrs: 902573 	BER: 1.9160E-01 	Time: 6.9191E+01 	Mem: 112004
+('GRAND ', [50, 139, 201, 209])
+NBits: 4752576 	NErrs: 908465 	BER: 1.9115E-01 	Time: 6.9481E+01 	Mem: 112004
+('GRAND ', [30, 63, 101, 110])
+NBits: 4776320 	NErrs: 911945 	BER: 1.9093E-01 	Time: 7.0092E+01 	Mem: 112004
+('GRAND ', [48, 142, 168, 217])
+NBits: 4818080 	NErrs: 917965 	BER: 1.9053E-01 	Time: 7.0431E+01 	Mem: 112004
+('GRAND ', [35, 88, 136, 129])
+NBits: 4841824 	NErrs: 921018 	BER: 1.9022E-01 	Time: 7.1086E+01 	Mem: 112004
+('GRAND ', [58, 157, 242, 190])
+NBits: 4883584 	NErrs: 926472 	BER: 1.8971E-01 	Time: 7.1436E+01 	Mem: 112004
+('GRAND ', [27, 88, 126, 115])
+NBits: 4907328 	NErrs: 929643 	BER: 1.8944E-01 	Time: 7.2262E+01 	Mem: 112004
+('GRAND ', [51, 128, 177, 221])
+NBits: 4949088 	NErrs: 935532 	BER: 1.8903E-01 	Time: 7.2594E+01 	Mem: 112004
+('GRAND ', [31, 80, 111, 130])
+NBits: 4972832 	NErrs: 938703 	BER: 1.8877E-01 	Time: 7.3244E+01 	Mem: 112004
+('GRAND ', [45, 103, 179, 209])
+NBits: 5014592 	NErrs: 944816 	BER: 1.8841E-01 	Time: 7.3575E+01 	Mem: 112004
+('GRAND ', [29, 62, 102, 109])
+NBits: 5038336 	NErrs: 948335 	BER: 1.8822E-01 	Time: 7.4179E+01 	Mem: 112004
+('GRAND ', [49, 139, 181, 212])
+NBits: 5080096 	NErrs: 954204 	BER: 1.8783E-01 	Time: 7.4503E+01 	Mem: 112004
+('GRAND ', [30, 62, 115, 119])
+NBits: 5103840 	NErrs: 957649 	BER: 1.8763E-01 	Time: 7.5172E+01 	Mem: 112004
+('GRAND ', [51, 115, 185, 226])
+NBits: 5145600 	NErrs: 963564 	BER: 1.8726E-01 	Time: 7.5543E+01 	Mem: 112004
+('GRAND ', [27, 106, 135, 103])
+NBits: 5169344 	NErrs: 966664 	BER: 1.8700E-01 	Time: 7.6289E+01 	Mem: 112004
+('GRAND ', [43, 137, 179, 201])
+NBits: 5211104 	NErrs: 972661 	BER: 1.8665E-01 	Time: 7.6616E+01 	Mem: 112004
+('GRAND ', [33, 82, 109, 139])
+NBits: 5234848 	NErrs: 975856 	BER: 1.8642E-01 	Time: 7.7344E+01 	Mem: 112004
+('GRAND ', [63, 155, 185, 259])
+NBits: 5276608 	NErrs: 981368 	BER: 1.8598E-01 	Time: 7.7730E+01 	Mem: 112004
+('GRAND ', [27, 74, 96, 117])
+NBits: 5300352 	NErrs: 984740 	BER: 1.8579E-01 	Time: 7.8468E+01 	Mem: 112004
+('GRAND ', [59, 146, 194, 241])
+NBits: 5342112 	NErrs: 990353 	BER: 1.8539E-01 	Time: 7.8824E+01 	Mem: 112004
+('GRAND ', [37, 81, 104, 107])
+NBits: 5365856 	NErrs: 993706 	BER: 1.8519E-01 	Time: 7.9515E+01 	Mem: 112004
+('GRAND ', [65, 136, 202, 219])
+NBits: 5407616 	NErrs: 999314 	BER: 1.8480E-01 	Time: 7.9845E+01 	Mem: 112004
+('GRAND ', [27, 83, 120, 117])
+NBits: 5431360 	NErrs: 1002587 	BER: 1.8459E-01 	Time: 8.0529E+01 	Mem: 112004
+('GRAND ', [45, 144, 226, 191])
+NBits: 5473120 	NErrs: 1008248 	BER: 1.8422E-01 	Time: 8.0854E+01 	Mem: 112004
+('GRAND ', [37, 87, 127, 121])
+NBits: 5496864 	NErrs: 1011387 	BER: 1.8399E-01 	Time: 8.1558E+01 	Mem: 112004
+('GRAND ', [56, 154, 172, 236])
+NBits: 5538624 	NErrs: 1017022 	BER: 1.8362E-01 	Time: 8.1852E+01 	Mem: 112004
+('GRAND ', [37, 111, 124, 109])
+NBits: 5562368 	NErrs: 1020108 	BER: 1.8339E-01 	Time: 8.2693E+01 	Mem: 112004
+('GRAND ', [75, 175, 219, 207])
+NBits: 5604128 	NErrs: 1025400 	BER: 1.8297E-01 	Time: 8.3025E+01 	Mem: 112004
+('GRAND ', [44, 89, 131, 106])
+NBits: 5627872 	NErrs: 1028554 	BER: 1.8276E-01 	Time: 8.3788E+01 	Mem: 112004
+('GRAND ', [59, 165, 210, 233])
+NBits: 5669632 	NErrs: 1034079 	BER: 1.8239E-01 	Time: 8.4137E+01 	Mem: 112004
+('GRAND ', [27, 78, 93, 115])
+NBits: 5693376 	NErrs: 1037521 	BER: 1.8223E-01 	Time: 8.4843E+01 	Mem: 112004
+('GRAND ', [49, 160, 186, 202])
+NBits: 5735136 	NErrs: 1043324 	BER: 1.8192E-01 	Time: 8.5153E+01 	Mem: 112004
+('GRAND ', [26, 72, 98, 131])
+NBits: 5758880 	NErrs: 1046638 	BER: 1.8174E-01 	Time: 8.5911E+01 	Mem: 112004
+('GRAND ', [51, 133, 197, 206])
+NBits: 5800640 	NErrs: 1052548 	BER: 1.8145E-01 	Time: 8.6229E+01 	Mem: 112004
+('GRAND ', [22, 78, 107, 116])
+NBits: 5824384 	NErrs: 1055866 	BER: 1.8128E-01 	Time: 8.6908E+01 	Mem: 112004
+('GRAND ', [35, 154, 212, 225])
+NBits: 5866144 	NErrs: 1061598 	BER: 1.8097E-01 	Time: 8.7213E+01 	Mem: 112004
+('GRAND ', [72, 141, 240, 195])
+NBits: 5906240 	NErrs: 1066712 	BER: 1.8061E-01 	Time: 8.7942E+01 	Mem: 112004
+('GRAND ', [34, 77, 118, 131])
+NBits: 5931648 	NErrs: 1070275 	BER: 1.8043E-01 	Time: 8.8589E+01 	Mem: 112004
+('GRAND ', [48, 129, 208, 177])
+NBits: 5971744 	NErrs: 1075785 	BER: 1.8015E-01 	Time: 8.8930E+01 	Mem: 112004
+('GRAND ', [42, 107, 142, 141])
+NBits: 5997152 	NErrs: 1078986 	BER: 1.7992E-01 	Time: 8.9590E+01 	Mem: 112004
+('GRAND ', [59, 175, 216, 213])
+NBits: 6037248 	NErrs: 1084121 	BER: 1.7957E-01 	Time: 8.9998E+01 	Mem: 112004
+('GRAND ', [27, 107, 149, 121])
+NBits: 6062656 	NErrs: 1087452 	BER: 1.7937E-01 	Time: 9.0726E+01 	Mem: 112004
+('GRAND ', [49, 137, 198, 229])
+NBits: 6102752 	NErrs: 1092789 	BER: 1.7906E-01 	Time: 9.1122E+01 	Mem: 112004
+('GRAND ', [44, 90, 116, 129])
+NBits: 6128160 	NErrs: 1096173 	BER: 1.7887E-01 	Time: 9.1817E+01 	Mem: 112004
+('GRAND ', [40, 96, 159, 188])
+NBits: 6168256 	NErrs: 1102255 	BER: 1.7870E-01 	Time: 9.2167E+01 	Mem: 112004
+('GRAND ', [37, 114, 119, 146])
+NBits: 6193664 	NErrs: 1105557 	BER: 1.7850E-01 	Time: 9.2887E+01 	Mem: 112004
+('GRAND ', [59, 156, 215, 230])
+NBits: 6233760 	NErrs: 1110676 	BER: 1.7817E-01 	Time: 9.3282E+01 	Mem: 112004
+('GRAND ', [32, 66, 138, 135])
+NBits: 6259168 	NErrs: 1114156 	BER: 1.7800E-01 	Time: 9.3947E+01 	Mem: 112004
+('GRAND ', [40, 120, 175, 197])
+NBits: 6299264 	NErrs: 1119996 	BER: 1.7780E-01 	Time: 9.4305E+01 	Mem: 112004
+('GRAND ', [44, 90, 127, 119])
+NBits: 6324672 	NErrs: 1123345 	BER: 1.7761E-01 	Time: 9.5008E+01 	Mem: 112004
+('GRAND ', [90, 260, 280, 293])
+NBits: 6381120 	NErrs: 1130536 	BER: 1.7717E-01 	Time: 9.5376E+01 	Mem: 112268
+('GRAND ', [16, 34, 48, 49])
+NBits: 6390176 	NErrs: 1131731 	BER: 1.7710E-01 	Time: 9.6471E+01 	Mem: 112268
+('GRAND ', [52, 144, 193, 195])
+NBits: 6430880 	NErrs: 1137332 	BER: 1.7685E-01 	Time: 9.6602E+01 	Mem: 112268
+('GRAND ', [16, 70, 97, 131])
+NBits: 6455680 	NErrs: 1140942 	BER: 1.7673E-01 	Time: 9.7185E+01 	Mem: 112268
+('GRAND ', [57, 151, 206, 219])
+NBits: 6496384 	NErrs: 1146399 	BER: 1.7647E-01 	Time: 9.7593E+01 	Mem: 112268
+('GRAND ', [23, 86, 114, 152])
+NBits: 6521184 	NErrs: 1149796 	BER: 1.7632E-01 	Time: 9.8303E+01 	Mem: 112268
+('GRAND ', [46, 122, 173, 207])
+NBits: 6561888 	NErrs: 1155647 	BER: 1.7612E-01 	Time: 9.8649E+01 	Mem: 112268
+('GRAND ', [25, 92, 124, 137])
+NBits: 6586688 	NErrs: 1158955 	BER: 1.7595E-01 	Time: 9.9404E+01 	Mem: 112268
+('GRAND ', [37, 137, 178, 180])
+NBits: 6627392 	NErrs: 1164688 	BER: 1.7574E-01 	Time: 9.9749E+01 	Mem: 112268
+('GRAND ', [25, 69, 92, 124])
+NBits: 6652192 	NErrs: 1168368 	BER: 1.7564E-01 	Time: 1.0035E+02 	Mem: 112268
+('GRAND ', [45, 108, 165, 180])
+NBits: 6692896 	NErrs: 1174549 	BER: 1.7549E-01 	Time: 1.0072E+02 	Mem: 112268
+('GRAND ', [30, 79, 115, 130])
+NBits: 6717696 	NErrs: 1177987 	BER: 1.7536E-01 	Time: 1.0142E+02 	Mem: 112268
+('GRAND ', [44, 138, 193, 206])
+NBits: 6758400 	NErrs: 1183542 	BER: 1.7512E-01 	Time: 1.0176E+02 	Mem: 112268
+('GRAND ', [33, 87, 124, 135])
+NBits: 6783200 	NErrs: 1186811 	BER: 1.7496E-01 	Time: 1.0260E+02 	Mem: 112268
+('GRAND ', [42, 133, 199, 215])
+NBits: 6823904 	NErrs: 1192489 	BER: 1.7475E-01 	Time: 1.0291E+02 	Mem: 112268
+('GRAND ', [39, 90, 131, 113])
+NBits: 6848704 	NErrs: 1195772 	BER: 1.7460E-01 	Time: 1.0366E+02 	Mem: 112268
+('GRAND ', [43, 118, 208, 214])
+NBits: 6889408 	NErrs: 1201568 	BER: 1.7441E-01 	Time: 1.0402E+02 	Mem: 112268
+('GRAND ', [42, 78, 113, 107])
+NBits: 6914208 	NErrs: 1205005 	BER: 1.7428E-01 	Time: 1.0468E+02 	Mem: 112268
+('GRAND ', [58, 131, 205, 214])
+NBits: 6954912 	NErrs: 1210552 	BER: 1.7406E-01 	Time: 1.0506E+02 	Mem: 112268
+('GRAND ', [34, 71, 123, 144])
+NBits: 6979712 	NErrs: 1213976 	BER: 1.7393E-01 	Time: 1.0580E+02 	Mem: 112268
+('GRAND ', [39, 127, 178, 181])
+NBits: 7020416 	NErrs: 1220086 	BER: 1.7379E-01 	Time: 1.0613E+02 	Mem: 112268
+('GRAND ', [22, 71, 97, 112])
+NBits: 7045216 	NErrs: 1223861 	BER: 1.7372E-01 	Time: 1.0673E+02 	Mem: 112268
+('GRAND ', [33, 106, 148, 187])
+NBits: 7085920 	NErrs: 1230203 	BER: 1.7361E-01 	Time: 1.0709E+02 	Mem: 112268
+('GRAND ', [28, 73, 127, 107])
+NBits: 7110720 	NErrs: 1233745 	BER: 1.7350E-01 	Time: 1.0764E+02 	Mem: 112268
+('GRAND ', [21, 88, 152, 206])
+NBits: 7151424 	NErrs: 1240096 	BER: 1.7341E-01 	Time: 1.0795E+02 	Mem: 112268
+('GRAND ', [39, 124, 179, 170])
+NBits: 7192576 	NErrs: 1246144 	BER: 1.7325E-01 	Time: 1.0858E+02 	Mem: 112268
+('GRAND ', [24, 58, 94, 115])
+NBits: 7216928 	NErrs: 1249854 	BER: 1.7318E-01 	Time: 1.0920E+02 	Mem: 112268
+('GRAND ', [43, 103, 171, 205])
+NBits: 7258080 	NErrs: 1256102 	BER: 1.7306E-01 	Time: 1.0955E+02 	Mem: 112268
+('GRAND ', [23, 67, 90, 109])
+NBits: 7282432 	NErrs: 1259857 	BER: 1.7300E-01 	Time: 1.1016E+02 	Mem: 112268
+('GRAND ', [41, 126, 184, 210])
+NBits: 7323584 	NErrs: 1265596 	BER: 1.7281E-01 	Time: 1.1054E+02 	Mem: 112268
+('GRAND ', [35, 83, 125, 126])
+NBits: 7347936 	NErrs: 1268780 	BER: 1.7267E-01 	Time: 1.1135E+02 	Mem: 112268
+('GRAND ', [51, 152, 200, 207])
+NBits: 7389088 	NErrs: 1274342 	BER: 1.7246E-01 	Time: 1.1167E+02 	Mem: 112268
+('GRAND ', [31, 84, 121, 120])
+NBits: 7413440 	NErrs: 1277658 	BER: 1.7234E-01 	Time: 1.1232E+02 	Mem: 112268
+('GRAND ', [41, 112, 201, 211])
+NBits: 7454592 	NErrs: 1283492 	BER: 1.7217E-01 	Time: 1.1270E+02 	Mem: 112268
+('GRAND ', [30, 89, 105, 130])
+NBits: 7478944 	NErrs: 1286906 	BER: 1.7207E-01 	Time: 1.1346E+02 	Mem: 112268
+('GRAND ', [61, 153, 194, 190])
+NBits: 7520096 	NErrs: 1292517 	BER: 1.7188E-01 	Time: 1.1380E+02 	Mem: 113948

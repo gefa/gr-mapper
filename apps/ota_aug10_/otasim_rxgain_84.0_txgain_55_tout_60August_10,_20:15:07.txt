@@ -1,0 +1,46 @@
+linux; GNU C++ version 7.3.0; Boost_106501; UHD_003.010.003.000-0-unknown
+
+-- Detected Device: B200
+-- Operating over USB 3.
+-- Initialize CODEC control...
+-- Initialize Radio control...
+-- Performing register loopback test... pass
+-- Performing CODEC loopback test... pass
+-- Setting master clock rate selection to 'automatic'.
+-- Asking for clock rate 16.000000 MHz... 
+-- Actually got clock rate 16.000000 MHz.
+-- Performing timer loopback test... pass
+-- Asking for clock rate 51.200000 MHz... 
+-- Actually got clock rate 51.200000 MHz.
+-- Performing timer loopback test... pass
+-- Detected Device: B200mini
+-- Operating over USB 3.
+-- Initialize CODEC control...
+-- Initialize Radio control...
+-- Performing register loopback test... pass
+-- Performing CODEC loopback test... pass
+-- Setting master clock rate selection to 'automatic'.
+-- Asking for clock rate 16.000000 MHz... 
+-- Actually got clock rate 16.000000 MHz.
+-- Performing timer loopback test... pass
+-- Asking for clock rate 51.200000 MHz... 
+-- Actually got clock rate 51.200000 MHz.
+-- Performing timer loopback test... pass
+-- Asking for clock rate 51.200000 MHz... OK
+-- Asking for clock rate 51.200000 MHz... OK
+-- Asking for clock rate 51.200000 MHz... OK
+-- Asking for clock rate 51.200000 MHz... OK
+Press Enter to quit: ('GRAND ', [0, 0, 0, 0])
+NBits: 192 	NErrs: 87 	BER: 4.5312E-01 	Time: 1.4416E-02 	Mem: 112400
+('GRAND ', [13, 11, 6, 12])
+NBits: 4128 	NErrs: 932 	BER: 2.2578E-01 	Time: 5.2539E-02 	Mem: 112400
+('GRAND ', [5, 0, 3, 5])
+NBits: 65696 	NErrs: 24473 	BER: 3.7252E-01 	Time: 8.0246E-01 	Mem: 113076
+('GRAND ', [0, 0, 0, 0])
+NBits: 69632 	NErrs: 26027 	BER: 3.7378E-01 	Time: 2.0025E+01 	Mem: 113076
+('GRAND ', [0, 0, 0, 2])
+NBits: 131200 	NErrs: 50608 	BER: 3.8573E-01 	Time: 2.1137E+01 	Mem: 113076
+('GRAND ', [0, 0, 0, 0])
+NBits: 135136 	NErrs: 52199 	BER: 3.8627E-01 	Time: 4.0358E+01 	Mem: 113076
+('GRAND ', [0, 0, 0, 0])
+NBits: 196704 	NErrs: 76584 	BER: 3.8934E-01 	Time: 4.1490E+01 	Mem: 114572

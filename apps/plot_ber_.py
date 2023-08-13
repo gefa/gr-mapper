@@ -27,7 +27,9 @@ if __name__ == "__main__":
     xrange1=[11,14,17,20,23,26,30,33]
     yrange1=[0.05474,0.015105,0.0077571,0.0010027,0.00062133,0.00033845,6.2218e-05,4.1153e-05]
     xrange1g=[11,14,17,20,23,26,30,33]
-    yrange1g=[0.043661,0.0095109,0.0065167,0.0024261,0.001783,0.00090752,0.00093805,0.00085558]# more overflows at higher gain?    
+    yrange1g=[0.043661,0.0095109,0.0065167,0.0024261,0.001783,0.00090752,0.00093805,0.00085558]# more overflows at higher gain?
+    xrange1g64=[11,14,17,20,23,26,30,33]
+    yrange1g64=[0.050531,0.043954,0.015,0.0038905,0.0020079,0.00034102,0.0,9.0941e-08]#
     xrange2=[5,15,25,35,45,55,65,]#75,85] # works in wider range, almost aline with short range
     yrange2=[0.24511,0.011913,0.00041699,2.7185e-07,0.0,0.0,0.0,] 
     #xrange21=[5,15,25,35,45]#,55,65,]#75,85] # doubleing tout doesnt improve so 60s is good enough
@@ -37,12 +39,13 @@ if __name__ == "__main__":
 
     f = pylab.figure()
     s = f.add_subplot(1,1,1)
-    s.semilogy(EbN0_range, ber_bpsk, 'k-o', label="OTA BPSK ")
+    #s.semilogy(EbN0_range, ber_bpsk, 'k-o', label="OTA BPSK ")
     s.semilogy(xrange1, yrange1, 'b-o', label="OTA BPSK ")
     s.semilogy(xrange1g, yrange1g, 'g-o', label="OTA BPSK GRAND-1")
+    s.semilogy(xrange1g64, yrange1g64, 'm-o', label="OTA BPSK GRAND-1 64")
     s.semilogy(xrange2, yrange2, 'r-o', label="OTA BPSK wideRange")
     #s.semilogy(xrange21, yrange21, 'c-o', label="OTA BPSK 120secTout")
-    s.semilogy(xrange3, yrange3, 'y-o', label="OTA BPSK OSR2orig")
+    #s.semilogy(xrange3, yrange3, 'y-o', label="OTA BPSK OSR2orig")
 
     s.set_title('BER OTA Experiment')
     s.set_xlabel('Tx gain (dB)')

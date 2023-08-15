@@ -191,6 +191,33 @@
     </param>
     <param>
       <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(896, 4)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>crc_width</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>32</value>
+    </param>
+  </block>
+  <block>
+    <key>variable</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
       <value>0</value>
     </param>
     <param>
@@ -234,7 +261,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>1024*2*0+192*0+192-32</value>
+      <value>payload_width+crc_width+packet_len_width+sync_width+len(pream)</value>
     </param>
   </block>
   <block>
@@ -249,7 +276,61 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(312, 4)</value>
+      <value>(976, 4)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>packet_len_width</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>32</value>
+    </param>
+  </block>
+  <block>
+    <key>variable</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(1176, 4)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>payload_width</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>64</value>
+    </param>
+  </block>
+  <block>
+    <key>variable</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(232, 4)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -262,6 +343,33 @@
     <param>
       <key>value</key>
       <value>(mapper.preamble_generator(32,511,1033)).get_preamble()</value>
+    </param>
+  </block>
+  <block>
+    <key>variable</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(16, 180)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>reset_len</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>2**16</value>
     </param>
   </block>
   <block>
@@ -389,6 +497,33 @@
     </param>
     <param>
       <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(1088, 4)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>sync_width</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>32</value>
+    </param>
+  </block>
+  <block>
+    <key>variable</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
       <value>0</value>
     </param>
     <param>
@@ -488,6 +623,53 @@
     <param>
       <key>value</key>
       <value>10</value>
+    </param>
+  </block>
+  <block>
+    <key>analog_feedforward_agc_cc</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(896, 348)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>180</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>analog_feedforward_agc_cc_0</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>num_samples</key>
+      <value>1024</value>
+    </param>
+    <param>
+      <key>reference</key>
+      <value>1.0</value>
     </param>
   </block>
   <block>
@@ -824,7 +1006,7 @@
     </param>
     <param>
       <key>num_items</key>
-      <value>(frame_width+32)*0+frame_width*1+96*0+0*3*10**6</value>
+      <value>payload_width*100</value>
     </param>
     <param>
       <key>type</key>
@@ -984,11 +1166,11 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1160, 768)</value>
+      <value>(1160, 728)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1232,6 +1414,65 @@
     </param>
   </block>
   <block>
+    <key>blocks_repack_bits_bb</key>
+    <param>
+      <key>k</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>l</key>
+      <value>8</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>endianness</key>
+      <value>gr.GR_LSB_FIRST</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(688, 740)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>blocks_repack_bits_bb_2</value>
+    </param>
+    <param>
+      <key>len_tag_key</key>
+      <value>""</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>align_output</key>
+      <value>False</value>
+    </param>
+  </block>
+  <block>
     <key>blocks_skiphead</key>
     <param>
       <key>alias</key>
@@ -1302,7 +1543,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(192, 204)</value>
+      <value>(160, 188)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1326,7 +1567,7 @@
     </param>
     <param>
       <key>packet_len</key>
-      <value>frame_width-4*8-4*8-32-32</value>
+      <value>payload_width</value>
     </param>
     <param>
       <key>type</key>
@@ -1382,6 +1623,61 @@
     <param>
       <key>packet_len</key>
       <value>frame_width-4*8</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>byte</value>
+    </param>
+    <param>
+      <key>vlen</key>
+      <value>1</value>
+    </param>
+  </block>
+  <block>
+    <key>blocks_stream_to_tagged_stream</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(1032, 852)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>blocks_stream_to_tagged_stream_0_1</value>
+    </param>
+    <param>
+      <key>len_tag_key</key>
+      <value>"packet_len"</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>packet_len</key>
+      <value>payload_width/8</value>
     </param>
     <param>
       <key>type</key>
@@ -1467,7 +1763,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>0</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -1573,7 +1869,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(632, 196)</value>
+      <value>(688, 196)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1656,7 +1952,7 @@
     </param>
   </block>
   <block>
-    <key>blocks_tagged_stream_multiply_length</key>
+    <key>blocks_tag_gate</key>
     <param>
       <key>alias</key>
       <value></value>
@@ -1672,6 +1968,57 @@
     <param>
       <key>_enabled</key>
       <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(872, 748)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>blocks_tag_gate_2</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>byte</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>propagate_tags</key>
+      <value>False</value>
+    </param>
+    <param>
+      <key>vlen</key>
+      <value>1</value>
+    </param>
+  </block>
+  <block>
+    <key>blocks_tagged_stream_multiply_length</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>0</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -2040,7 +2387,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(960, 376)</value>
+      <value>(1072, 372)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2331,7 +2678,7 @@
     </param>
     <param>
       <key>threshold</key>
-      <value>0</value>
+      <value>3</value>
     </param>
   </block>
   <block>
@@ -2563,61 +2910,6 @@ class blk(gr.sync_block):
     </param>
   </block>
   <block>
-    <key>epy_module</key>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>source_code</key>
-      <value># this module will be imported in the into your flowgraph
-from gnuradio import *
-import mapper
-print("premable")
-preamble = (mapper.preamble_generator(32,511,1033)).get_preamble()
-print(type(preamble))
-binary_string = ''.join(str(bit) for bit in preamble)
-print(binary_string)
-reversed_binary_string = binary_string[::-1]
-print(reversed_binary_string)
-
-def bit_stream_tuple_to_bytes(bit_stream_tuple):
-    bit_stream_string = ''.join(str(bit) for bit in bit_stream_tuple)
-    bytes_list = [int(bit_stream_string[i:i+8], 2) for i in range(0, len(bit_stream_string), 8)]
-    return bytes_list
-byte_list = bit_stream_tuple_to_bytes(binary_string)
-print("preamble bytes", byte_list)
-def bytes_to_bit_stream_tuple(bytes_list):
-    binary_string = ''.join(format(byte, '08b') for byte in bytes_list)
-    bit_stream_tuple = tuple(int(bit) for bit in binary_string)
-    return bit_stream_tuple
-bit_stream_tuple = bytes_to_bit_stream_tuple(byte_list)
-print("preamble tuple", bit_stream_tuple)
-
-</value>
-    </param>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(896, 20)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>epy_module_0</value>
-    </param>
-  </block>
-  <block>
     <key>import</key>
     <param>
       <key>alias</key>
@@ -2699,7 +2991,7 @@ print("preamble tuple", bit_stream_tuple)
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(752, 124)</value>
+      <value>(792, 124)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2761,8 +3053,16 @@ print("preamble tuple", bit_stream_tuple)
       <value>"PRBS31"</value>
     </param>
     <param>
+      <key>grand</key>
+      <value>0</value>
+    </param>
+    <param>
       <key>reset_len</key>
-      <value>(frame_width-len(pream))*0+frame_width-32*4</value>
+      <value>reset_len</value>
+    </param>
+    <param>
+      <key>skip</key>
+      <value>100000</value>
     </param>
   </block>
   <block>
@@ -2809,7 +3109,7 @@ print("preamble tuple", bit_stream_tuple)
     </param>
     <param>
       <key>reset_len</key>
-      <value>(frame_width-len(pream))*0+frame_width-32*4</value>
+      <value>reset_len</value>
     </param>
   </block>
   <block>
@@ -2832,7 +3132,7 @@ print("preamble tuple", bit_stream_tuple)
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(592, 124)</value>
+      <value>(608, 124)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2856,7 +3156,7 @@ print("preamble tuple", bit_stream_tuple)
     </param>
     <param>
       <key>width</key>
-      <value>frame_width-32</value>
+      <value>frame_width</value>
     </param>
   </block>
   <block>
@@ -2903,7 +3203,7 @@ print("preamble tuple", bit_stream_tuple)
     </param>
     <param>
       <key>width</key>
-      <value>frame_width-32*2-32</value>
+      <value>frame_width-len(pream)-sync_width</value>
     </param>
   </block>
   <block>
@@ -2950,7 +3250,7 @@ print("preamble tuple", bit_stream_tuple)
     </param>
     <param>
       <key>width</key>
-      <value>frame_width-32-32</value>
+      <value>frame_width-len(pream)</value>
     </param>
   </block>
   <block>
@@ -4778,7 +5078,7 @@ print("preamble tuple", bit_stream_tuple)
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(728, 368)</value>
+      <value>(696, 364)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -4904,6 +5204,12 @@ print("preamble tuple", bit_stream_tuple)
     </param>
   </block>
   <connection>
+    <source_block_id>analog_feedforward_agc_cc_0</source_block_id>
+    <sink_block_id>root_raised_cosine_filter_0_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
     <source_block_id>blocks_char_to_float_0</source_block_id>
     <sink_block_id>qtgui_time_sink_x_0</sink_block_id>
     <source_key>0</source_key>
@@ -5000,6 +5306,12 @@ print("preamble tuple", bit_stream_tuple)
     <sink_key>0</sink_key>
   </connection>
   <connection>
+    <source_block_id>blocks_repack_bits_bb_2</source_block_id>
+    <sink_block_id>blocks_tag_gate_2</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
     <source_block_id>blocks_skiphead_0</source_block_id>
     <sink_block_id>blocks_head_3</sink_block_id>
     <source_key>0</source_key>
@@ -5018,6 +5330,12 @@ print("preamble tuple", bit_stream_tuple)
     <sink_key>0</sink_key>
   </connection>
   <connection>
+    <source_block_id>blocks_stream_to_tagged_stream_0_1</source_block_id>
+    <sink_block_id>blocks_tagged_stream_to_pdu_2</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
     <source_block_id>blocks_tag_gate_0</source_block_id>
     <sink_block_id>mapper_preamble_strip_0</sink_block_id>
     <source_key>0</source_key>
@@ -5025,7 +5343,13 @@ print("preamble tuple", bit_stream_tuple)
   </connection>
   <connection>
     <source_block_id>blocks_tag_gate_1</source_block_id>
-    <sink_block_id>mapper_preamble_insert_bb_1</sink_block_id>
+    <sink_block_id>mapper_mapper_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>blocks_tag_gate_2</source_block_id>
+    <sink_block_id>blocks_stream_to_tagged_stream_0_1</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
@@ -5073,7 +5397,7 @@ print("preamble tuple", bit_stream_tuple)
   </connection>
   <connection>
     <source_block_id>channels_channel_model_0</source_block_id>
-    <sink_block_id>root_raised_cosine_filter_0_0</sink_block_id>
+    <sink_block_id>analog_feedforward_agc_cc_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
@@ -5098,6 +5422,12 @@ print("preamble tuple", bit_stream_tuple)
   <connection>
     <source_block_id>digital_binary_slicer_fb_0</source_block_id>
     <sink_block_id>digital_correlate_access_code_xx_ts_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>digital_binary_slicer_fb_0</source_block_id>
+    <sink_block_id>digital_crc32_bb_1</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
@@ -5151,13 +5481,13 @@ print("preamble tuple", bit_stream_tuple)
   </connection>
   <connection>
     <source_block_id>digital_crc32_bb_0</source_block_id>
-    <sink_block_id>blocks_tag_gate_1</sink_block_id>
+    <sink_block_id>blocks_tagged_stream_to_pdu_1</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
   <connection>
     <source_block_id>digital_crc32_bb_0</source_block_id>
-    <sink_block_id>blocks_tagged_stream_to_pdu_1</sink_block_id>
+    <sink_block_id>mapper_preamble_insert_bb_1</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
@@ -5169,7 +5499,7 @@ print("preamble tuple", bit_stream_tuple)
   </connection>
   <connection>
     <source_block_id>digital_crc32_bb_1</source_block_id>
-    <sink_block_id>blocks_tagged_stream_to_pdu_2</sink_block_id>
+    <sink_block_id>blocks_repack_bits_bb_2</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
@@ -5199,7 +5529,7 @@ print("preamble tuple", bit_stream_tuple)
   </connection>
   <connection>
     <source_block_id>mapper_preamble_insert_bb_0</source_block_id>
-    <sink_block_id>mapper_mapper_0</sink_block_id>
+    <sink_block_id>blocks_tag_gate_1</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>

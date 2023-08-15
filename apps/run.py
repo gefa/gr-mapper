@@ -8,9 +8,9 @@ if len(sys.argv) < 4:
     print("Error: Please provide two arguments for param1, param2, param3.")
     # sys.exit(1)
     # use some defaults
-    p1_arg = "12" # SNR
+    p1_arg = "10" # SNR
     p2_arg = 0 # grand
-    p3_arg = "12" # 12 sec timeout
+    p3_arg = "60" # 12 sec timeout
 else:
     # Get the first two arguments
     p1_arg = sys.argv[1]
@@ -47,15 +47,14 @@ current_date = current_datetime.strftime("%d")  # Day of the month (zero-padded)
 current_hour = current_datetime.strftime("%H")  # Hour in 24-hour format (zero-padded)
 current_minute = current_datetime.strftime("%M")  # Minute (zero-padded)
 current_second = current_datetime.strftime("%S")  # Second (zero-padded)
-# Combine the individual components into a single string
-formatted_datetime = f"{current_month} {current_date}, {current_hour}:{current_minute}:{current_second}"
-#print(formatted_datetime)
+formatted_datetime = f"{current_month}{current_date},{current_hour}:{current_minute}:{current_second}"
+print(formatted_datetime)
 file = 'bersim_grand_snr_'+str(param1)+'_grand_'+str(param2)+'_tout_'+str(param3)+formatted_datetime.replace(' ','_')+'.txt'
 #file = f"sim_noise_{formatted_datetime}_{param1}_{param2}_{param3}_auto.txt"
 print(file)
 # first run receive flowgraph, then, second run usrp one
 command1 = ' '#"/home/gefa/workspace/grand7_grc3.11/pkt_rcv.py > "+per_file
-command2 = '/gr-mapper/apps/prbs_test_.py -n '+param1+' -g '+param2+' > '+file
+command2 = '/gr-mapper/apps/prbs_test_crc.py -n '+param1+' -g '+param2+' > '+file
 commands = command1+" & "+command2
 timeout = int(param3)  # Time in seconds
 execute_commands(commands, timeout)

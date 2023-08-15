@@ -2,13 +2,16 @@
 import subprocess
 import re
 #import matplotlib.pyplot as plt
-
+TRIALS=6
 def run_script():
     snr_values = []
     ber_values = []
 
-    for snr in range(4,8,1):
-        print('SNR',snr)
+    for _,snr in enumerate(range(9,13,1)):
+      print('SNR',snr,_)
+      ber_values.append([])
+      for trial in range(TRIALS):
+        print("trial",trial)
         output = subprocess.check_output(['python3', 'run.py',str(snr),'0','60'], universal_newlines=True)
         lines = output.strip().split('\n')
         #snr_line = lines[-2]
@@ -21,9 +24,9 @@ def run_script():
             #snr_value = float(snr_match.group(1))
             ber_value = float(ber_match.group(1))
             #snr_values.append(snr_value)
-            ber_values.append(ber_value)
+            ber_values[_].append(ber_value)
             snr_values.append(snr)
-        print(ber_values)
+        print(ber_values[_])
         #print(snr_values)
     return snr_values, ber_values
 

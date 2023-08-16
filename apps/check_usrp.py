@@ -88,7 +88,7 @@ def execute_commands(commands, timeout):
     #os.killpg(os.getpgid(process2.pid), signal.SIGINT)
     process2.wait()
     return 0
-command2 = './prbs_test_crc.py -n '+param1
+command2 = './prbs_test_crc_usrp.py -t '+param1
 timeout = 60
 ret = -1
 while (ret != 0):

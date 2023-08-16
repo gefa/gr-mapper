@@ -7,12 +7,12 @@ def run_script():
     snr_values = []
     ber_values = []
 
-    for _,snr in enumerate(range(9,10,1)):
+    for _,snr in enumerate(range(41,50,2)):
       print('SNR',snr,_)
       ber_values.append([])
       for trial in range(TRIALS):
         print("trial",trial)
-        output = subprocess.check_output(['python3', 'check.py',str(snr),'0','12'], universal_newlines=True)
+        output = subprocess.check_output(['python3', 'check_usrp.py',str(snr),'0','0'], universal_newlines=True)
         lines = output.strip().split('\n')
         #snr_line = lines[-2]
         ber_line = lines[-1]

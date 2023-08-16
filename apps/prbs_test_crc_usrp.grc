@@ -5589,7 +5589,7 @@ class blk(gr.sync_block):
     </param>
     <param>
       <key>value</key>
-      <value>55</value>
+      <value>0</value>
     </param>
   </block>
   <block>
@@ -5718,7 +5718,7 @@ class blk(gr.sync_block):
     </param>
     <param>
       <key>value</key>
-      <value>88</value>
+      <value>41</value>
     </param>
   </block>
   <block>

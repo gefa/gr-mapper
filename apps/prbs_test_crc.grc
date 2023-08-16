@@ -38,7 +38,7 @@
     </param>
     <param>
       <key>generate_options</key>
-      <value>no_gui</value>
+      <value>wx_gui</value>
     </param>
     <param>
       <key>hier_block_src_path</key>
@@ -121,6 +121,65 @@
     </param>
   </block>
   <block>
+    <key>variable_slider</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>converver</key>
+      <value>float_converter</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>12</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(584, 476)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>grid_pos</key>
+      <value></value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>SNR</value>
+    </param>
+    <param>
+      <key>label</key>
+      <value>SNR</value>
+    </param>
+    <param>
+      <key>max</key>
+      <value>12</value>
+    </param>
+    <param>
+      <key>min</key>
+      <value>6</value>
+    </param>
+    <param>
+      <key>notebook</key>
+      <value></value>
+    </param>
+    <param>
+      <key>num_steps</key>
+      <value>100</value>
+    </param>
+    <param>
+      <key>style</key>
+      <value>wx.SL_HORIZONTAL</value>
+    </param>
+  </block>
+  <block>
     <key>variable</key>
     <param>
       <key>comment</key>
@@ -145,6 +204,33 @@
     <param>
       <key>value</key>
       <value>0.35</value>
+    </param>
+  </block>
+  <block>
+    <key>variable</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(296, 60)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>bytes_to_send</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>crc_width/8+payload_width/8</value>
     </param>
   </block>
   <block>
@@ -369,7 +455,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>64</value>
+      <value>64*0+255*8-32</value>
     </param>
   </block>
   <block>
@@ -702,7 +788,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -753,7 +839,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(896, 348)</value>
+      <value>(896, 420)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2495,7 +2581,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1072, 372)</value>
+      <value>(1112, 388)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2524,6 +2610,101 @@
     <param>
       <key>taps</key>
       <value>[1]</value>
+    </param>
+  </block>
+  <block>
+    <key>channels_dynamic_channel_model</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>cfo_stdev</key>
+      <value>0.01</value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(872, 156)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>180</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>channels_dynamic_channel_model_0</value>
+    </param>
+    <param>
+      <key>LOS</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>cfo_maxdev</key>
+      <value>1e3</value>
+    </param>
+    <param>
+      <key>fD</key>
+      <value>2.0</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>sro_maxdev</key>
+      <value>1e3</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>N</key>
+      <value>8</value>
+    </param>
+    <param>
+      <key>ntaps</key>
+      <value>8</value>
+    </param>
+    <param>
+      <key>delays</key>
+      <value>0.0,0.1,1.3</value>
+    </param>
+    <param>
+      <key>mags</key>
+      <value>1,0.99,0.97</value>
+    </param>
+    <param>
+      <key>K</key>
+      <value>4.0</value>
+    </param>
+    <param>
+      <key>sro_stdev</key>
+      <value>0.01</value>
+    </param>
+    <param>
+      <key>samp_rate</key>
+      <value>samp_rate</value>
+    </param>
+    <param>
+      <key>seed</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>noise_amp</key>
+      <value>(10**(-SNR/10.0))*np.sqrt(samp_per_sym)</value>
     </param>
   </block>
   <block>
@@ -3323,7 +3504,7 @@ class blk(gr.sync_block):
     </param>
     <param>
       <key>which_mode</key>
-      <value>"PRBS7"</value>
+      <value>"PRBS31"</value>
     </param>
     <param>
       <key>grand</key>
@@ -3335,7 +3516,7 @@ class blk(gr.sync_block):
     </param>
     <param>
       <key>skip</key>
-      <value>10000</value>
+      <value>100000</value>
     </param>
   </block>
   <block>
@@ -3378,7 +3559,7 @@ class blk(gr.sync_block):
     </param>
     <param>
       <key>which_mode</key>
-      <value>"PRBS7"</value>
+      <value>"PRBS31"</value>
     </param>
     <param>
       <key>reset_len</key>
@@ -3472,7 +3653,7 @@ class blk(gr.sync_block):
     </param>
     <param>
       <key>preamble</key>
-      <value>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0)</value>
+      <value>tuple(2*(lambda n, bits: [int(bit) for bit in format(n, '0{0}b'.format(bits))])(bytes_to_send,16))</value>
     </param>
     <param>
       <key>width</key>
@@ -5430,7 +5611,7 @@ class blk(gr.sync_block):
     </param>
     <param>
       <key>value</key>
-      <value>32000*32*32*32</value>
+      <value>32000*32*32*32*32</value>
     </param>
   </block>
   <block>
@@ -5675,6 +5856,12 @@ class blk(gr.sync_block):
     <sink_key>0</sink_key>
   </connection>
   <connection>
+    <source_block_id>channels_dynamic_channel_model_0</source_block_id>
+    <sink_block_id>analog_feedforward_agc_cc_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
     <source_block_id>digital_binary_slicer_fb_0</source_block_id>
     <sink_block_id>blocks_repack_bits_bb_0</sink_block_id>
     <source_key>0</source_key>
@@ -5887,6 +6074,12 @@ class blk(gr.sync_block):
   <connection>
     <source_block_id>root_raised_cosine_filter_0</source_block_id>
     <sink_block_id>channels_channel_model_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>root_raised_cosine_filter_0</source_block_id>
+    <sink_block_id>channels_dynamic_channel_model_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>

@@ -175,6 +175,33 @@
     </param>
   </block>
   <block>
+    <key>variable</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(280, 60)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>bytes_to_send</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>crc_width/8+payload_width/8</value>
+    </param>
+  </block>
+  <block>
     <key>variable_qtgui_range</key>
     <param>
       <key>comment</key>
@@ -423,7 +450,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>64</value>
+      <value>64*0+1*255*8-32</value>
     </param>
   </block>
   <block>
@@ -477,7 +504,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>2**16</value>
+      <value>payload_width</value>
     </param>
   </block>
   <block>
@@ -531,7 +558,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>8</value>
+      <value>2</value>
     </param>
   </block>
   <block>
@@ -2376,7 +2403,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>0</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -2490,7 +2517,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1136, 572)</value>
+      <value>(1136, 580)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -3365,7 +3392,7 @@ class blk(gr.sync_block):
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1120, 508)</value>
+      <value>(1120, 492)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -3389,7 +3416,7 @@ class blk(gr.sync_block):
     </param>
     <param>
       <key>skip</key>
-      <value>10000</value>
+      <value>100000</value>
     </param>
   </block>
   <block>
@@ -3502,11 +3529,11 @@ class blk(gr.sync_block):
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>0</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(448, 36)</value>
+      <value>(376, 12)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -3527,6 +3554,53 @@ class blk(gr.sync_block):
     <param>
       <key>preamble</key>
       <value>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0)</value>
+    </param>
+    <param>
+      <key>width</key>
+      <value>frame_width-len(pream)-sync_width</value>
+    </param>
+  </block>
+  <block>
+    <key>mapper_preamble_insert_bb</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(440, 60)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>mapper_preamble_insert_bb_1_0</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>preamble</key>
+      <value>tuple(2*(lambda n, bits: [int(bit) for bit in format(n, '0{0}b'.format(bits))])(bytes_to_send,16))</value>
     </param>
     <param>
       <key>width</key>
@@ -3800,7 +3874,38 @@ class blk(gr.sync_block):
     </param>
     <param>
       <key>note</key>
-      <value>192 is minimum frame_width!</value>
+      <value>192 is minimum frame_width! due to CRC block's min 32bit input</value>
+    </param>
+  </block>
+  <block>
+    <key>note</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(1048, 60)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>note_1</value>
+    </param>
+    <param>
+      <key>note</key>
+      <value>max payload_len is 65535-4 bytes, because pkt_len field is only 16bits</value>
     </param>
   </block>
   <block>
@@ -5527,7 +5632,7 @@ class blk(gr.sync_block):
     </param>
     <param>
       <key>value</key>
-      <value>200000*8</value>
+      <value>200000</value>
     </param>
   </block>
   <block>
@@ -5542,7 +5647,7 @@ class blk(gr.sync_block):
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>0</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -5613,7 +5718,7 @@ class blk(gr.sync_block):
     </param>
     <param>
       <key>value</key>
-      <value>66</value>
+      <value>88</value>
     </param>
   </block>
   <block>
@@ -7905,6 +8010,12 @@ class blk(gr.sync_block):
     <sink_key>0</sink_key>
   </connection>
   <connection>
+    <source_block_id>blocks_stream_to_tagged_stream_0</source_block_id>
+    <sink_block_id>digital_crc32_bb_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
     <source_block_id>blocks_stream_to_tagged_stream_0_1</source_block_id>
     <sink_block_id>blocks_tagged_stream_to_pdu_2</sink_block_id>
     <source_key>0</source_key>
@@ -8074,6 +8185,12 @@ class blk(gr.sync_block):
   </connection>
   <connection>
     <source_block_id>digital_crc32_bb_0</source_block_id>
+    <sink_block_id>mapper_preamble_insert_bb_1_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>digital_crc32_bb_0</source_block_id>
     <sink_block_id>mapper_tag_give_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
@@ -8140,6 +8257,12 @@ class blk(gr.sync_block):
   </connection>
   <connection>
     <source_block_id>mapper_preamble_insert_bb_1</source_block_id>
+    <sink_block_id>mapper_preamble_insert_bb_2</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>mapper_preamble_insert_bb_1_0</source_block_id>
     <sink_block_id>mapper_preamble_insert_bb_2</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>

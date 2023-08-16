@@ -38,9 +38,11 @@ if __name__ == "__main__":
    
     ber_simu_30M = [0.28314, 0.097307, 0.069034, 0.009141, 0.0024954, 0.0010278, 0.00021759, ]
     
-    EbN0_range2 =[6, 8, 10, 12, 14,]# 84, 87] # 81 was 120sec rest 60sec
+    #EbN0_range2 =[6, 8, 10, 12, 14,]# 84, 87] # 81 was 120sec rest 60sec
+    EbN0_range2 =[-7.5, -6, -4, -3, -1,]
     ber_simu_1M = [3.18E-01,2.68E-01,2.54E-01,2.00E-01,1.93E-01]# 0, 0]
-    pgrand_tx = [6,8,10,12,14]
+    #pgrand_tx = [6,8,10,12,14]
+    pgrand_tx = [-7.5, -6, -4, -3, -1,]
     pgrand = [3.19E-01,2.67E-01,2.50E-01,1.97E-01,1.85E-01]
     #grand_tx = [66,69,72,75,78,81,]#84,87]
     #grand = [0.59089, 0.53757, 0.089123, 0.091539, 0.0073869, 0.0020526,]# 0,0]
@@ -68,7 +70,7 @@ if __name__ == "__main__":
     #s.semilogy(EbN0_range, ber_simu_crc, 'b-o', label="Simulated CRCcoded QPSK")
     #s.semilogy(EbN0_range, ber_simu_viterbi, 'r-o', label="Simulated Viterbi")
     s.set_title('BER OTA Experiment')
-    s.set_xlabel('Tx gain (dB)')
+    s.set_xlabel('Tx gain (dBm)')
     s.set_ylabel('BER')
     s.legend()
     s.grid()

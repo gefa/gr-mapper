@@ -7,7 +7,7 @@ def run_script():
     snr_values = []
     ber_values = []
 
-    for _,snr in enumerate(range(41,50,2)):
+    for _,snr in enumerate(range(49,50,2)):
       print('SNR',snr,_)
       ber_values.append([])
       for trial in range(TRIALS):
@@ -18,8 +18,8 @@ def run_script():
         ber_line = lines[-1]
 
         #snr_match = re.search(r'SNR: (\d+\.\d+)', snr_line)
-        ber_match = re.search(r'BER: (\d+\.\d+)', ber_line)
-
+        ber_match = re.search(r'BER: (\d+\.\d+)', ber_line) # r'^BER: \d+\.\d+E[-+]?\d+$'
+        #ber_match = re.search(r'BER: (\d+\.\d+?E[-+]\d+)', ber_line)
         if ber_match:
             #snr_value = float(snr_match.group(1))
             ber_value = float(ber_match.group(1))

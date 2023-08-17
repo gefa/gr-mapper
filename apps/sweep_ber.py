@@ -7,7 +7,7 @@ def run_script():
     snr_values = []
     ber_values = []
 
-    for _,snr in enumerate(range(9,10,1)):
+    for _,snr in enumerate(range(5,10,1)):
       print('SNR',snr,_)
       ber_values.append([])
       for trial in range(TRIALS):

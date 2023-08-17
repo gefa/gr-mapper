@@ -44,7 +44,7 @@ if __name__ == "__main__":
     #s.rcParams.update({'font.size': 14})
     s.semilogy(EbN0_range, ber_bpsk, 'g-.', label="Theoretical uncoded QPSK")
     #s.semilogy(EbN0_range, ber_qpsk, 's-.', label="Theoretical uncoded BPSK")
-    s.semilogy(EbN0_range, ber_sim, 'r-o', label="Simulated uncoded BPSK")
+#    s.semilogy(EbN0_range, ber_sim, 'r-o', label="Simulated uncoded BPSK")
     #s.semilogy(EbN0_range, ber_simu_, 'r-o', label="Simulated uncoded QPSK SRO/CFO=0.01")
     #s.semilogy(EbN0_range, ber_simu_0offset, 'b-o', label="Simulated uncoded QPSK SRO/CFO=0")
     #s.semilogy(EbN0_range, ber_simu_3k6s[2:], 'g-o', label="Simulated uncoded QPSK long")

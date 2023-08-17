@@ -10,7 +10,7 @@ if len(sys.argv) < 4:
     # sys.exit(1)
     # use some defaults
     p1_arg = "9" # SNR
-    p2_arg = 0 #
+    p2_arg = 0 # grand
     p3_arg = "0" #
 else:
     # Get the first two arguments
@@ -131,7 +131,7 @@ formatted_datetime = f"{current_month} {current_date}, {current_hour}:{current_m
 file = 'bersim_snr_'+str(param1)+'_'+formatted_datetime.replace(' ','_')+'.txt' #+'_grand_'+str(param2)+'_tout_'+str(param3)+formatted_datetime.replace(' ','_')+'.txt'
 #file = f"sim_noise_{formatted_datetime}_{param1}_{param2}_{param3}_auto.txt"
 print(file)
-command2 = './prbs_test_crc.py -n '+param1 #+" > "+str(file)
+command2 = './prbs_test_crc.py -n '+param1+' -g '+param2 #+" > "+str(file)
 timeout = 60
 ret = -1
 while (ret != 0):

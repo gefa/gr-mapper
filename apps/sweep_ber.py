@@ -2,7 +2,7 @@
 import subprocess
 import re
 #import matplotlib.pyplot as plt
-TRIALS=6
+TRIALS=3
 def run_script():
     snr_values = []
     mem_values = []
@@ -10,14 +10,14 @@ def run_script():
     ber_values = []
     d_pass,d_fail,d_total,fix1bits,fix2bits,fix3bits = [],[],[],[],[],[]
     list_of_lists = [d_pass,d_fail,d_total,fix1bits,fix2bits,fix3bits]
-    for _,snr in enumerate(range(9,10,1)):
+    for _,snr in enumerate(range(4,8,1)):
       print('SNR',snr,_)
       ber_values.append([]);cpu_values.append([]);mem_values.append([])
       for sublist in list_of_lists:
         sublist.append([])
       for trial in range(TRIALS):
         print("trial",trial)
-        output = subprocess.check_output(['python3', 'check.py',str(snr),'0','12'], universal_newlines=True)
+        output = subprocess.check_output(['python3', 'check.py',str(snr),'2','12'], universal_newlines=True)
         lines = output.strip().split('\n')
         pft = lines[-4][:-3] # remove \\n 
         mem_line = lines[-3]
@@ -33,11 +33,13 @@ def run_script():
             #snr_values.append(snr_value)
             ber_values[_].append(ber_value)
             snr_values.append(snr)
-        '''
+        
         for i,sublist in enumerate(list_of_lists):
+            print(pft.split(' ')[1+i])
             num = float(pft.split(' ')[1+i]) # skip label
             #print(_,i,sublist, num)
             sublist[_].append(num)
+        '''
         mem_values[_].append(float(mem_line.split(' ')[1]))
         cpu_values[_].append(float(cpu_line.split(' ')[1]))
         ber_values[_].append(float(ber_line.split(' ')[1]))

@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import subprocess
 import time
 import os
@@ -38,7 +39,9 @@ def execute_commands(commands, timeout):
     last_pft_line = ''
     cput = ''
     memo = ''
-    label,d_pass,d_fail,d_total,fix1bits,fix2bits,fix3bits='','','','','','',''
+    ber = ''
+    start_time = time.time()
+    label,d_pass,d_fail,d_total,fix1bits,fix2bits,fix3bits=[0],[0],[0],[0],[0],[0],[0]
     for line in process2.stdout:
         #print(line.strip())  # Print the subprocess output
         if "CPU" in str(line):
@@ -46,16 +49,29 @@ def execute_commands(commands, timeout):
         if "Mem" in str(line):
             memo = str(line).split(" ")[1]
         if "pft" in str(line): #str(line).strip().split()[0]: # if line starts with "pft"
-            #last_pft_line = str(line)
-            #print(str(line))
+            last_pft_line = str(line)
             goodLine = str(line).split(" ")
-            try:
+            #print(goodLine)
+            index=0
+            subl = [d_pass,d_fail,d_total,fix1bits,fix2bits,fix3bits]
+            for i,item in enumerate(goodLine):
+              if "pft" in item:
+                index = i
+                #print("index",i)
+                for c,su in enumerate(subl): 
+              #if index!=0:
+                  #print(goodLine[i+c+1])
+                  su[0]=(int(goodLine[i+c+1].replace("\\n'","")))
+                break
+            #print(d_pass,d_fail,d_total,fix1bits,fix2bits,fix3bits)
+        ''' try:
               index = goodLine.index("pft")
               print(index)
               for i,subl in enumerate([label,d_pass,d_fail,d_total,fix1bits,fix2bits,fix3bits]):
-                subl = goodLine[index+i]
+                subl.append( goodLine[index+i])
             except ValueError:
               pass
+        
         if "NBits" in str(line):
             #print(f"\rProcessing item {i}", end='', flush=True)
             #print(f"\r"+str(line), end='', flush=True)
@@ -73,7 +89,7 @@ def execute_commands(commands, timeout):
                 error("BER not in NBits line, garbled stdout?")
             ber_str = (str_list[ber_idx+1]).replace("\\n'",'')
             ber=float(re.findall(r'\d+\.\d+E[-+]?\d+', ber_str)[0])
-            '''
+            
             try:
               ber=float(ber_str)
             except ValueError:
@@ -83,7 +99,7 @@ def execute_commands(commands, timeout):
             finally:
               ber = -1
               return -1
-            '''
+            
             if ber > 0.0:
                 print(str(line))
                 #label1, nbits, label2, nerror, label3, ber = str(line).strip().split()
@@ -92,7 +108,8 @@ def execute_commands(commands, timeout):
                 print(f'CPU: {cput}')
                 print(f'BER: {ber}')
                 break
-        elif "O" in str(line):
+        '''
+        if "O" in str(line):
             print("Overflow")
             process2.terminate()
             process2.wait()
@@ -106,10 +123,17 @@ def execute_commands(commands, timeout):
         '''
         #elif "message buffer overflowing" in str(line):
         #    print(f"\r"+last_nbits_line+last_pft_line+"message buffer overflowing", end='\n', flush=True)
+        if (start_time+timeout<time.time()):
+            print('')
+            print(f'pft: {d_pass[0]} {d_fail[0]} {d_total[0]} {fix1bits[0]} {fix2bits[0]} {fix3bits[0]}')
+            print(f'Mem: {memo}')
+            print(f'CPU: {cput}')
+            print(f'BER: {ber}')
+            break
             #process2.terminate()
             #process2.wait()
             #return -1
-        print(f"\r"+last_nbits_line, end='', flush=True)
+        print(f"\r"+last_pft_line, end='', flush=True)
         #print(last_nbits_line, last_pft_line, end='', flush=True)
     process2.terminate()
     #time.sleep(timeout)
@@ -132,7 +156,7 @@ file = 'bersim_snr_'+str(param1)+'_'+formatted_datetime.replace(' ','_')+'.txt' 
 #file = f"sim_noise_{formatted_datetime}_{param1}_{param2}_{param3}_auto.txt"
 print(file)
 command2 = './prbs_test_crc.py -n '+param1+' -g '+param2 #+" > "+str(file)
-timeout = 60
+timeout = float(param3)
 ret = -1
 while (ret != 0):
     ret = execute_commands(command2, timeout)

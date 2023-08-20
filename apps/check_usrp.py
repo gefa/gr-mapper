@@ -109,14 +109,14 @@ def execute_commands(commands, timeout):
                 print(f'BER: {ber}')
                 break
         '''
-        if 0:#(start_time+12<time.time()):
+        if (start_time+18<time.time()):
           if "O" in str(line):
             print("Overflow")
             process2.terminate()
             process2.wait()
             return -1
         
-          if "U" in str(line):
+          if "U" == str(line)[0]:
             print("Underflow")
             process2.terminate()
             process2.wait()
@@ -125,7 +125,9 @@ def execute_commands(commands, timeout):
         #elif "message buffer overflowing" in str(line):
         #    print(f"\r"+last_nbits_line+last_pft_line+"message buffer overflowing", end='\n', flush=True)
         if (start_time+timeout<time.time()):
+            total_time =  time.time()-start_time-4# 4sec starup time
             print('')
+            print('THR: {}'.format(d_pass[0]*32/total_time))# 32bits is pkt len
             print(f'pft: {d_pass[0]} {d_fail[0]} {d_total[0]} {fix1bits[0]} {fix2bits[0]} {fix3bits[0]}')
             print(f'Mem: {memo}')
             print(f'CPU: {cput}')

@@ -3702,7 +3702,7 @@ class blk(gr.sync_block):
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1120, 492)</value>
+      <value>(1128, 476)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -3715,10 +3715,6 @@ class blk(gr.sync_block):
     <param>
       <key>which_mode</key>
       <value>"PRBS31"</value>
-    </param>
-    <param>
-      <key>grand</key>
-      <value>0</value>
     </param>
     <param>
       <key>reset_len</key>

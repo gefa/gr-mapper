@@ -42,7 +42,8 @@ def execute_commands(commands, timeout):
     ber = ''
     start_time = time.time()
     label,d_pass,d_fail,d_total,fix1bits,fix2bits,fix3bits=[0],[0],[0],[0],[0],[0],[0]
-    for line in process2.stdout:
+    try:
+      for line in process2.stdout:
         #print(line.strip())  # Print the subprocess output
         if "CPU" in str(line):
             cput = str(line).split(" ")[1]
@@ -138,6 +139,11 @@ def execute_commands(commands, timeout):
             #return -1
         print(f"\r"+last_pft_line, end='', flush=True)
         #print(last_nbits_line, last_pft_line, end='', flush=True)
+    except KeyboardInterrupt:
+      print("\nCtrl+C detected. Exiting with return code -1.")
+      process2.terminate()
+      process2.wait()
+      return -1
     process2.terminate()
     #time.sleep(timeout)
     #process1.communicate('\n'.encode())  # Sends an Enter character to stdin

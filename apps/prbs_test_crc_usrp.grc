@@ -58,7 +58,7 @@
     </param>
     <param>
       <key>realtime_scheduling</key>
-      <value></value>
+      <value>1</value>
     </param>
     <param>
       <key>run_command</key>
@@ -237,7 +237,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>1</value>
+      <value>0</value>
     </param>
   </block>
   <block>
@@ -466,7 +466,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>0</value>
+      <value>1</value>
     </param>
   </block>
   <block>
@@ -4059,7 +4059,7 @@ class blk(gr.sync_block):
     </param>
     <param>
       <key>passthrough</key>
-      <value>True</value>
+      <value>False</value>
     </param>
     <param>
       <key>preamble</key>
@@ -5930,7 +5930,7 @@ class blk(gr.sync_block):
     </param>
     <param>
       <key>value</key>
-      <value>0+(25)*0</value>
+      <value>0+(10)*1</value>
     </param>
   </block>
   <block>
@@ -5977,7 +5977,7 @@ class blk(gr.sync_block):
     </param>
     <param>
       <key>value</key>
-      <value>200000</value>
+      <value>20000</value>
     </param>
   </block>
   <block>

@@ -3,69 +3,83 @@ import subprocess
 import re
 import time
 #import matplotlib.pyplot as plt
-TRIALS=1
+TRIALS=10-1
 def run_script():
     snr_values = []
-    thr_values = []
-    mem_values = []
-    cpu_values = []
-    ber_values = []
+    thr_values = [] 
+    mem_values = [] # OTA 33,34,35,36,37,38 20k g=2
+    cpu_values = [] # OTA 39,40,41,42,43,44 200k rxgain 10
+    ber_values = [] # OTC 39,39.5,40,40.5,41.0,41.5,42.0,42.5,43,43.5,44,44.5,45
     d_pass,d_fail,d_total,fix1bits,fix2bits,fix3bits = [],[],[],[],[],[]
     list_of_lists = [d_pass,d_fail,d_total,fix1bits,fix2bits,fix3bits]
-    for _,snr in enumerate([40,40.5,41.0,41.5,42.0]): #OTA 41,44,47,50,53 rxgain 25
+    for _,snr in enumerate([37,38,39,40,41,42]): #OTA 41,44,47,50,53 rxgain 25
       print('SNR',snr,_)
       ber_values.append([]);cpu_values.append([]);mem_values.append([]);thr_values.append([])
       for sublist in list_of_lists:
         sublist.append([])
-      for trial in range(TRIALS):
+      #for trial in range(TRIALS):
+      trial = 0
+      while(True):
         print("trial",trial)
-        output = subprocess.check_output(['python3', 'check_usrp.py',str(snr),'0','12'], universal_newlines=True)
-        lines = output.strip().split('\n')
-        thr_line = lines[-5]
-        print(lines[-4])
-        pft = lines[-4]
-        mem_line = lines[-3]
-        cpu_line = lines[-2]
-        ber_line = lines[-1]
-        print(thr_line)
-        print(pft)
-        print(mem_line)
-        print(cpu_line)
-        print(ber_line)
-        '''
-        #snr_match = re.search(r'SNR: (\d+\.\d+)', snr_line) # r'^\d+\.\d+E[-+]?\d+$'
-        ber_match = re.search(r'BER: (\d+\.\d+)', ber_line)
-        #print(ber_line)
-        if ber_match:
-            #snr_value = float(snr_match.group(1))
-            ber_value = float(ber_match.group(1))
-            #snr_values.append(snr_value)
-            ber_values[_].append(ber_value)
-            snr_values.append(snr)
-        
-        for i,sublist in enumerate(list_of_lists):
-            print(pft.split(' ')[1+i])
-            num = float(pft.split(' ')[1+i]) # skip label
-            #print(_,i,sublist, num)
-            sublist[_].append(num)
-        '''
-        d_pass[_].append(float(pft.split(' ')[1]))
-        d_fail[_].append(float(pft.split(' ')[2]))
-        d_total[_].append(float(pft.split(' ')[3]))
-        fix1bits[_].append(float(pft.split(' ')[4]))
-        fix2bits[_].append(float(pft.split(' ')[5]))
-        fix3bits[_].append(float(pft.split(' ')[6]))
-        thr_values[_].append(float(thr_line.split(' ')[1]))
-        mem_values[_].append(float(mem_line.split(' ')[1]))
-        cpu_values[_].append(float(cpu_line.split(' ')[1]))
-        #if () # if total is zero then we have to run longer, if fail is zero we run longer
-        ber_values[_].append( float(pft.split(' ')[2])/float(pft.split(' ')[3]) ) # d_fail/d_total
-        #ber_values[_].append(float(ber_line.split(' ')[1]))
-        snr_values.append(snr)
+        try:
+          output = subprocess.check_output(['python3', 'check_usrp.py',str(snr),'0','20'], universal_newlines=True)
+        except KeyboardInterrupt:
+          print("\nCtrl+C detected. Running again..")
+          continue
+        try:
+         lines = output.strip().split('\n')
+         thr_line = lines[-5]
+         print(lines[-4])
+         pft = lines[-4]
+         mem_line = lines[-3]
+         cpu_line = lines[-2]
+         ber_line = lines[-1]
+         print(thr_line)
+         print(pft)
+         print(mem_line)
+         print(cpu_line)
+         print(ber_line)
+         '''
+         #snr_match = re.search(r'SNR: (\d+\.\d+)', snr_line) # r'^\d+\.\d+E[-+]?\d+$'
+         ber_match = re.search(r'BER: (\d+\.\d+)', ber_line)
+         #print(ber_line)
+         if ber_match:
+             #snr_value = float(snr_match.group(1))
+             ber_value = float(ber_match.group(1))
+             #snr_values.append(snr_value)
+             ber_values[_].append(ber_value)
+             snr_values.append(snr)
+         
+         for i,sublist in enumerate(list_of_lists):
+             print(pft.split(' ')[1+i])
+             num = float(pft.split(' ')[1+i]) # skip label
+             #print(_,i,sublist, num)
+             sublist[_].append(num)
+         '''
+         d_pass[_].append(float(pft.split(' ')[1]))
+         d_fail[_].append(float(pft.split(' ')[2]))
+         d_total[_].append(float(pft.split(' ')[3]))
+         fix1bits[_].append(float(pft.split(' ')[4]))
+         fix2bits[_].append(float(pft.split(' ')[5]))
+         fix3bits[_].append(float(pft.split(' ')[6]))
+         thr_values[_].append(float(thr_line.split(' ')[1]))
+         mem_values[_].append(float(mem_line.split(' ')[1]))
+         cpu_values[_].append(float(cpu_line.split(' ')[1]))
+         #if () # if total is zero then we have to run longer, if fail is zero we run longer
+         ber_values[_].append( float(pft.split(' ')[2])/float(pft.split(' ')[3]) ) # d_fail/d_total
+         #ber_values[_].append(float(ber_line.split(' ')[1]))
+         snr_values.append(snr)
+        except ValueError:
+         print("\nbad measurement. Running again..")
+         continue
         print(ber_values[_])
         print(cpu_values[_])
         print(mem_values[_])
         print(thr_values[_])
+        if (trial <TRIALS):
+          trial=trial+1
+        else:
+          break
         #print(snr_values)
       print("seeping ...")
       time.sleep(10)

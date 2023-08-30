@@ -3,8 +3,9 @@ import subprocess
 import re
 import time
 #import matplotlib.pyplot as plt
-TRIALS=1-1
+TRIALS=10-1
 def run_script():
+    gains = []
     snr_values = []
     thr_values = [] 
     mem_values = [] # OTA 33,34,35,36,37,38 20k g=2
@@ -14,6 +15,7 @@ def run_script():
     list_of_lists = [d_pass,d_fail,d_total,fix1bits,fix2bits,fix3bits]
     for _,snr in enumerate([6,8,10,12,14]): #OTA rxg=0, g0=6,8,10,12,14; g1=5,7,9,11,13;g3=6,6.5
       print('SNR',snr,_)
+      gains.append(snr)
       ber_values.append([]);cpu_values.append([]);mem_values.append([]);thr_values.append([]);snr_values.append([])
       for sublist in list_of_lists:
         sublist.append([])
@@ -22,7 +24,7 @@ def run_script():
       while(True):
         print("trial",trial)
         try:
-          output = subprocess.check_output(['python3', 'check_usrp.py',str(snr),'0','20'], universal_newlines=True)
+          output = subprocess.check_output(['python3', 'check_usrp.py',str(snr),'1','18'], universal_newlines=True)
         except KeyboardInterrupt:
           print("\nCtrl+C detected. Running again..")
           continue
@@ -65,7 +67,7 @@ def run_script():
          fix1bits[_].append(float(pft.split(' ')[4]))
          fix2bits[_].append(float(pft.split(' ')[5]))
          fix3bits[_].append(float(pft.split(' ')[6]))
-         print('snr_values',snr_values[_])
+         #print('snr_values',snr_values[_])
          snr_values[_].append(float(snr_line.split(' ')[1]))
          thr_values[_].append(float(thr_line.split(' ')[1]))
          mem_values[_].append(float(mem_line.split(' ')[1]))
@@ -90,17 +92,18 @@ def run_script():
         time.sleep(1)
       print("seeping ...")
       time.sleep(10)
-    return snr_values, ber_values, cpu_values, mem_values,d_pass,d_fail,d_total,fix1bits,fix2bits,fix3bits, thr_values,snr_values
+    return snr_values, ber_values, cpu_values, mem_values,d_pass,d_fail,d_total,fix1bits,fix2bits,fix3bits, thr_values,snr_values,gains
 
 # Run the script and collect SNR and PER values
 # per_values = [0.0, 0.045454545454545456, 0.019801980198019802, 0.009900990099009901, 0.02247191011235955, 0.0, 0.01, 0.0, 0.0]
 # snr_values = [9.099746666666666, 9.3467, 10.317246666666668, 10.386196666666669, 8.962946666666666, 8.949133333333334, 10.323726666666667, 8.919163333333334, 9.505416666666667]
 # [0.0, 0.0, 0.012195121951219513, 0.0, 0.0]
 # [10.161136666666666, 10.357946666666665, 10.022413333333335, 10.184676666666666, 10.155076666666666]
-snr_values, ber_values, cpu_values, mem_values,d_pass,d_fail,d_total,fix1bits,fix2bits,fix3bits, thr_values,snr_values = run_script()
+snr_values, ber_values, cpu_values, mem_values,d_pass,d_fail,d_total,fix1bits,fix2bits,fix3bits, thr_values,snr_values,gains = run_script()
 # ber_values = [0.058824, 0.12651, 0.083333, 7.2464]
 # snr_values = [3, 4, 5, 6]
 # Plot PER values versus SNR values
+print("p1",gains)
 print("snr",snr_values)
 print("bler",ber_values)
 print("cpu",cpu_values)

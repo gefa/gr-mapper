@@ -40,11 +40,33 @@ def execute_commands(commands, timeout):
     cput = ''
     memo = ''
     ber = ''
+    expecting_snr=0
+    snr=-1
     start_time = time.time()
     label,d_pass,d_fail,d_total,fix1bits,fix2bits,fix3bits=[0],[0],[0],[0],[0],[0],[0]
     try:
       for line in process2.stdout:
-        #print(line.strip())  # Print the subprocess output
+       #print(type(_line))
+       #for line in str(_line).split('\n'): 
+        #print(line)  # Print the subprocess output
+        #print(str(line))
+        if "MESSAGE" in str(line):
+          expecting_snr=2
+        elif expecting_snr>0:
+          expecting_snr=expecting_snr-1
+        else:
+          pass
+        if expecting_snr==1:
+          #print('snr?',line.decode(encoding='utf-8', errors='strict'))
+          try:
+            snr_str=line.decode(encoding='utf-8', errors='strict')
+          except AttributeError:
+            pass
+          #print('SNR?',float(snr_str)) #replace('\n',''))
+          try:
+            snr=float(snr_str)
+          except ValueError:  
+            pass
         if "CPU" in str(line):
             cput = str(line).split(" ")[1]
         if "Mem" in str(line):
@@ -128,16 +150,20 @@ def execute_commands(commands, timeout):
         if (start_time+timeout<time.time()):
             total_time =  time.time()-start_time-4# 4sec starup time
             print('')
+            print(f'SNR: {snr}')
             print('THR: {}'.format(d_pass[0]*32/total_time))# 32bits is pkt len
             print(f'pft: {d_pass[0]} {d_fail[0]} {d_total[0]} {fix1bits[0]} {fix2bits[0]} {fix3bits[0]}')
             print(f'Mem: {memo}')
             print(f'CPU: {cput}')
-            print(f'BER: {ber}')
-            break
+            #print(f'BER: {ber}')
+            process2.terminate()
+            process2.wait()
+            return 0
             #process2.terminate()
             #process2.wait()
             #return -1
         print(f"\r"+last_pft_line, end='', flush=True)
+        #time.sleep(0.5)
         #print(last_nbits_line, last_pft_line, end='', flush=True)
     except KeyboardInterrupt:
       print("\nCtrl+C detected. Exiting with return code -1.")

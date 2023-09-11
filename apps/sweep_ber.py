@@ -3,6 +3,17 @@ import subprocess
 import re
 #import matplotlib.pyplot as plt
 TRIALS=5
+import csv
+from datetime import datetime
+import sys
+if len(sys.argv) < 2:
+    print("Error: Please provide abandonment threshold.")
+    # sys.exit(1)
+    # use some defaults
+    p1_arg = "0" # grand threshold
+else:
+    # Get the threshold parameter 
+    p1_arg = sys.argv[1]
 def run_script():
     snr_values = []
     mem_values = []
@@ -17,7 +28,7 @@ def run_script():
         sublist.append([])
       for trial in range(TRIALS):
         print("trial",trial)
-        output = subprocess.check_output(['python3', 'check.py',str(snr),'2','6'], universal_newlines=True)
+        output = subprocess.check_output(['python3', 'check.py',str(snr),p1_arg,'6'], universal_newlines=True)
         lines = output.strip().split('\n')
         print(lines[-4])
         pft = lines[-4]
@@ -76,6 +87,27 @@ print("total",d_total)
 print("fix1",fix1bits)
 print("fix2",fix2bits)
 print("fix3",fix3bits)
+snr = snr_values
+bler = ber_values
+# Flatten the bler list
+flat_bler = [value for sublist in bler for value in sublist]
+
+# Create a list of (SNR, BLER) pairs
+data = list(zip(snr, flat_bler))
+
+# Generate a timestamp
+timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
+
+# Define the CSV file name with a timestamp
+csv_file = f"snr_bler_grand_{p1_arg}_{timestamp}.csv"
+
+# Write the data to the CSV file
+with open(csv_file, 'w', newline='') as file:
+    writer = csv.writer(file)
+    writer.writerow(["SNR", "BLER"])  # Write header
+    writer.writerows(data)  # Write data
+
+print(f"Data saved to {csv_file}")
 exit()
 plt.scatter(snr_values, ber_values)
 plt.xlabel('SNR')

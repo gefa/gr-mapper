@@ -24,12 +24,15 @@ def main():
         print("Number of labels should match the number of CSV files.")
         return
 
+    # Define a custom color cycle with red and blue
+    colors = ['r', 'b']
+
     # Initialize dictionaries to store SNR and BLER data
     snr_data = {}
     labels = args.labels or [f"File {i+1}" for i in range(len(args.csv_files))]
 
     # Read data from the CSV files
-    for csv_file, label in zip(args.csv_files, labels):
+    for csv_file, label, color in zip(args.csv_files, labels, colors):
         with open(csv_file, 'r') as file:
             csv_reader = csv.reader(file)
             next(csv_reader)  # Skip header row
@@ -47,7 +50,7 @@ def main():
     snr_values = sorted(snr_data.keys())
     plt.figure(figsize=(10, 6))
 
-    for label in labels:
+    for label, color in zip(labels, colors):
         average_bler = []
         confidence_intervals = []
 
@@ -58,8 +61,11 @@ def main():
             average_bler.append(avg)
             confidence_intervals.append(margin_of_error)
 
-        # Plot the average BLER versus SNR graph with confidence intervals
-        plt.errorbar(snr_values, average_bler, yerr=confidence_intervals, fmt='o', capsize=5, label=label)
+        # Plot the average BLER versus SNR graph with error bars, matching line and marker colors
+        plt.errorbar(snr_values, average_bler, yerr=confidence_intervals, fmt='o', capsize=5, label=label, color=color, markeredgecolor=color)
+        
+        # Draw lines between the points with the same color
+        plt.plot(snr_values, average_bler, linestyle='-', color=color, marker='o')
 
     plt.xlabel('SNR')
     plt.ylabel('Average BLER')

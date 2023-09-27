@@ -13,7 +13,9 @@ def run_script():
     ber_values = [] # OTC 39,39.5,40,40.5,41.0,41.5,42.0,42.5,43,43.5,44,44.5,45
     d_pass,d_fail,d_total,fix1bits,fix2bits,fix3bits = [],[],[],[],[],[]
     list_of_lists = [d_pass,d_fail,d_total,fix1bits,fix2bits,fix3bits]
-    for _,snr in enumerate([6,8,10,12,14]): #OTA rxg=0, g0=6,8,10,12,14; g1=5,7,9,11,13;g3=6,6.5
+    # 6,8,10,12,14] old
+    # 56,58,60,62,64] cable 40dB atennuation
+    for _,snr in enumerate([28,30,32,34,36]): #OTA rxg=0, g0=6,8,10,12,14; g1=5,7,9,11,13;g3=6,6.5
       print('SNR',snr,_)
       gains.append(snr)
       ber_values.append([]);cpu_values.append([]);mem_values.append([]);thr_values.append([]);snr_values.append([])
@@ -24,7 +26,7 @@ def run_script():
       while(True):
         print("trial",trial)
         try:
-          output = subprocess.check_output(['python3', 'check_usrp.py',str(snr),'1','18'], universal_newlines=True)
+          output = subprocess.check_output(['python3', 'check_usrp.py',str(snr),'0','18'], universal_newlines=True)
         except KeyboardInterrupt:
           print("\nCtrl+C detected. Running again..")
           continue
